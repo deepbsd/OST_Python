@@ -1,0 +1,9 @@
+
+Project:  
+
+Write a program that creates a ten-megabyte data file in two different ways, and time 
+each method. The first technique should create a memory-mapped file and write the data 
+by setting one chunk at a time using successively higher indexes. The second technique 
+should create an empty binary file and repeatedly use the write() method to write a 
+chunk of data. Show how the timings vary with the size of the chunk.
+

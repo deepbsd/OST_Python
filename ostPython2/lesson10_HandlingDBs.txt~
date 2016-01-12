@@ -1,0 +1,55 @@
+
+Populate your database with "animal" and "food" tables using the tablepop and
+addfood programs that you wrote during the lesson (this step will not be
+necessary if you have not modified the tables since you created them in the
+lesson).
+
+Write a program that verifies that every animal eats at least one food.
+
+
+
+QUIZ 1
+
+Q1: What does "SQL" stand for?
+
+Structured Query Language
+
+Q2: What specifies how Python database drivers should interact with programs
+that use them?
+
+The Pythone Database API
+
+Q3: Which SQL statement would you use to add a new table to a database?
+
+Here's an example...
+
+mysql> CREATE TABLE TableName(
+-> FieldName CHAR(15) NOT NULL,   # How many characters, must not be null
+-> NextFieldName VARIABLECHAR(30) NOT NULL, # Up to 30 characters, No Null
+-> NextFieldName INT,  # Integer value
+-> NextFieldName INT); # Another integer.  ends with paren semi-colon.
+
+each line prior ends with comma.  This is just a sample.
+
+
+Q4: What does the ALTER TABLE statement do?
+
+Make a change to the Table
+
+QUIZ 2
+
+Q1: In a SELECT statement, how do you retrieve all columns?
+
+SELECT * FROM DBaseName;
+
+Q2: How do you indicate that no data is available for a particular column and
+a given row?
+
+Special value called: NULL
+
+
+Q3: Write a statement that retrieves the total number of rows from a table
+named "user."
+
+SELECT COUNT(*) FROM user;
+

@@ -1,0 +1,3 @@
+#!/bin/sh
+
+rdesktop -P -a 16 -g 93% -k en-us -d win -u djackson ellipse.oreillyschool.com

@@ -1,0 +1,2 @@
+Python is fun.O'Reilly makes good classes.The file is saving correctly.More text goes here.I guess we keep on going--how long will this line be?And more text and more text?Forever and ever and ever...There must be some limits to computer or Python memory?The file is saving correctly.One two three O'Leary!
+Four five six o'clock!Four five six seven.One last time into the breach, men! One last time!Still more text goes here. This text will have space at the front. And after.  I should have started all my previous text with a beginning space! And ending space! 

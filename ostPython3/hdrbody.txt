@@ -1,0 +1,12 @@
+#
+#
+#       email_handler.py
+#
+#    Lesson 12: Handling Email
+#
+#     by David S. Jackson
+#          3/21/2015
+#   
+#  OST Python3: The Python Environment
+#     for Kirby Urner, Instructor
+#

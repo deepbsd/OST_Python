@@ -1,0 +1,138 @@
+Lesson 9 (Reading and Writing Files) Project
+
+Objective:
+
+This project tests your ability to use file objects.
+
+1. Create a new Python source file named inputter.py.
+
+2. Write a program that uses a while loop to accept input from the user
+   (if the user presses Enter, exit the program).
+
+3. Save the input to a file, then print it.
+
+4. Upon starting, the program will display any previous content
+   of the file.
+
+Below is an example of possible output from a first run of the
+program.
+
+Enter text: Python is fun.
+Python is fun.
+Enter text: O'Reilly makes good classes.
+Python is fun.O'Reilly makes good classes.
+Enter text:
+
+Below is an example of possible output from a second run of the program.
+
+Python is fun.O'Reilly makes good classes.
+Enter text: The file is saving correctly
+Python is fun.O'Reilly makes good classes.The file is saving correctly
+Enter text:
+
+
+Here are the files you handed in:
+Python1/inputter.py
+
+Overall Comments:
+
+Hi Dave, No problem. You'll taken my advice to heart (mentors always like
+that) and have come up with a very slick app. Nice going. More generally, you
+always want to think about how the code might be maintained in the future. You
+sure as hell don't want to make more work for yourself than is necessary (so
+you want to make it as "mistake-proof" as necessary). You also want to make
+projects that could be turned over to other people (so you want to have good
+comments, docstrings, sensibly-named variables, etc.). Or else you will be
+stuck with it for the rest of your life ;-) -Pat
+
+
+
+GRADE: Great
+
+=======
+QUIZ 1
+=======
+Q1: 1. How do you make a file available to your program?
+    2. What do you do when you are finished working with the file?
+
+
+
+Answer #1:
+1. with the open() method. Such as
+myfile = open('filename', 'a')
+# if file doesn't exist and you use 'r' you'll get an error
+
+
+2. Be sure to use the myfile.close() method
+
+
+Comments:
+Note that open( ) is a free-standing function object, whereas f.close( ) is a
+method belonging to a file object. Not so symmetrical.
+
+Q2: What methods can be used to:
+
+1. report if a file object is readable?
+2. report if a file object is writable?
+3. return a list of the lines in a file?
+
+
+
+Answer #2:
+1. filename.readable() # boolean
+
+2. filename.writable() #boolean
+
+3. filename.readlines() # returns lines as list
+
+Comments:
+
+Perfect. It's good to actually play with files, multiple file objects, moving
+pointers with seek( ), experimenting with tell( ). The Lessons cover the
+basics but it's always possible to dive deeper. Difficulties arise in that
+characters written may go to a buffer but not actually be committed to disk
+until a flush or close operation. Other readers might miss changes already
+written, but not flushed from the buffer. Encountering these issues first
+hand, playing with them, is always good practice. Think of it as "doodling".
+When you're becoming a graphic artist, you draw obsessively, filling
+notebooks. There's a similar mode when becoming a coder, which is tinkering /
+puttering, testing things first hand.  Highly encouraged. There's the whole
+difference between using files in binary versus text mode to explore.
+
+Overall Comments:
+
+This is awesome, David. Keep up the great work. -Pat
+
+
+
+GRADE: Great
+
+=======
+QUIZ 2
+=======
+Q1: If you had a file object f open for writing, how would you write the
+string "my text" to that file?
+
+If the same file object was open for reading, how would you print all of its
+contents in a single statement?
+
+
+Answer #1:
+f.write("my text")
+
+
+f.seek(0)                 # just to make sure...
+print(f.readlines())
+
+Comments:
+Either print(f.readlines()) or print(f.read()) work here.
+
+By the way, nice job using the file pointers
+
+Overall Comments:
+
+This is awesome, David. -Pat
+
+
+
+GRADE: Great

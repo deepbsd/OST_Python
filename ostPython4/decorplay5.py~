@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+
+
+class MyClass:
+
+    @staticmethod
+    def f(name):
+        a = name.upper()
+        return a
+
+
+if __name__ == "__main__":
+    d = MyClass()
+    #print("d() says:", d.f('hi'))
+    print(d.f('hi'))
+

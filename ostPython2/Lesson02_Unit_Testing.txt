@@ -1,0 +1,332 @@
+Lesson 2: Unit Testing
+
+file: titleS.py titleS-attempt2.py
+
+Project:  
+
+Make a UnitTesting_Homework project and assign it to the Python2_Homework working set. 
+In this project, write a unittest test program for the following function. 
+(The test program makes unittest.TestCase assertions about the results of calling the 
+function with known arguments.)
+
+def title(s):
+    "How close is this function to str.title()?"
+    return s[0].upper()+s[1:]
+
+Test your results for a given string s by comparing them with s.title(). Because this is 
+purely an exercise, it's OK to put your test code in the same file as the function and 
+just hand in a single file. Your file should be an importable module. You should be able 
+to find an example that shows title(s) and s.title() diverge (have different output). Bonus 
+marks for fixing the error in the function above (making it behave more like the native method).
+
+
+=================
+Mentor Feedback:
+(Try Again)
+=================
+
+Overall Comments:
+Hi David,
+
+This looks really good. You got some nice tests. It's okay to put in a test that will fail. In fact 
+that's one of the requirements to pass this objective. It's completely possible to put in a "failing" 
+test that will pass by choosing what I call a "negative test". Here's my favorite, but I'm sure you 
+could write your own:
+
+    def test_irish_president(self):
+        test_str = "o'bama"
+        expected = "O'Bama"
+        self.assertNotEqual(title(test_str),  test_str.title(), 
+                         "Title case was not correctly executed.  Expected: {}; built-in: {}; upgraded: {}".
+                         format(expected, test_str.title(), title(test_str)) )
+
+Could you have another look?
+
+-Pat
+Grade:
+
+Try Again
+
+
+
+=================
+Mentor Feedback:
+=================
+
+Overall Comments:
+Hi David,
+
+Great job with this, and really awesome work in improving the completely lame title () provided here.
+
+Here are some tips that I hope you'll take to heart for future projects:
+
+-In the future, you might consider building everything using variables.  As an example, instead of doing something like this:
+
+    def test_multiple_words(self):
+            self.assertEqual(title("some string"), s.title("some string"), "the strings aren't the same")
+
+... you could go something like:
+
+    def test_multiple_words(self):
+        s = "this is a test"
+            self.assertEqual(title(s), s.title(), 
+                             "\nTesting: {}\nThese should be the same: \nbuilt-in: {}\ntitle(): {}".
+                             format(s, s.title(), title(s)) 
+                             ) 
+
+Note that the fail messages are verbose enough to be useful in quickly identifying and tracking down any issues.    
+You'd see something like this:
+
+AssertionError: These should be the same: 
+built-in: This Is A Te'St
+title(): This Is A Te'st
+
+
+Note also that the string being tested is a variable, and that its contents need be stated only once.  If you do it this way, 
+you have the possibility to reuse the test, or even wrap it into a loop.  Something like this:
+
+    def test_loopy_words(self):
+        for s in ["this is a te'st",
+                  "they're on to us!",
+                  'test',
+                  ]:
+            self.assertEqual(title(s), s.title(), 
+                             "These should be the same: \nbuilt-in: {}\ntitle(): {}".
+                             format(s.title(), title(s)) 
+                             )
+
+-It's a really good idea to keep your lines of (indentations + code + comments) to <79 characters. 
+This is partly for readability - no horizontal scrolling required - and partly to comply with 
+Pythons style guidelines.
+
+If you're interested, you can pick up your own copy of "PEP-8" at:
+
+https://www.python.org/dev/peps/pep-0008
+
+Incorporating the earlier suggestions, and in the spirit of "slimming down" the code, here's how one might 
+re-factor test_incorrect_title ():
+
+    def test_incorrect_title(self):
+        s='a tale of two cities'
+        expected = s.title()
+        actual=title(s)
+        msg="Input: {}; Expected: {} matches Built-in: {}"
+        cor_title_expected = 'A Tale of Two Cities'
+        self.assertEqual(actual, expected, msg.format(s, expected, actual))
+
+Overall, great job. Have a terrific weekend.
+
+-Pat
+Grade:
+
+Great
+
+
+=======
+QUIZ 1:
+=======
+
+=====  First Attempt:
+
+Question 1:
+
+
+What determines whether a TestCase method will be run as a test?
+
+Your Answer:
+we import the unittest module.  We write a test class that are subclass of the unittest.TestCase class.  We can use the methods in this superclass. After we successfully create our test class with the methods it inherits from the unittest.TestCase class (with appropriate assert statements), we can then call unittest.main() in our if __name__ == "__main__": statement.
+
+The basic syntax is:
+
+class TestWhatever(uniitest.TestCase):
+    def test_thing(self):
+        self.assertEqual(function_to_test(test_value), 'expected output', "message to print if test fails"))
+
+    def test_next_thing(self):
+        self.assertRaises(Specific_Error, function_name, 'bad_data')
+Mentor Comments:
+A subclass of TestCase may have many methods that don't get treated as tests.  
+
+setUp and tearDown for example, but also helper methods that tests might or might not invoke.  
+
+What distinguishes the test methods?  
+
+Put another way:
+
+import unittest
+
+class TestMeNow(unittest.TestCase):
+    def very_important_test(self):
+        print("If this doesn't run, I'm in big trouble")
+        self.assertNotEqual(2 + 2, 4, "They're the same!")
+
+if __name__ == "__main__":
+    unittest.main()
+
+If you cut and paste this and run it as a saved script, nothing will print
+and the output will be:
+
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.000s
+
+i.e. no tests will have been run.   Why?  How to fix?
+Question 2:
+
+
+Which TestCase method would you use to verify that calling a function with particular arguments raises a specific type of exception?
+
+Your Answer:
+def bad_input(self):
+    self.assertRaises(SpecificException, function_name, 'sample_bad_data')
+Mentor Comments:
+The syntax on this one is a bit different than that for other tests:
+
+assertRaises(, function, *args, **kwargs)
+
+The star in front of args means "split this tuple of args into individual positional arguments" whereas the ** in front of kwargs 
+means "explode this dict into separate keyword arguments".  That tells the reader an arbitrary number of positional and
+keyword arguments are possible.  It doesn't mean that a *tuple and **dict must be used.
+
+For example, a given assertRaises might look like:
+
+assertRaises(AttributeError, callme, "503-444-1212", "10:00 PM", status = "Not urgent")  # two positional and one keyword argument, all fed to callme.
+Question 3:
+
+
+What does the unittest framework print to indicate a successful test?
+
+Your Answer:
+. for each successful test.  Followed by OK
+Mentor Comments:
+none
+Question 4:
+
+
+What is the name of the testing framework we used in this lesson?
+
+Your Answer:
+unittest
+Mentor Comments:
+none
+Overall Comments:
+Good job with this one, David. However, could you please look at Q1 again? I provided some hints in the comments.
+
+-Pat
+Grade:
+
+Try Again
+
+
+===========  Second Attempt:
+
+Question 1:
+
+
+What determines whether a TestCase method will be run as a test?
+
+Your Answer:
+Apparently, the word "test" in the function title makes all the difference.  
+
+I did a     def very_important_test(self):
+                self.assertNotEqual(2+2, 4, "They're equal!")
+
+The test did not run.  I tried changing the name of the function to 
+
+            def test_very_important_test(self):
+
+and the test ran fine--it failed, but it ran.  So I'm gonna say, you have to 
+*name your test function starting with the world test*
+
+Pat, this was a *very* helpful hint on something I didn't get!  Thanks!  :-)
+Mentor Comments:
+Just a pleasure ... 
+Question 2:
+
+
+Which TestCase method would you use to verify that calling a function with particular arguments raises a specific type of exception?
+
+Your Answer:
+answered
+Mentor Comments:
+none
+Question 3:
+
+
+What does the unittest framework print to indicate a successful test?
+
+Your Answer:
+answered
+Mentor Comments:
+none
+Question 4:
+
+
+What is the name of the testing framework we used in this lesson?
+
+Your Answer:
+answered
+Mentor Comments:
+none
+Overall Comments:
+You have totally knocked is out of the ballpark, David. Thanks much for your 2nd effort.
+
+-Pat
+Grade:
+
+Great
+
+
+===========
+QUIZ 2::::
+===========
+Question 1:
+
+
+What is the basic rule of test-driven development?
+
+Your Answer:
+Only write code to make a failing test pass.  YAGNI.  You Ain't Gonna Need It.  If it doesn't help you pass a test, it isn't necessary.  
+Mentor Comments:
+none
+Question 2:
+
+
+What is a test fixture?
+
+Your Answer:
+It's whatever you need to set up a test for your software: databases, files, remote servers, user accounts, whatever.  When you've passed your tests, you don't need the fixtures anymore.  (Right?)
+Mentor Comments:
+Sort of. Generally, you create everything that you need in setUp() and nuke it in tearDown(). In the extreme, if you are testing a software upgrade for the Hubble telescope your options would be more limited. As I look forward in the syllabus of Python 2, however, I think the Hubble telescope can breathe a sigh of relief ;-)
+Question 3:
+
+
+Why would you normally prefer to put tests in a separate module from the code they are testing?
+
+Your Answer:
+The core concept is to only create software to pass the tests.  Once you refactor this code and it still passes the tests, you can trust that you haven't introduced any errors into the software.  If the tests are in the same files as your software files, it's possible to introduce errors when you remove them.  If they're in files external to your software, all you have to do is not import them as modules.  A main advantage of unittest over doctest is that there's a clear distinction between documentation (inside your software's files) and the testing of your software.  You can move the tests outside of your software's files and keep them distinct from the software files themselves.
+
+Okay, I answered this one from my hip, because I didn't see a direct answer in the text.  Hopefully, I was near the target area....  :-)
+
+Mentor Comments:
+If you can lift the answer right out of the text, it would be very much fun now would it? 
+
+Sure, there are a lot of advantages for keeping them separate. A lot of overhead (physical, computational, cognitive) have all that crap sitting around in your main code. That being said, it's really common to leave some test code behind in the if __name__=='__main__': block for "quick and dirty" local testing of single modules. You don't necessarily want to unleash hundred thousand lines of test code in the middle of the day if you just tweaked a couple of lines locally. The hounds can be set loose at night when the whole code base get tested.
+Question 4:
+
+
+What does "YAGNI" stand for?
+
+Your Answer:
+You Ain't Gonna Need It.
+Mentor Comments:
+none
+Overall Comments:
+Great job here, David. Please check out comments - you've done perfectly.
+
+-Pat
+Grade:
+
+Great
+
+

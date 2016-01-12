@@ -1,0 +1,15 @@
+# Excluded because a comment.
+# This is also a comment, and the next two lines are blank.
+
+This line should be the first of four lines in the output.
+# The next line contains spaces and tabs, and should not appear
+  		  				
+And this should be the second.
+
+	# This should not appear (leading spaces but a comment).
+# Neither should this (leading tabs but a comment).
+	This should be the third line of output.
+
+And this should be the last.
+
+

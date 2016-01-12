@@ -1,0 +1,287 @@
+Hi!
+
+So I'm having a little trouble in Python4.  One of the assignments is to create a 3-d array from a 2-d array, using the array module.  The array as introduced in the lesson is a list, but could be another data structure.  For this assignment, it asks for a list implementation.  Here's the 2-d array as introduced in the text.  First, the test, since we're learning agile and test-driven development:
+
+*** snip of testarray.py ***
+
+#!/usr/bin/env python3
+
+"""
+testarray.py: Test list-of-list based array implementations using tuple
+subscripting.
+"""
+
+import unittest
+import arr_single_list as arr
+
+class TestArray(unittest.TestCase):
+
+    def test_zeroes(self):
+        for N in range(4):
+            a = arr.array(N, N)
+            for i in range(N):
+                for j in range(N):
+                    #self.assertEqual(a[i][j], 0)
+                    self.assertEqual(a[i, j], 0)
+
+    def test_identity(self):
+        for N in range(4):
+            a = arr.array(N, N)
+            for i in range(N):
+                #a[i][i] = 1
+                a[i, i] = 1
+            for i in range(N):
+                for j in range(N):
+                    #self.assertEqual(a[i][j], i==j)
+                    self.assertEqual(a[i, j], i==j)
+
+    def test_one_cell(self):
+        N = 10
+        a = arr.array(N,N)
+        a[2,3] = 1
+        for i in range(N):
+            for j in range(N):
+                if i==2 and j==3:
+                    self.assertEqual(a[i,j], 1)
+                else:
+                    self.assertEqual(a[i,j], 0)
+
+
+    def _index(self, a, r, c):
+        return a[r, c]
+
+    def test_key_validity(self):
+        a = arr.array(10, 10)
+        self.assertRaises(KeyError, self._index, a, -1, 1)
+        self.assertRaises(KeyError, self._index, a, 10, 1)
+        self.assertRaises(KeyError, self._index, a, 1, -1)
+        self.assertRaises(KeyError, self._index, a, 1, 10)
+
+
+if __name__ == "__main__":
+    unittest.main()
+
+*** end snip of test_array.py ***
+
+Here's the 2-D array called called arr_single_list.py:
+
+*** start snip of arr_single_list.py  ***
+#!/usr/bin/env python3
+
+"""
+arr_single_list.py:  Class-based single-list allowing tuple subscripting.
+"""
+
+class array:
+
+    def __init__(self, M, N):
+        "Create a list long enough to hold M*N elements."
+        self._data = [0] * M * N
+        self._rows = M
+        self._cols = N
+
+
+    def __getitem__(self, key):
+        "Returns the appropriate element for a two-element subscript tuple."
+        row, col = self._validate_key(key)
+        return self._data[row*self._cols+col]
+
+    def __setitem__(self, key, value):
+        "Sets the appropriate element for a two-element subscript tuple."
+        row, col = self._validate_key(key)
+        self._data[row*self._cols+col] = value
+
+    def _validate_key(self, key):
+        '''
+        Validates a key against the array's shape, returning good tuples.
+        Raises KeyError on problems.
+        '''
+        row, col = key
+        if (0 <= row < self._rows and 0 <= col < self._cols):
+            return key
+        raise KeyError("subscript out of range")
+
+***  end snip of arr_single_list.py ***
+
+Okay, this all seems pretty simple, and it ran just fine through the tests.  The __{get|set}item__ methods
+seem to be row oriented and simply take successive rows and stick them each onto the end of the list.
+Fine.  So a third dimension, would, I should think, be fairly simple, but I seem to have missed something.
+
+Here's my file, called naivearr2.py:
+
+*** start snip of naivearr2.py  ***
+#!/usr/bin/env python3
+
+"""
+naievearr2.py:  Naive implementation of 3-D array using lists and tuple
+subscripts
+"""
+
+import array as sys_array
+
+class array:
+
+    def __init__(self, M, N, O):
+        "Create 3-D array of lists"
+        self._data = sys_array.array("i", [0] * M * N * O)
+        self._rows = M
+        self._cols = N
+        self._depth = O
+
+    def __getitem__(self, key):
+        "returns the appropriate element for a three-element subscript tuple."
+        row, col, depth = self._validate_key(key)
+        return self._data[row*self._cols+col*self._depth+depth]
+
+    def __setitem__(self, key, value):
+        "sets the appropriate element for a three-element subscript tuble."
+        row, col, depth = self._validate_key(key)
+        self._data[row*self._cols+col*self._depth+depth] = value
+
+    def _validate_key(self, key):
+        """Validates a key against the array's shape, returning good tuples.
+        Raises KeyError on problems."""
+        row, col, depth = key
+        if (0 <= row < self._rows and 0 <= col < self._cols and 0 <= depth < self._depth):
+            return key
+        raise KeyError("subscript out of range")
+
+*** end snip of naivearr2.py ***
+
+
+I thought for sure this would work, but there's a gotcha in there somewhere.  Sure enough, the
+__setitem__ sets the correct cells to '1' when in the code below, but I get extras set to one as well:
+
+
+*** start snip of test_naivearr2.py ***
+import unittest
+import naivearr2 as arr
+
+
+class TestArray(unittest.TestCase):
+    def test_zeroes(self):
+        for N in range(6):
+            a = arr.array(N, N, N)
+            for i in range(N):
+                for j in range(N):
+                    for k in range(N):
+                        #print("N={}, i={}, j={}, k={}".format(N, i, j, k))
+                        self.assertEqual(a[i, j, k], 0)
+
+    def test_identity(self):
+        for N in range(6):
+            a = arr.array(N, N, N)
+            for i in range(N):
+                a[i, i, i] = 1
+                print("a[{},{},{}] ".format(i, i, i))
+            for i in range(N):
+                for j in range(N):
+                    for k in range(N):
+                        if i==j==k:
+                            #print("***A[{},{},{}]".format(i, j, k))
+                            self.assertEqual(a[i, j, k], 1)
+                        if not i==j==k and a[i,j,k] == 1:
+                            print("Dammit!  A[{},{},{}] == 1".format(i, j, k))
+                            #self.assertEqual(a[i,j,k], 0)
+
+    def _index(self, a, r, c, d):
+        return a[r, c, d]
+
+    def test_key_validity(self):
+        a = arr.array(10, 10, 10)
+        self.assertRaises(KeyError, self._index, a, -1, 1, 1)
+        self.assertRaises(KeyError, self._index, a, 10, 1, 10)
+        self.assertRaises(KeyError, self._index, a, 1, -1, -10)
+        self.assertRaises(KeyError, self._index, a, 1, 10, -1)
+
+
+
+if __name__ == "__main__":
+    unittest.main()
+import unittest
+import naivearr2 as arr
+
+
+class TestArray(unittest.TestCase):
+    def test_zeroes(self):
+        for N in range(6):
+            a = arr.array(N, N, N)
+            for i in range(N):
+                for j in range(N):
+                    for k in range(N):
+                        #print("N={}, i={}, j={}, k={}".format(N, i, j, k))
+                        self.assertEqual(a[i, j, k], 0)
+
+    def test_identity(self):
+        for N in range(6):
+            a = arr.array(N, N, N)
+            for i in range(N):
+                a[i, i, i] = 1
+                print("a[{},{},{}] ".format(i, i, i))
+            for i in range(N):
+                for j in range(N):
+                    for k in range(N):
+                        if i==j==k:
+                            #print("***A[{},{},{}]".format(i, j, k))
+                            self.assertEqual(a[i, j, k], 1)
+                        if not i==j==k and a[i,j,k] == 1:
+                            print("Dammit!  A[{},{},{}] == 1".format(i, j, k))
+                            #self.assertEqual(a[i,j,k], 0)
+
+    def _index(self, a, r, c, d):
+        return a[r, c, d]
+
+    def test_key_validity(self):
+        a = arr.array(10, 10, 10)
+        self.assertRaises(KeyError, self._index, a, -1, 1, 1)
+        self.assertRaises(KeyError, self._index, a, 10, 1, 10)
+        self.assertRaises(KeyError, self._index, a, 1, -1, -10)
+        self.assertRaises(KeyError, self._index, a, 1, 10, -1)
+
+
+
+if __name__ == "__main__":
+    unittest.main()
+
+*** end snip of test_naivearr2.py ***
+
+Everything passes except test_identity.   Sure enough, a[0,0,0] = 1, a[1,1,1]=1, etc,
+but I also get
+A[0,2,1] == 1
+A[0,4,2] == 1
+A[1,3,2] == 1
+A[2,0,4] == 1
+A[2,4,3] == 1
+A[3,1,2] == 1
+A[4,0,2] == 1
+A[4,2,3] == 1
+
+
+So I guess my __setitem__ is goofy.  Or I guess I could be calling a value with
+__getitem__ that is the wrong value. 
+
+Can anyone see what I'm doing wrong? 
+
+Any help is appreciated, and thanks in advance!
+
+Dave
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

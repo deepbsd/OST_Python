@@ -1,0 +1,26 @@
+#!/usr/bin/env python3
+#
+#
+#      three_param.py
+#
+#    Lesson 11: Defining and 
+#   Calling Your Own Functions
+#
+#     by David S. Jackson
+#          12/4/2014
+#   
+#  OST Python1: Beginning Python
+#     for Pat Barton, Instructor
+#
+""" Lab 11: Objective 1 """
+
+def my_func(a, b='b was not entered', c='c was not entered'):
+    print(a)
+    print(b)
+    print(c)
+    
+
+my_func('one')
+my_func('one','two')
+my_func('one','two','three')
+print(my_func)

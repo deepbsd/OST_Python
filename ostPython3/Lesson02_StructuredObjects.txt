@@ -1,0 +1,255 @@
+Quiz 1
+
+Q1: What is a good way to manage data and its custom behaviors across 
+multiple programs?
+
+By creating a structured class object for that data. The data will 
+therefore be in a predictable format, with inherited behaviors.  All 
+these behaviors are defined in the class definition, so they are 
+available to all instances of the created class.
+
+===== Mentor Comments:
+
+right:  row data map to objects and then objects provide the opportunity for higher levels of 
+integration i.e. rows from many tables might go in to building up a 'patient' instance, which
+then maps attributes to the GUI screen in the hospital.  The object is responsive, has 
+behaviors, and then it's time to save changes, the software maps everything about the 
+object back to corresponding rows in the data tables.  This is the function of what's called
+an object-relational mapper (ORM):  that middleware that gets between data tables and 
+the GUI, in the form of integrated objects that make sense to the programmer.
+
+
+Q2: What is a bunch class?
+
+A bunch class uses keyword arguments to save incoming data as class
+attributes.
+
+The lesson examples included a self.__dict__.update(kwargs) method as part of
+the __init__ method for the class Bunch object.  Whenever an instance of the
+Bunch object is created and is passed kwargs, the __dict__ for that object is
+updated with the key, value arguments that are passed to that object and saved
+as class attributes.  
+
+For example, if 'b' is a bunch object:
+
+>>>b = Bunch(name='Dave', language='python3')
+
+then, 
+
+>>>b.name
+'Dave'
+
+You can also update the class object's dict:
+
+>>>b.mascot="Cleese"
+
+The b.__dict__ will then include the additional 'mascot' attribute and value.
+
+=============== Mentor Comments:
+
+Mentor Comments:
+remember to leave a space after >>> when simulating the prompt.  It has a space after >>>.
+
+
+Q3: Should you include a test for code inside the main program, and why or 
+why not?
+
+If the test is small and will not interfere with the operation of the program
+being tested, there is no harm in including the unittest code inside the test
+program.  For this to work, the unittest module must remain seperate and not
+interfere with functionality of the module or its methods being tested.  The
+unittest module should not be imported when the program's other modules are
+imported into other modules.  The testing functionality should stay out of the
+way.
+
+================= Mentor Comments:
+
+Mentor Comments:
+A module might have a small self-diagnostic / dependency checker that's distinct from the full 
+back office testing suite that's used to develop the module.  I.e. theres a kind of testing that's 
+useful to the end user who is not trying to develop the module, just see if it reports being happy
+with its new home and able to do its work.
+
+Overall Comments:
+Good answers.  See comments.
+
+-Kirby
+
+=======
+Quiz 2:
+=======
+
+Q1: What is masking?
+
+Masking is the accidental or intentional replacement of class attributes or
+method by reassigning a keyword data attribute of an instance of that class.
+For example, in the lesson, a Bunch object had a "pretty" method whose job was
+to print the items in the objects own self.__dict.  However, Python assumes
+programmers know what they are doing, and it is possible to call something
+like b = Bunch(name="Broomhilda", job="warrior", pretty=True)
+
+Python then changes the default value of b.pretty from "key: value" listing of
+the b.__dict__ to the value of 'pretty=True' instead.  
+
+Typically, you probably need to protect class attributes by raising an
+AttributeError if someone tries to reassign an existing class attribute.
+
+========= Mentor Comments:
+Mentor Comments:
+Example:
+
+>>> class Zorro:
+        """
+        http://youtu.be/gTfdiHxYivA
+        """
+	def sign_of_Z(self):
+		return "Z sign"
+
+	
+>>> z = Zorro()
+>>> z.sign_of_Z()
+'Z sign'
+>>> z.sign_of_Z = "X"
+>>> z.sign_of_Z()
+Traceback (most recent call last):
+  File "", line 1, in 
+    z.sign_of_Z()
+TypeError: 'str' object is not callable
+
+
+Q2: What do the getattr, hasattr, and setattr functions do?
+
+They retrieve, set or reset, and check for the existence of attributes in a
+class object.
+
+getattr(movies, bestpythonic) will return the value of movies.bestpythonic,
+which should be 'Holy Grail', obviously.  :-)
+
+hasattr(movies, bestceleb) will return True, since movies.bestceleb='Cleese',
+naturally.
+
+setattr(movies, bestpythonic, 'Meaning of Life') would reset the value of
+movies.bestpythonic='Holy Grail' to the value of 'Meaning of Life'.  This
+would probably be a Crime against Nature, however.
+
+==============  Mentor Comments:
+Mentor Comments:
+'bestpythonic' would need to be a string.  Otherwise it's treated as the name of some other object, like what though?
+
+
+Q3: What is critical in creating an API? 
+
+One of the most critical tasks in creating an API is to document it fully.
+Its purpose and methods and operation all need to be accessible to programmers
+using the API, preferrably through the pydoc help() system.  Quality
+documentation is essential for 3rd party developers to use your API.
+
+Q4: In "class Monty(Cleese, Chapman, Idle, Palin)" which inherited class has
+precedence?
+1.Chapman
+2.Idle
+3.Palin 
+4.None of the above.
+
+'Cleese' which is 4. None of the above.
+
+===================== Mentor Comments for Quiz 2:
+Overall Comments:
+Good.  See correction.
+
+-Kirby
+Grade:
+
+
+PROJECT
+=======
+
+Create a Python3_Homework02 project and assign it to your Python3_Homework
+working set. In the Python3_Homework02/src folder, create a file named
+coconuts.py, with an inventory class that tracks different types of coconuts
+from around the world. The different types of coconuts must have these weight
+attribute values:
+
+
+Type          Weight
+--------------------
+South Asian       3 
+Middle Eastern  2.5 
+American        3.5 
+
+The inventory class must have the following methods:
+  *add_coconut() accepts a coconut as an argument. Other types throw an
+   AttributeError.
+  *total_weight() provides the total weight of coconuts.
+
+For this project, you may find the isinstance built-in useful.
+
+You must Include a test_coconuts.py program to confirm all the Inventory class
+methods. The tests must check:
+  1.That different coconut types each have a different weight.
+  2.That if a string object is passed to the Inventory.add_coconut method, an
+    AttributeError is thrown.
+  3.That if 2 South Asian, 1 Middle Eastern, and 3 American coconuts are added
+    to the inventory, the Inventory.total_weight() method returns 19.
+
+When they are working, submit coconuts.py and test_coconuts.py.
+
+
+======  FEEDBACK FROM TEACHER  =============
+
+Overall Comments:
+
+I'd like you to have Coconut class or classes separate from Inventory which
+should not have much knowledge of coconuts other than the ability to recognize
+and filter out any non-coconut to be added.
+
+Here's a simple class hierarchy you might use, such that:
+
+nut = American()
+inv.add_coconut(nut)
+
+works great, and nut has the right weight.
+
+class Coconut:
+    pass
+
+class SouthAsian(Coconut):
+    weight = 3
+
+class MiddleEastern(Coconut):
+    weight = 2.5
+
+class American(Coconut):
+    weight = 3.5
+
+Now you can check if isinstance(obj, Coconut):  where obj is
+the thing to add.  self and coconut object only as parameters
+please.
+
+For weight, just loop over self.nuts and sum the weights by
+reading straight off the nut objects.
+
+class Inventory:
+
+    def __init__(self):
+        self.nuts = [ ]
+
+That's it!  As far was where you append all the
+coconuts.  No dict need apply.
+
+See what you might do with these new design specs.
+I think you'll be happier with the results.
+
+Good work so far.
+
+=================  Teacher Feedback
+
+Overall Comments:
+Excellent.  Great workout.
+
+-Kirby
+Grade:
+
+Great
+
+

@@ -1,0 +1,158 @@
+Lesson 11: Defining and Calling Your Own Functions
+
+
+Objective 1:
+
+Objective:
+
+This project tests your basic ability to write, use, and understand custom functions.
+
+    Create a new Python source file named three_param.py.
+    Write a program that has a function named my_func with three parameters, 'a', 'b', and 'c'. The first parameter is required, and the second two parameters have the default values of 'b was not entered' and 'c was not entered'. The function must print the value of each parameter.
+    In your program, call my_func three times. The first time, just provide a value for the first parameter. The second time, provide values for the first and second parameters. The third time, provide values for all three parameters.
+    In your program, print the function itself.
+
+Below is an example of possible output from running the program using the word 'test' as the value for all arguments provided to calls.
+
+test
+b was not entered
+c was not entered
+test
+test
+c was not entered
+test
+test
+test
+<function my_func at 0x397588>
+
+
+Overall Comments:
+
+Hi David,
+
+This is awesome.  FYI, you could write the entire body of this function as:
+
+    print(a,b,c, sep="\n")
+
+... If you really wanted to under-complicated.
+
+-Pat
+
+
+
+GRADE: Great
+
+=======
+QUIZ 1
+=======
+
+Q1: Write a function that returns the string "This is now lowercase:" plus the lowercase representation of its string argument, as a single string.
+
+
+Answer #1:
+def lowerc(text):
+    newtext = "this is now lowercase" + text.lower()
+    return newtext
+
+Comments:
+This works. More simply one might go:
+
+def lower(text):
+     return "This is now lowercase:" + text.lower()
+
+Question #2:
+
+Do parameters become arguments or do arguments become parameters?
+
+
+Answer #2:
+when you call the function in the program body, you use arguments.
+
+when you define the function, parameters are the inputs you work with inside the function.
+
+So, when you call a function with arguments, those values will become parameters when they get passed to the function.
+
+However, if you start from inside the function and watch a value get returned to the function call, I guess you could say a parameter got returned to where the argument came from.
+
+Comments:
+The way I think of it is when the function is called, the argument names pair up with the parameter names and hand over their values. The "function mouth" is like a "castle gate" and the parameters are like guards, standing ready to accept the mystery bundles handed to them. I'd say argument values become parameter values.
+
+Which guard gets which bundle is according to a bunch of rules having to do with left to right position, names matching... what we're learning about in this section.
+Question #3:
+
+Can a function access variables defined outside of its body? If so, where?
+
+
+Answer #3:
+yes, if the function uses the global keyword.
+
+def my_func():
+    global x
+    x = "foo"
+    return x
+
+x would now equal "foo" anywhere else in the program, unless it got reset again after being returned.
+
+Comments:
+Right. Note that it doesn't matter how they entered the global namespace (could be with use of the 'global' keyword or where it's declared).
+
+Overall Comments:
+
+Great job on this one, Dave. Please have a look at the comments, particularly those on Q3 - it's important understand. If you have any questions, please write
+
+-Pat
+
+
+
+GRADE: Great
+
+=======
+QUIZ 2
+=======
+
+Question #1:
+
+What is the prefix used for a sequence-parameter?
+
+
+Answer #1:
+*
+
+Comments:
+you will frequently see Python functions defined with *args, **kwargs as in
+
+def some_func(*args, **kwargs): # <--- not all functions should be this general
+    etc.
+
+A caller could send in any number of positional followed by keyword arguments and have them all neatly collected in args and kwargs respectively
+
+Using print:
+
+def some_func(*args, **kwargs):
+    print(args)
+    print(kwargs)
+
+>>> some_func("this", "is", "a", 3, ['set' , 'of'], "positional", radius="and", key="word", args="arguments")
+('this', 'is', 'a', 3, ['set', 'of'], 'positional')
+{'args': 'arguments', 'radius': 'and', 'key': 'word'}
+
+Question #2:
+
+What type of object does the sequence-parameter provide to the function body?
+
+
+Answer #2:
+tuple
+
+Comments:
+
+
+Overall Comments:
+
+You have completely nailed this one, David. Great going.
+
+-Pat
+
+
+
+GRADE: Great

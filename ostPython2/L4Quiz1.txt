@@ -1,0 +1,43 @@
+Q1: Which function can you call to delete a single file from the filestore?
+
+os.remove()
+
+Q2:  What is a "stub" function?
+
+when you're writing a test, before you write the program being tested, you
+create a 'stub' program that doesn't do anything yet, so that the other
+programs calling it don't show errors.
+
+Q3:  What should you verify regarding the status of the tests before replacing
+your stub function with real code?
+
+if the stub program is correctly structured, we'll see failures instead of
+errors.  so you want to ensure that the errors are gone and you're only seeing
+failures before you replace the stub function with real code.
+
+Q4:  What does the os.path.exists(f) function do?
+
+Tests whether a path exists.  Returns False for broken symlinks or missing
+files or directories, True if path exists.  It may or may not be writable, but
+that's a different os.path method.  I think os.access might cover whether the
+file is writable...  not sure.
+
+
+QUIZ 2:
+
+Q1:  How can you obtain the last modification time for a file?
+
+os.path.getmtime(pathtofile)
+
+Q2:  What would be returned by the call glob.glob("test*")?
+
+all files in the current working directory starting with "test".
+
+Q3:  What is the value of the expression os.path.split("/tmp/rhubarb/a.py")?
+
+splits '/tmp/rhubarb/a.py' into a 'head' and 'tail' component.  the head will
+be '/tmp/rhubarb/' and 'tail' will be 'a.py'.  Same as tuple
+basename('/tmp/thubarb/a.py')
+
+
+

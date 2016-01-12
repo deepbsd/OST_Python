@@ -1,0 +1,76 @@
+Lesson 16: Your Future With Python
+
+
+
+Project:  
+
+Answer a Python-related question on a public forum such as StackOverflow or
+python-list@python.org and document your correspondence with the questioner.
+If any private emails are involved, you should privately ask their permission
+to submit their mails as part of your solution to the project.
+
+############################
+
+The following answer from StackOverflow can be found at:  
+http://stackoverflow.com/questions/31932773/zip-lists-together-based-on-many-to-one-relationship/31933814#31933814
+
+
+
+####### I answered the following question on Stack Overflow on August 16, 2015:
+
+<p>I have two lists and I would like to find a way to link them together (I'm not sure the exact term for doing this) by zipping them.  </p>
+
+<p>In list one I have a series of tif files:</p>
+
+<pre><code>    list1=['LT50300281984137PAC00_sr_band1.tif',
+    ,'LT50300281984137PAC00_sr_band2.tif'  
+    'LT50300281984137PAC00_sr_band3.tif','LT50300281994260XXX03_sr_band1.tif',
+    'LT50300281994260XXX03_sr_band2.tif',
+    'LT50300281994260XXX03_sr_band3.tif']
+</code></pre>
+
+<p>in list two I have two files:</p>
+
+<pre><code>list2=[LT50300281984137PAC00_mask.tif,LT50300281994260XXX03_mask.tif]
+</code></pre>
+
+<p>I want to zip the files in list one which start with <code>LT50300281984137PAC00</code> to the file in list 2 which starts the same way, and the same for the files which start with <code>LT50300281994260XXX03</code></p>
+
+<p>The code I have tried is:</p>
+
+<p><code>ziplist=zip(sorted(list1),sorted(list2)</code> </p>
+
+<p>but this returns:</p>
+
+<pre><code>[('LT50300281984137PAC00_sr_band1', 'LT50300281984137PAC00_mask.tif'), ('LT50300281984137PAC00_sr_band2', 'LT50300281994260XXX03_mask.tif')] 
+</code></pre>
+
+<p>I would like this to be returned:</p>
+
+<pre><code> [('LT50300281984137PAC00_sr_band1',LT50300281984137PAC00_sr_band2,LT50300281984137PAC00_sr_band3, 'LT50300281984137PAC00_mask.tif'), ('LT50300281994260XXX03_sr_band1.tif', 'LT50300281994260XXX03_sr_band2.tif','LT50300281994260XXX03_sr_band3.tif','LT50300281994260XXX03_mask.tif')] 
+</code></pre>
+    </div>
+    
+    
+#############################
+Here's my answer:
+#############################
+
+<div class="post-text" itemprop="text">
+<p>My first answer on StackOverflow, so please be patient.  But I didn't see a need for zip()</p>
+
+<pre><code>
+mask1, mask2 = list2[0], list2[1]
+for b in reversed(list1):
+    if b[0:20] in mask1:
+        mask1 = b + " " + mask1
+    else:
+        mask2 = b + " " + mask2
+
+ziplist = [tuple(mask1.split()), tuple(mask2.split())]
+
+</code></pre>
+
+<p>I think ziplist should now be what you were asking for.</p>
+    </div>
+    

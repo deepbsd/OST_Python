@@ -1,0 +1,148 @@
+#!/usr/bin/env python3
+#
+#
+#          property_address.py
+#
+#    Lesson 11: A First Look at Logging
+#
+#         by David S. Jackson
+#             5/25/2015
+#   
+#    OST Python3: The Python Environment
+#       for Kirby Urner, Instructor
+#
+"""
+This module creates an Address class that takes a name, street address, city, 
+state, and zip code as string arguments, which then must be set as attributes.
+For this exercise, I create name, state, and zip_code as properties.  The name
+attribute, after being set during instantiation, cannot be reset, or an
+AttributeError will be raised.  Two new exceptions are specified for this
+exercise: StateError and ZipCodeError.  StateError is triggered if the state
+does not have just two capital letters, ie. 'GA' or 'CA'.  'Calif', for
+example, will trigger a StateError.  ZipCodeError is triggered when the
+zip_code attribute does not contain exactly 5 consecutive digits.  
+
+
+This module is also used for Lesson 10 and 11!  Logging capability is added
+to the module.  The logfile name is property_address.log.  After the logging
+defaults are set, logging is launched by the start_logging() module.
+"""
+
+import logging
+import re
+
+LOG_FILENAME = "property_address.log"
+LOG_FORMAT = "%(asctime)s - %(levelname)s - %(funcName)s - %(message)s\n"
+DEFAULT_LOG_LEVEL = "error" 
+LEVELS = { 'debug': logging.DEBUG,
+        'info': logging.INFO,
+        'warning': logging.WARNING,
+        'error': logging.ERROR,
+        'critical': logging.CRITICAL
+        }
+
+def start_logging(filename=LOG_FILENAME, level=DEFAULT_LOG_LEVEL):
+    "Start logging with given filename and level"
+    logging.basicConfig(filename=filename, level=LEVELS[level], format=LOG_FORMAT)
+    logging.info('Starting property_address.py program.')
+
+
+class StateError(Exception): 
+    def __init__(self, error):
+        logging.error('STATE exception')
+        self.error = error
+
+class ZipCodeError(Exception): 
+    def __init__(self, error):
+        logging.error('ZIPCODE exception')
+        self.error = error
+
+class Address:
+
+    def __init__(self, name, street_address, city, state, zip_code):
+        logging.info('Creating a new address')
+        self._name = name
+        self.address = street_address
+        self.city = city
+        self._state = state
+        self._zip_code = zip_code
+
+    @property
+    def name(self):
+        return self._name
+
+    @name.setter
+    def name(self, value):
+        msg = "Cannot reset existing name."
+        logging.error("AttributeError raised: {}".format(msg))
+        raise AttributeError('Cannot reset existing name.')
+
+    @name.getter
+    def name(self):
+        logging.info('@name.getter triggered...')
+        return self._name
+
+    @property
+    def state(self):
+        return self._state
+
+    @state.setter
+    def state(self, name):
+        logging.info('@state.setter triggered...')
+        if re.match('[A-Z]{2}$', name):
+            self._state = name
+        else:
+            raise StateError('Must have only 2 capital letters')
+
+    @state.getter
+    def state(self):
+        if re.match('[A-Z]{2}$', self._state):
+            return self._state
+        else:
+            raise StateError('Must have only 2 capital letters')
+
+    @property
+    def zip_code(self):
+        return self._zip_code
+
+    @zip_code.getter
+    def zip_code(self):
+        logging.info('@zip_code.getter triggered...')
+        if re.match('\d{5}$', str(self._zip_code)):
+            return self._zip_code
+        else:
+            raise ZipCodeError('Must have 5 digit string.')
+
+    @zip_code.setter
+    def zip_code(self, value):
+        logging.info('@zip_code.setter triggered...')
+        if re.match('\d{5}$', str(value)):
+            self._zip_code = value
+        else:
+            raise ZipCodeError('Must have 5 digit string.')
+
+
+if __name__ == "__main__":
+    start_logging(level='info')
+
+    myhome = Address("myhome", "5678 MyStreet St.", "Peoria", "OH", 24680)
+    badhome = Address('badhome', '1234 Anystreet St.', "Somestate", 'Calif', 12345-6789)
+
+    print(myhome.name)
+    print(myhome.state)
+    print(myhome.zip_code)
+    myhome.state = 'WA'
+    print(myhome.state)
+
+    try:
+        print(badhome.state)
+    except StateError:
+        print("StateError works!")
+        
+    try:
+        print(badhome.zip_code)
+    except ZipCodeError:
+        print("ZipCodeError works!")
+
+
+

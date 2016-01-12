@@ -1,0 +1,424 @@
+Lesson 16: Building and Debugging Whole Programs
+
+Note:  This lesson has three projects!!!  It has only one quiz.
+
+===========
+PROJECT 1:
+===========
+Project 1:
+Objective:
+
+This project tests your ability to analyze the structure of code, and your ability to mercilessly refactor.
+
+    Create a new Python source file named refactory.py.
+    Copy the code below into the refactory.py file.
+    Run the program. If you copied it correctly, no errors will occur. The program works, but the code is less than Pythonic.
+    Refactor the code mercilessly to be leaner and easier to understand. The example includes a lot of unnecessary code, some of which is difficult to understand, and individual lines of code are not documented.
+    Make sure all tests pass.
+
+There is no example of possible output from running the program, because successful tests are silent so nothing should be displayed.
+
+Here's the refactory.py code:
+
+small_words = ('into', 'the', 'a', 'of', 'at', 'in', 'for', 'on')
+def book_title(title):
+    """ Takes a string and returns a title-case string.
+    All words EXCEPT for small words are made title case
+    unless the string starts with a preposition, in which
+    case the word is correctly capitalized.
+
+    >>> book_title('DIVE Into python')
+    'Dive into Python'
+
+    >>> book_title('the great gatsby')
+    'The Great Gatsby'
+
+    >>> book_title('the WORKS OF AleXANDer dumas')
+    'The Works of Alexander Dumas'
+    """
+    lst_of_words = title.lower().split()
+    num_of_words = len(lst_of_words)
+    if num_of_words < 1:
+        return ''
+    new_title = lst_of_words.pop(0)
+    new_title = new_title[0].upper() + new_title[1:]
+    tpl_of_words = tuple(lst_of_words)
+    for word in tpl_of_words:
+        prep_word = False
+        for prep in small_words:
+            if prep == word:
+                new_title = new_title + ' '
+                new_title = new_title + word
+                prep_word = True
+                break
+        if prep_word == True:
+            continue
+        new_title = new_title + ' '
+        new_title = new_title + word[0].upper()
+        new_title = new_title + word[1:]
+    return new_title
+
+def _test():
+    import doctest, refactory
+    return doctest.testmod(refactory)
+
+if __name__ == "__main__":
+    _test()
+
+==============================
+My notes upon submission:
+==============================
+
+I think there was a typo in the sample program.  There is no 'refactory' module to import.  
+There is, however, a 'refactor' module.  I think that is what is meant.
+
+Also, the easiest way to refactor this function was to rewrite it.  I tried to keep 
+the variables the same.  It went from 21 lines of code to 9 lines.  Added 8 lines of comments.
+
+===============================
+Pat's Feedback
+===============================
+Overall Comments:
+
+Hi David,
+
+You've done a really good job on this one. Just so you understand, the idea was to into a 
+file that you created and saved as refactory.py (it's not a part of Python). But, truth be 
+known, it doesn't matter what you call it as long as it's the thing that you are testing.
+
+You've done an excellent job at getting rid of the "kruft" that made the original clunky and bloated.  
+The result is an elegant piece of very readable code.
+
+An alternative solution, for your inspection:
+
+small_words = ('into', 'the', 'a', 'of', 'at', 'in', 'for', 'on')
+
+def book_title(title):    
+    """skipping tests"""
+
+    if not title.strip():
+        return ''
+    
+    lst_of_words = title.lower().split()
+    
+    new_title = lst_of_words.pop(0).title()
+        
+    for word in lst_of_words:
+        new_title += ' ' + (word if word in small_words else word.capitalize( ))
+
+    return new_title
+
+-Pat
+
+
+
+GRADE: Great
+
+
+============
+PROJECT 2:
+============
+
+Objective:
+
+This project tests your basic ability to build a complex program from the relatively limited amounts of Python you already know.
+
+    Create a new Python source file named final.py.
+    Write a program that meets the following specifications:
+      1.  Call the program with an argument, it should treat the argument as a filename, and process the content of the file.
+      2.  The program reads all the input, splitting it up into words, and computes the length of each word. Punctuation 
+          marks should not be included as a part of the word, so "it's" should be counted as a three-character word, and 
+          "final." should be counted as a five-character word.
+      3.  The example text includes a "word" of zero length (the "&"); your solution should handle this.
+      4.  When all input has been processed, the program should print a table showing the word count for each of the word 
+          lengths encountered. Your mentor will run your code against several standardized inputs to verify the correctness 
+          of your logic. 
+
+Below is an example of output from running the program using the text in this file <hot_link here to declaration.txt> as input. 
+(The text is the United States Declaration of Independence). Copy the text in this file. Create a new 
+file and paste the copied text into it, and save it as declaration.txt in the same folder where your 
+final.py program is located.
+
+Here is some sample output.
+
+ Length Count
+ 1 16
+ 2 267
+ 3 267
+ 4 169
+ 5 140
+ 6 112
+ 7 99
+ 8 68
+ 9 61
+ 10 56
+ 11 35
+ 12 13
+ 13 9
+ 14 7
+ 15 2
+
+Also, you will probably want to define a function to return the length of each word, since the built-in len() 
+function will include punctuation characters.
+
+===========================
+My notes on submission:
+===========================
+
+Hi Pat!
+
+I think I incorporated the fixes you suggested.
+
+Also, I added the ability to add a '-t' switch after the filename to be analyzed.  This will bypass the other 
+functions and just let you see what's being stored in the word_dict, just to see any wowies in there.
+
+I used this on some of my logfile, like the Xorg logs, and there were many many gotchas.  So this program will 
+have to be used on pretty simple text files I guess, huh?  It's a start though.
+
+Thanks!
+Dave
+
+
+=====================
+Feedback from Pat:
+=====================
+
+Overall Comments:
+
+Hi David,
+
+This rocks.  Thanks so much for your second attempt.
+
+-Pat
+
+
+
+GRADE: Great
+
+
+================
+PROJECT 3:
+================
+
+Objective:
+
+This project builds on the previous one.
+
+Copy your final.py file to a file named final2.py, then modify final2.py to print a histogram of the word lengths. A histogram is a chart with columns whose heights correspond to the data they represent.
+
+Below is an example of possible output from running the updated program with the declaration.txt file:
+
+ 
+ Length    Count
+       1       16
+       2      267
+       3      267
+       4      169
+       5      140
+       6      112
+       7       99
+       8       68
+       9       61
+      10       56
+      11       35
+      12       13
+      13        9
+      14        7
+      15        2
+
+  400 -|                                             
+       |                                             
+       |                                             
+       |                                             
+       |                                             
+  300 -|                                             
+       |                                             
+       |   ******                                    
+       |   ******                                    
+       |   ******                                    
+  200 -|   ******                                    
+       |   ******                                    
+       |   *********                                 
+       |   ************                              
+       |   ************                              
+  100 -|   ***************                           
+       |   ******************                        
+       |   ************************                  
+       |   ***************************               
+       |   ******************************            
+    0 -+-+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+-
+       | 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16
+
+Hints for Program Design: You don't need to be quite as sophisticated as the standard solution in your scaling and labeling, but you should consider how to handle inputs where the counts are smaller (e.g. in the 5-50 range). The real trick is working out what should be printed in each column for every row—it would be much easier to print the histogram sideways (meaning that's not an acceptable alternative). Because our vertical (y-axis) scale is in increments of 20, we don't see representations of word lengths of fewer occurrences than 20 (the 12- through 15-character words).
+
+========================
+My notes on Submission:
+========================
+
+
+Hi Pat!
+
+I reworked it again.  I pretty near started over with the print_hist function.  
+Seems to work better now.  I had submitted final2-new.py, but this is a rework 
+over that.  Data.txt broke that one.  I think this new version even works somewhat 
+on some of my log files, if I have a large enough screen!  :-)
+
+Thanks!
+Dave
+
+
+=====================
+Notes from Pat:
+=====================
+
+Overall Comments:
+
+Hi David,
+
+First and foremost, this passes with flying colors, as you do from Python 1.    
+
+Cf.  https://www.youtube.com/watch?v=Vvgl_2JRIUs.  
+
+I must say that it's been a real pleasure having you in this course - you're a great student, and enjoyable to work with.  
+
+Congratulations on achieving this milestone.  I wish you every success and, from what I've seen, this is virtually assured.
+
+As I'm sure you already know, in real life you wouldn't make your own histogram.  You'd use a library function like 
+matplotlib or a specially-purposed tool.  This wheel has already been invented.  
+
+If you want to play around with matplotlib here's some demo code I pulled together for another course I'm helping to write.  
+It runs in an ipython notebook (a terrific application in its own right).  You can play with code on this site:  
+https://www.pythonanywhere.com/try-ipython/
+
+#<code>
+
+#Matplotlib can plot simple graphs.
+
+from pylab import figure, show
+from numpy import arange, sin, cos, pi
+import matplotlib.pyplot
+
+x = arange(0.0, 2.0, 0.01)
+
+frame = figure(2)             #main container
+
+#the top chart
+p1 = frame.add_subplot(211)  #2 row, 1 col grid in figure, subplot #1
+
+#what are we plotting?
+p1.plot(x, cos(6*pi*x))
+
+#what'll it look like?
+p1.grid(True)
+p1.set_xlabel("X")
+p1.set_ylim( (-2,2) )
+p1.set_ylabel('cos 6*pi*x')
+p1.set_title('Simple Matplotlib Demo')
+
+#bottom chart
+p2 = frame.add_subplot(212)  #2 row, 1 col grid in figure, subplot #2
+p2.plot(x, sin(3*pi*x))
+p2.grid(True)
+p2.set_xlabel("X")
+p2.set_ylim( (-2,2) )
+p2.set_ylabel('sin 3*pi*x')
+
+for label in ax1.get_xticklabels():
+    label.set_color('black')
+    
+show()    
+
+#</code>
+
+
+This one does a trick 3d graph with projections, etc.  Right out of the box, with about a dozen lines.
+
+#<code>
+Matplotlib can also draw on its library of sophisticated graphing tools for professional rendering... 
+#   ...with very few lines of code.
+
+from mpl_toolkits.mplot3d import axes3d
+import matplotlib.pyplot as plt
+from matplotlib import cm
+
+fig = plt.figure(figsize=(8,8), dpi=200)                    #main container (drawing size and resolution)
+ax = fig.gca(projection='3d')                               #could be polar ...
+X, Y, Z = axes3d.get_test_data()
+
+ax.plot_surface(X, Y, Z, rstride=5, cstride=10, alpha=0.5)          #coutour isocline spacking
+cset = ax.contour(X, Y, Z, zdir='x', offset=-40, cmap=cm.YlGnBu)    #map data to canvas ...
+cset = ax.contour(X, Y, Z, zdir='y', offset=40, cmap=cm.Greens)
+cset = ax.contour(X, Y, Z, zdir='z', offset=-100, cmap=cm.Pastel1)
+
+ax.set_xlabel('X')      #axes scaling/labeling
+ax.set_xlim(-40, 40)
+ax.set_ylabel('Y')
+ax.set_ylim(-40, 40)
+ax.set_zlabel('Z')
+ax.set_zlim(-90, 90)
+
+plt.show()
+
+#<code>
+
+There are glamour shots of matplotlib images at:
+
+http://matplotlib.org/gallery.html
+
+
+-Pat
+
+
+
+GRADE: Great
+
+
+
+=============
+QUIZ 1
+=============
+
+Question #1:
+
+What is "agile" programming?
+
+
+Answer #1:
+Agile principles emphasize producing the simplest code that meets the programs design requirements. Agile principles promote refactoring programs as appropriate for added efficiency and so that algorithms are segregated and protected; a change in one area has the least chance of causing errors elsewhere. Other agile principles include code design is test-driven (tests for accuracy are designed as a first step), integrate changes continually back into the entire system, release early and often, keep it simple, code is not owned (egos are not attached; it's a team effort), and refactor mercilessly.
+
+Comments:
+
+Question #2:
+
+Why is testing so important?
+
+
+Answer #2:
+Designing the test protocols are probably at least as important as the algorithms themselves. Errors in logic and design are beyond the computer's ability to catch problems. It requires a human to determine whether a program is providing meaningful and correct data. You have to test the program so that you don't have to guess whether it's working or not. Your tests have to give you the confidence that the program will not just work on your current data, but that it will work on any data. You're not done until you're that confident.
+
+Comments:
+It also helps us sleep much better at night, knowing that if the phone rings it's not going to be an angry client wondering why our code broke.
+Question #3:
+
+How can Python help you test your code?
+
+
+Answer #3:
+Python has a doctest module. You define the _test() and import the doctest and refactor modules. In your main program you call _test() and the predefined tests will run and you'll see whether your program passes them or not.
+
+There are also JUnit and unitest modules.
+
+Comments:
+Here's a link to an extended discussion on testing in Python that includes test automation tools such as nose and mock.
+
+http://docs.python-guide.org/en/latest/writing/tests/
+
+Overall Comments:
+
+This is really good, David. Please check out the comments, particularly those on Q3 for the link to an expanded treatment of testing in Python.
+
+-Pat
+
+
+
+GRADE: Great

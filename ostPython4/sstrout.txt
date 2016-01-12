@@ -1,0 +1,21 @@
+Project:
+    Write a subclass sstr of the standard str type that implements the "<<" and
+    ">>" methods as a cyclic shifting of the characters in the string.  It
+    should pass the following tests, which you should embody as unit tests in a
+    separate test module:
+
+    >>> s1 = sstr("abcde")
+    >>> s1 << 0
+    'abcde'
+    >>> s1 >> 0
+    'abcde'
+    >>> s1 << 2
+    'cdeab'
+    >>> s1 >> 2
+    'deabc'
+    >>> s1 >> 5
+    'abcde'
+    >>> (s1 >> 5) << 5 == 'abcde'
+    True
+
+"""

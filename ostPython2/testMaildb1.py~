@@ -1,0 +1,63 @@
+#!/usr/bin/env python3
+
+"""
+Email message handling module: contains logic to store and retrieve
+email messages using a MySQL relational database.
+#!/usr/bin/env python3
+
+"""
+from database import login_info
+import mysql.connector as msc
+from email import message_from_string
+
+conn = msc.Connect(**login_info)
+curs = conn.cursor()
+
+def store(msg):
+    """
+    Stores an email message, if necessary, returning its primary key.
+    """ 
+    message_id = msg['message-id']
+    text = msg.as_string()
+    curs.execute("SELECT msgID FROM message WHERE msgMessageID=%s", (message_id, ))
+    result = curs.fetchone()
+    if result:
+        return result[0]
+    curs.execute("INSERT INTO message (msgMessageID, msgText) VALUES (%s, %s)",
+             (message_id, text))
+    conn.commit()
+    curs.execute("SELECT msgID FROM message WHERE msgMessageID=%s", (message_id, ))
+    return curs.fetchone()[0]
+
+def msg_by_id(id):
+    """
+    Return the (presumably singleton) message whose primary key is given
+    or raise KeyError if no such message exists.
+    """
+    curs.execute("SELECT msgID, msgText FROM message WHERE msgID=%s", (id, ))
+    result = curs.fetchone()
+    if  not result:
+        raise KeyError("Id {0} not found in store".format(id))
+    id, text = result
+    msg = message_from_string(text)
+    return id, msg
+
+def msg_by_message_id(message_id):
+    """
+    Return the (presumably singleton) message whose "Message-ID" is given
+    or raise KeyError if no such message exists.
+    """
+    curs.execute("SELECT msgID, msgText FROM message WHERE msgMessageID=%s", (message_id, ))
+    result = curs.fetchone()
+    if  not result:
+        raise KeyError("Message-Id {0} not found in store".format(message_id))
+    id, text = result
+    msg = message_from_string(text)
+    return id, msg
+
+
+
+if __name__ == "__main__":
+    unittest.main(warnings='ignore')
+
+

@@ -1,0 +1,54 @@
+Lesson 4:  Publish and Subscribe
+
+Project:
+
+
+Filename(s):  pubandsub.py pubandsub2.py
+
+
+Modify the Subscriber.process() method so that the instance counts 
+the number of times the method has been called.
+
+If, after processing the current message, it has processed three 
+messages, it should unsubscribe itself. 
+
+Remove the unsubscribe code from the loop at the end of the main 
+program, since it should no longer be necessary.
+
+Insert print() statements in your modified program until you think 
+you have worked out why it no longer operates correctly, and see if 
+you can suggest a way to fix it (whether or not you are able to implement 
+your suggestion).
+
+
+
+
+Quiz 1:
+
+Q1: What is the primary purpose of the publish-and-subscribe mechanism?
+
+
+From what I can see, it opens the door for data producers and data consumers
+to easily share publish and subscribe to data publishers by calling methods on
+each other's classes.  The publisher calls subscriber 'process' methods in its
+publish method, and the subscriber calls the publisher's subscribe and publish
+methods.  Each instance of each class remembers the critical data as part of
+its being initialized, and the process is generic and robust, so it doesn't
+need a lot of individualized hand-holding.  It maintains a "loose coupling" as
+the lesson put it, and it is dynamic and flexible.
+
+
+Q2: What does the Publisher object do if an already-registered object tries to register a new subscription?
+
+It should check each new subscription against a list of current subscribers
+and disallow any subscriber from subscribing twice.  It should throw an
+exception (say, a ValueError) if a subscriber attempts to subscribe twice
+without unsubscribing first.
+
+Q3: Why is it better to allow the registration of arbitrary methods?
+
+Because then any callable can be registered.  Functions can now be subscribed
+to the publisher.
+
+Oops.  I'm going to have to fix the program I just handed in!  :-\
+

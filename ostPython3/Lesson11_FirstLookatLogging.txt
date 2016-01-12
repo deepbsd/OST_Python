@@ -1,0 +1,87 @@
+Lesson 11:  A First Look at Logging
+
+Project:
+
+Filename(s):  property_address.py test_property_address.py
+property_address.log  property_address.cfg
+
+Create a Python3_Homework11 project and assign it to your Python3_Homework
+working set. In the Python3_Homework11/src folder, copy property_address.py
+and test_property_address.py from the last project.
+
+property_address.py must append messages such as the following to a logfile
+named property_address.log each time test_property_address.py is run:
+
+property_address.log:
+2011-12-05 19:36:14,970 - ERROR - state - STATE exception
+
+2011-12-05 19:36:14,970 - INFO - __init__ - Creating a new address
+
+2011-12-05 19:36:14,986 - ERROR - zip_code - ZIPCODE exception
+Note: Your date and time values will of course vary.
+
+Submit property_address.py and test_property_address.py when they are working
+to your satisfaction.
+
+
+=======
+QUIZ 1
+=======
+
+Q1: What are the five basic levels of the logging module?
+
+debug (10), info (20), warning (30), error (40), critical (50)
+
+
+Q2: What is the name of the basic logging utility function for setting up your
+logger?
+
+logging.basicConfig()
+
+It takes 'filename', 'level' and 'format' arguments as well.
+
+
+Q3: How would you set logging to only save critical log messages?
+
+logging.basicConfig(filename='whatever.log', level=logging.CRITICAL)
+
+
+=======
+QUIZ 2
+=======
+
+Q1: What is another way to set the level of a logger besides the basicConfig()
+function?
+
+You could do like the Lesson and pass a logging level as a function call
+argument, where that function launches logging.basicConfig() method, but
+accepts the function parameter that came from the call argument, which
+happened to be the level='keyword' argument.  But this method still involves
+the logging.basicConfig() method.
+
+So, strictly, I'm not aware of another way of calling the logging function,
+except through the basicConfig() method.
+
+### Corrected answer:
+
+logger = logging.blah()
+logger = logger.setLevel('DEBUG')
+
+
+Q2: What is a common way to display the time of a log message?
+
+logging.basicConfig(format="%(asctime)s") 
+
+
+Q3: What does '%(lineno)d %(levelname)s' display in a log message?
+
+%(lineno)d is the line number of the program that caused the logging event. In
+this case, it must be an integer.
+
+$(levelname)s is a string representing the logging level of the logging
+event--either debug, info, warning, error, or critical.
+
+
+
+
+

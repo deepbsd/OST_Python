@@ -1,0 +1,87 @@
+#!/usr/bin/env python3
+
+#
+#
+#        composable.py
+#
+#    Lesson 1: Going Further 
+#         With Functions
+#
+#     by David S. Jackson
+#          6/18/2015
+#   
+#  OST Python4: Advanced Python
+#     for Pat Barton, Instructor
+#
+"""
+Project 1: Going Further with Functions:
+    Extend the final definition of the composable object to allow it to be
+    raised to positive integer powers.  This will require defining the __pow__
+    method.  
+
+    For the purposes of this exercise, assume that f**2 is the same as f*f,
+    f**3, is the same as f*f*f, and so on.  So (f**3)(x) is f(f(f(x))).
+
+    If the argument is not an integer, the method should raise a TypeError
+    exception; if the argument's value is non-positive, the method should raise
+    a ValueError.
+
+composable.py: defines a composable function class.
+
+"""
+
+import types
+
+class Composable:
+    def __init__(self, f):
+        "Store reference to proxied function."
+        self.func = f
+
+    def __call__(self, *args, **kwargs):
+        "Proxy the function, passing all arguments through."
+        #print("We're in __call__ now!")
+        return self.func(*args, **kwargs)
+
+    def __pow__(self, other):
+        "Return the composition of x to the power of y"
+        #print("Entering __pow__ zone...")  # debugging
+        if other > 0:
+            for i in range(other-1):
+                self *= self 
+            return self
+        else:
+            raise ValueError("Needs to be positive integer.")
+
+
+    def __mul__(self, other):
+        "Return the composition of proxied and another function."
+        if type(other) is Composable:
+            def anon(x):
+                return self.func(other.func(x))
+            return Composable(anon)
+        elif type(other) is types.FunctionType:
+            def anon(x):
+                return self.func(other(x))
+            return Composable(anon)
+        raise TypeError("Illegal operands for multiplication")
+
+    def __repr__(self):
+        return "<Composable function {0} at 0x{1:X}>".format(self.func.__name__, id(self))
+
+
+if __name__ == "__main__":
+    def pwr(x, y):
+        return x**y
+
+    duh = Composable(pwr)
+
+    print("3**3 is {}".format(duh(3,3)))
+    try:
+        print("3**-3 is {}".format(duh ** -3))
+    except ValueError:
+        print("Caught ValueError!")
+
+    try:
+        print("3**'a' is {}".format(duh(3, 'a')))
+    except TypeError:
+        print("Caught TypeError.")

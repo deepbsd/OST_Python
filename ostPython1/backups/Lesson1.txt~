@@ -1,0 +1,116 @@
+Objective:
+
+This simple project is designed to remind you how to create and run a program,
+and to show how to submit homework projects. Go through the following steps,
+referring to the course notes if you get stuck.
+
+Create a new file.
+Enter the four lines of code shown in the editor window below:
+Save the file (we recommend creating and using a folder for this
+and all of your homework separate from your /python1 folder with a
+recognizable name like /python1homework) as one_statement.py.
+Run it to make sure it works properly.
+
+Code to type into your Python source file:
+
+"Simple one-statement module with docstring."
+print("""This is a very simple program
+that, when run, will verify I can create,
+save, and run programs in CodeRunner.""")
+
+When you finish, hand in your one_statement.py file by finding
+it in the folders at left below and dragging it to the Drop
+Here folder at right. Then, click Hand In (at the bottom right
+of the screen--you may need to scroll down to find it!) to
+submit it to the instructor.
+
+
+
+Here are the files you handed in:
+Python1/Python1_Homework/one_statement.py
+
+Overall Comments:
+
+Hi David, This is excellent news. If you have your own
+environment, and you're comfortable working with it, feel free
+to go ahead and use it. We provide the CodeRunner environment
+to ensure that the only requirement for the classes access to
+a browser. But as long as you have access to a system with
+Python 3 (optimally, Python 3.4) you can work out the
+assignments there and simply cut/paste completed assignments
+into CodeRunner. Congratulations on your first Python program!
+It works as advertised while giving you practice with two very
+important features of the language - the docstring and a
+verbose, descriptive way to communicate what's going on with
+your program. -Pat
+
+
+QUIZ 1:
+Q1: Question #1:
+What escape sequence represents a newline in a string literal?
+
+Answer #1:
+\n
+
+Q2: Question #2:
+
+What operator is used to concatenate strings?
+
+
+Answer #2:
+"str1" + "str2"
+
+Q3: Question #3:
+In which CodeRunner panel do you find the files for your project?
+
+Answer #3:
+File Browser on far left
+
+Q4: Question #4:
+What single character is used to continue a statement on to the next line?
+
+Answer #4:
+words \
+more words
+
+
+Q5: Question #5:
+What function do you use to send output to the screen?
+
+Answer #5:
+print
+
+
+Overall Comments:
+
+Hi David, Welcome to Python. You're off to a great start with a perfect quiz.
+Looking forward ... You are about to embark on a great journey at the end of
+which you will have a confident mastery of Python and its application to many
+types of real-world problems. Your mastery will come through personal
+accomplishment and, more importantly for your growth in the topic, challenges
+that may seem - in the moment - daunting. By choosing to learn Python in this
+class, you have assured that you will not be alone. I'm here to serve as your
+guide and mentor at each step, available to provide clarification, tips, and
+individualized dialogue - all available at your request. I can't ensure your
+success - only you can. However, as long as you are in the game, I'm at your
+side. Now, let's get to some "nuts and bolts": - Please don't feel that you
+need to pass every assignment on the first attempt. If you do, great! However,
+unsuccessful attempts provide real learning - and that's why you're here. -
+You can contact me by clicking the "Messages" tab on the top of the CodeRunner
+application. My goal is to respond within two business days, though I'll try
+to reply much sooner. - The assignments are designed to flex specific muscles
+and build on one another. You may be tempted to get fancy early-on, but there
+will be time for that later. Do feel free to experiment and otherwise explore
+the topics presented. - Some of the assignments involve Python code files that
+you'll hand in. Please choose file names that reflect the 'code cycle'. For
+instance, your first attempt might be called 'myCode.attempt1.py' and your
+second would be 'myCode.attempt2.py'. This will maintain a little version
+control and let us both compare results. Once you've turned in an assignment,
+please don't change the code or move the file - otherwise I won't know what
+you intended to turn in. Above all, try to savor the experience - there's the
+real possibility that you'll have a lot of fun as you achieve your learning
+goals. Good Luck! See you on-line. -Pat
+
+
+
+GRADE: Great

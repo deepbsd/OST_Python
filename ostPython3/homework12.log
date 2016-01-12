@@ -1,0 +1,448 @@
+2015-06-02 09:24:30,914 - root - INFO - Starting property_address.py program.
+2015-06-02 09:24:30,914 - root - DEBUG - LOG_LEVEL = debug
+2015-06-02 09:24:30,914 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 09:24:30,914 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 09:24:30,914 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 09:24:30,914 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 09:24:30,914 - root - INFO - Creating a new address
+2015-06-02 09:29:15,773 - root - INFO - Starting property_address.py program.
+2015-06-02 09:29:15,773 - root - DEBUG - LOG_LEVEL = debug
+2015-06-02 09:29:15,773 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 09:29:15,774 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 09:29:15,774 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 09:29:15,774 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 09:29:15,774 - root - INFO - Reading configuration from static variables...
+2015-06-02 09:29:15,774 - root - INFO - Creating a new address
+2015-06-02 09:32:01,009 - root - INFO - Starting property_address.py program.
+2015-06-02 09:32:01,009 - root - DEBUG - LOG_LEVEL = debug
+2015-06-02 09:32:01,009 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 09:32:01,009 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 09:32:01,009 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 09:32:01,009 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 09:32:01,009 - root - INFO - Reading configuration from external file...
+2015-06-02 09:32:01,009 - root - INFO - Creating a new address
+2015-06-02 09:55:43,176 - root - INFO - Starting property_address.py program.
+2015-06-02 09:55:43,176 - root - DEBUG - LOG_LEVEL = debug
+2015-06-02 09:55:43,176 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 09:55:43,176 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 09:55:43,176 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 09:55:43,176 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 09:55:43,176 - root - INFO - Reading configuration from external file...
+2015-06-02 09:55:43,176 - root - INFO - Creating a new address
+2015-06-02 10:07:19,748 - root - INFO - Starting property_address.py program.
+2015-06-02 10:07:19,749 - root - DEBUG - LOG_LEVEL = debug
+2015-06-02 10:07:19,749 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 10:07:19,749 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 10:07:19,749 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 10:07:19,749 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 10:07:19,749 - root - INFO - Reading configuration from external file...
+2015-06-02 10:07:19,750 - root - ERROR - Invalid cmd line STATE format given!
+2015-06-02 10:07:19,750 - root - ERROR - Invalid cmd line ZIP_CODE format given!
+2015-06-02 10:07:19,750 - root - INFO - Creating a new address
+2015-06-02 10:08:09,581 - root - INFO - Starting property_address.py program.
+2015-06-02 10:08:09,581 - root - INFO - Reading configuration from external file...
+2015-06-02 10:08:09,584 - root - INFO - Creating a new address
+2015-06-02 10:08:09,584 - root - INFO - @name.getter triggered...
+2015-06-02 10:08:09,584 - root - ERROR - AttributeError raised: Cannot reset existing name.
+2015-06-02 10:08:09,584 - root - INFO - Creating a new address
+2015-06-02 10:08:09,584 - root - INFO - @state.setter triggered...
+2015-06-02 10:08:09,584 - root - ERROR - STATE exception
+2015-06-02 10:08:09,584 - root - INFO - @state.setter triggered...
+2015-06-02 10:08:09,584 - root - INFO - Creating a new address
+2015-06-02 10:08:09,584 - root - INFO - @zip_code.getter triggered...
+2015-06-02 10:08:09,585 - root - INFO - @zip_code.setter triggered...
+2015-06-02 10:08:09,585 - root - ERROR - ZIPCODE exception
+2015-06-02 10:08:09,585 - root - INFO - @zip_code.setter triggered...
+2015-06-02 10:08:09,585 - root - INFO - @zip_code.getter triggered...
+2015-06-02 10:16:30,680 - root - INFO - Starting property_address.py program.
+2015-06-02 10:16:30,680 - root - DEBUG - LOG_LEVEL = debug
+2015-06-02 10:16:30,680 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 10:16:30,680 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 10:16:30,680 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 10:16:30,680 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 10:16:30,680 - root - INFO - Reading configuration from external file...
+2015-06-02 10:16:30,681 - root - ERROR - Invalid cmd line STATE format given!
+2015-06-02 10:16:30,681 - root - ERROR - STATE exception
+2015-06-02 10:17:05,989 - root - INFO - Starting property_address.py program.
+2015-06-02 10:17:05,989 - root - DEBUG - LOG_LEVEL = debug
+2015-06-02 10:17:05,989 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 10:17:05,989 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 10:17:05,989 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 10:17:05,989 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 10:17:05,989 - root - INFO - Reading configuration from external file...
+2015-06-02 10:17:05,991 - root - ERROR - Invalid cmd line STATE format given!
+2015-06-02 10:17:05,991 - root - ERROR - STATE exception
+2015-06-02 10:20:41,030 - root - INFO - Starting property_address.py program.
+2015-06-02 10:20:41,030 - root - DEBUG - LOG_LEVEL = debug
+2015-06-02 10:20:41,030 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 10:20:41,030 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 10:20:41,030 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 10:20:41,030 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 10:20:41,030 - root - INFO - Reading configuration from external file...
+2015-06-02 10:20:41,032 - root - ERROR - Invalid cmd line ZIP_CODE format given!
+2015-06-02 10:22:24,928 - root - INFO - Starting property_address.py program.
+2015-06-02 10:22:24,928 - root - DEBUG - LOG_LEVEL = debug
+2015-06-02 10:22:24,928 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 10:22:24,928 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 10:22:24,928 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 10:22:24,928 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 10:22:24,928 - root - INFO - Reading configuration from external file...
+2015-06-02 10:22:24,929 - root - ERROR - Invalid cmd line STATE format given!
+2015-06-02 10:22:24,930 - root - ERROR - STATE exception
+2015-06-02 10:22:44,715 - root - INFO - Starting property_address.py program.
+2015-06-02 10:22:44,715 - root - DEBUG - LOG_LEVEL = debug
+2015-06-02 10:22:44,715 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 10:22:44,715 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 10:22:44,715 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 10:22:44,715 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 10:22:44,715 - root - INFO - Reading configuration from external file...
+2015-06-02 10:22:44,717 - root - ERROR - Invalid cmd line ZIP_CODE format given!
+2015-06-02 10:23:44,892 - root - INFO - Starting property_address.py program.
+2015-06-02 10:23:44,892 - root - DEBUG - LOG_LEVEL = debug
+2015-06-02 10:23:44,892 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 10:23:44,892 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 10:23:44,892 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 10:23:44,892 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 10:23:44,892 - root - INFO - Reading configuration from external file...
+2015-06-02 10:23:44,893 - root - ERROR - Invalid cmd line ZIP_CODE format given!
+2015-06-02 10:23:44,893 - root - ERROR - ZIPCODE exception
+2015-06-02 10:24:28,706 - root - INFO - Starting property_address.py program.
+2015-06-02 10:24:28,706 - root - INFO - Reading configuration from external file...
+2015-06-02 10:24:28,709 - root - INFO - Creating a new address
+2015-06-02 10:24:28,710 - root - INFO - @name.getter triggered...
+2015-06-02 10:24:28,710 - root - ERROR - AttributeError raised: Cannot reset existing name.
+2015-06-02 10:24:28,710 - root - INFO - Creating a new address
+2015-06-02 10:24:28,710 - root - INFO - @state.setter triggered...
+2015-06-02 10:24:28,710 - root - ERROR - STATE exception
+2015-06-02 10:24:28,710 - root - INFO - @state.setter triggered...
+2015-06-02 10:24:28,710 - root - INFO - Creating a new address
+2015-06-02 10:24:28,710 - root - INFO - @zip_code.getter triggered...
+2015-06-02 10:24:28,710 - root - INFO - @zip_code.setter triggered...
+2015-06-02 10:24:28,710 - root - ERROR - ZIPCODE exception
+2015-06-02 10:24:28,710 - root - INFO - @zip_code.setter triggered...
+2015-06-02 10:24:28,711 - root - INFO - @zip_code.getter triggered...
+2015-06-02 10:25:30,045 - root - INFO - Starting property_address.py program.
+2015-06-02 10:25:30,046 - root - DEBUG - LOG_LEVEL = debug
+2015-06-02 10:25:30,046 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 10:25:30,046 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 10:25:30,046 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 10:25:30,046 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 10:25:30,046 - root - INFO - Reading configuration from external file...
+2015-06-02 10:25:30,048 - root - ERROR - Invalid cmd line STATE format given!
+2015-06-02 10:25:30,048 - root - ERROR - STATE exception
+2015-06-02 10:26:59,817 - root - INFO - Starting property_address.py program.
+2015-06-02 10:26:59,817 - root - DEBUG - LOG_LEVEL = debug
+2015-06-02 10:26:59,817 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 10:26:59,817 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 10:26:59,817 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 10:26:59,817 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 10:26:59,817 - root - INFO - Reading configuration from external file...
+2015-06-02 10:26:59,819 - root - ERROR - Invalid cmd line STATE format given!
+2015-06-02 10:26:59,819 - root - ERROR - STATE exception
+2015-06-02 10:27:55,335 - root - INFO - Starting property_address.py program.
+2015-06-02 10:27:55,335 - root - INFO - Reading configuration from external file...
+2015-06-02 10:27:55,337 - root - ERROR - Invalid cmd line STATE format given!
+2015-06-02 10:27:55,337 - root - ERROR - STATE exception
+2015-06-02 10:28:45,014 - root - INFO - Starting property_address.py program.
+2015-06-02 10:28:45,014 - root - DEBUG - LOG_LEVEL = debug
+2015-06-02 10:28:45,014 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 10:28:45,014 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 10:28:45,014 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 10:28:45,014 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 10:28:45,014 - root - INFO - Reading configuration from external file...
+2015-06-02 10:28:45,016 - root - ERROR - Invalid cmd line STATE format given!
+2015-06-02 10:28:45,016 - root - ERROR - STATE exception
+2015-06-02 10:29:25,896 - root - INFO - Starting property_address.py program.
+2015-06-02 10:29:25,896 - root - DEBUG - LOG_LEVEL = debug
+2015-06-02 10:29:25,896 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 10:29:25,896 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 10:29:25,896 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 10:29:25,896 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 10:29:25,896 - root - INFO - Reading configuration from external file...
+2015-06-02 10:29:25,898 - root - ERROR - Invalid cmd line ZIP_CODE format given!
+2015-06-02 10:29:25,898 - root - ERROR - ZIPCODE exception
+2015-06-02 10:29:32,623 - root - INFO - Starting property_address.py program.
+2015-06-02 10:29:32,623 - root - DEBUG - LOG_LEVEL = debug
+2015-06-02 10:29:32,623 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 10:29:32,623 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 10:29:32,623 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 10:29:32,623 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 10:29:32,623 - root - INFO - Reading configuration from external file...
+2015-06-02 10:29:32,625 - root - INFO - Starting property_address.py program.
+2015-06-02 10:29:32,625 - root - DEBUG - LOG_LEVEL = debug
+2015-06-02 10:29:32,625 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 10:29:32,625 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 10:29:32,625 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 10:29:32,625 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 10:29:32,626 - root - INFO - Reading configuration from external file...
+2015-06-02 10:29:32,626 - root - INFO - Creating a new address
+2015-06-02 10:37:09,158 - root - INFO - Starting property_address.py program.
+2015-06-02 10:37:09,158 - root - DEBUG - LOG_LEVEL = debug
+2015-06-02 10:37:09,158 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 10:37:09,158 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 10:37:09,158 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 10:37:09,158 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 10:37:09,158 - root - INFO - Reading configuration from external file...
+2015-06-02 10:37:09,160 - root - ERROR - Invalid cmd line STATE format given!
+2015-06-02 10:37:09,160 - root - ERROR - STATE exception
+2015-06-02 10:39:41,871 - root - INFO - Starting property_address.py program.
+2015-06-02 10:39:41,871 - root - DEBUG - LOG_LEVEL = debug
+2015-06-02 10:39:41,872 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 10:39:41,872 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 10:39:41,872 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 10:39:41,872 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 10:39:41,872 - root - INFO - Reading configuration from external file...
+2015-06-02 10:39:41,873 - root - ERROR - Invalid cmd line ZIP_CODE format given!
+2015-06-02 10:39:41,873 - root - ERROR - ZIPCODE exception
+2015-06-02 10:39:59,953 - root - INFO - Starting property_address.py program.
+2015-06-02 10:39:59,953 - root - DEBUG - LOG_LEVEL = debug
+2015-06-02 10:39:59,953 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 10:39:59,953 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 10:39:59,953 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 10:39:59,953 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 10:39:59,953 - root - INFO - Reading configuration from external file...
+2015-06-02 10:39:59,954 - root - INFO - Starting property_address.py program.
+2015-06-02 10:39:59,954 - root - DEBUG - LOG_LEVEL = warning
+2015-06-02 10:39:59,954 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 10:39:59,955 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 10:39:59,955 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 10:39:59,955 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 10:39:59,955 - root - INFO - Reading configuration from external file...
+2015-06-02 10:39:59,955 - root - INFO - Creating a new address
+2015-06-02 13:21:07,623 - root - INFO - Starting property_address.py program.
+2015-06-02 13:21:07,623 - root - DEBUG - LOG_LEVEL = debug
+2015-06-02 13:21:07,623 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 13:21:07,623 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 13:21:07,623 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 13:21:07,623 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 13:21:07,623 - root - INFO - Reading configuration from external file...
+2015-06-02 13:21:07,624 - root - ERROR - Invalid cmd line STATE format given!
+2015-06-02 13:21:07,624 - root - ERROR - STATE exception
+2015-06-02 13:21:23,095 - root - INFO - Starting property_address.py program.
+2015-06-02 13:21:23,095 - root - DEBUG - LOG_LEVEL = debug
+2015-06-02 13:21:23,095 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 13:21:23,095 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 13:21:23,095 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 13:21:23,095 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 13:21:23,095 - root - INFO - Reading configuration from external file...
+2015-06-02 13:21:23,097 - root - ERROR - Invalid cmd line ZIP_CODE format given!
+2015-06-02 13:21:23,097 - root - ERROR - ZIPCODE exception
+2015-06-02 13:36:15,118 - root - INFO - Starting property_address.py program.
+2015-06-02 13:36:15,118 - root - DEBUG - LOG_LEVEL = debug
+2015-06-02 13:36:15,118 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 13:36:15,118 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 13:36:15,118 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 13:36:15,118 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 13:36:15,118 - root - INFO - Reading configuration from external file...
+2015-06-02 13:36:15,120 - root - INFO - Starting property_address.py program.
+2015-06-02 13:36:15,120 - root - DEBUG - LOG_LEVEL = warning
+2015-06-02 13:36:15,120 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 13:36:15,120 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 13:36:15,120 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 13:36:15,120 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 13:36:15,120 - root - INFO - Reading configuration from external file...
+2015-06-02 13:36:15,120 - root - INFO - Creating a new address
+2015-06-02 13:36:29,959 - root - INFO - Starting property_address.py program.
+2015-06-02 13:36:29,959 - root - DEBUG - LOG_LEVEL = debug
+2015-06-02 13:36:29,959 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 13:36:29,959 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 13:36:29,959 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 13:36:29,959 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 13:36:29,959 - root - INFO - Reading configuration from external file...
+2015-06-02 13:36:29,960 - root - ERROR - Invalid cmd line ZIP_CODE format given!
+2015-06-02 13:37:46,583 - root - INFO - Starting property_address.py program.
+2015-06-02 13:37:46,583 - root - DEBUG - LOG_LEVEL = debug
+2015-06-02 13:37:46,583 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 13:37:46,583 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 13:37:46,583 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 13:37:46,583 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 13:37:46,583 - root - INFO - Reading configuration from external file...
+2015-06-02 13:37:46,584 - root - ERROR - Invalid cmd line ZIP_CODE format given!
+2015-06-02 13:43:49,028 - root - INFO - Starting property_address.py program.
+2015-06-02 13:43:49,029 - root - INFO - Reading configuration from external file...
+2015-06-02 13:43:49,032 - root - INFO - Creating a new address
+2015-06-02 13:43:49,032 - root - INFO - @name.getter triggered...
+2015-06-02 13:43:49,032 - root - ERROR - AttributeError raised: Cannot reset existing name.
+2015-06-02 13:43:49,032 - root - INFO - Creating a new address
+2015-06-02 13:43:49,032 - root - INFO - @state.setter triggered...
+2015-06-02 13:43:49,032 - root - ERROR - STATE exception
+2015-06-02 13:43:49,032 - root - INFO - @state.setter triggered...
+2015-06-02 13:43:49,032 - root - INFO - Creating a new address
+2015-06-02 13:43:49,032 - root - INFO - @zip_code.getter triggered...
+2015-06-02 13:43:49,032 - root - INFO - @zip_code.setter triggered...
+2015-06-02 13:43:49,032 - root - ERROR - ZIPCODE exception
+2015-06-02 13:43:49,033 - root - INFO - @zip_code.setter triggered...
+2015-06-02 13:43:49,033 - root - INFO - @zip_code.getter triggered...
+2015-06-02 13:49:08,678 - root - INFO - Starting property_address.py program.
+2015-06-02 13:49:08,678 - root - DEBUG - LOG_LEVEL = debug
+2015-06-02 13:49:08,678 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 13:49:08,678 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 13:49:08,678 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 13:49:08,678 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 13:49:08,678 - root - INFO - Reading configuration from external file...
+2015-06-02 13:49:08,680 - root - INFO - Starting property_address.py program.
+2015-06-02 13:49:08,680 - root - DEBUG - LOG_LEVEL = warning
+2015-06-02 13:49:08,680 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 13:49:08,680 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 13:49:08,680 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 13:49:08,680 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 13:49:08,680 - root - INFO - Reading configuration from external file...
+2015-06-02 13:49:08,680 - root - INFO - Creating a new address
+2015-06-02 13:49:26,432 - root - INFO - Starting property_address.py program.
+2015-06-02 13:49:26,432 - root - DEBUG - LOG_LEVEL = debug
+2015-06-02 13:49:26,432 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 13:49:26,432 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 13:49:26,432 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 13:49:26,432 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 13:49:26,432 - root - INFO - Reading configuration from external file...
+2015-06-02 13:49:26,433 - root - ERROR - Invalid cmd line ZIP_CODE format given!
+2015-06-02 13:56:06,971 - root - INFO - Starting property_address.py program.
+2015-06-02 13:56:06,971 - root - INFO - Reading configuration from external file...
+2015-06-02 13:56:06,974 - root - INFO - Creating a new address
+2015-06-02 13:56:06,974 - root - INFO - @name.getter triggered...
+2015-06-02 13:56:06,974 - root - ERROR - AttributeError raised: Cannot reset existing name.
+2015-06-02 13:56:06,974 - root - INFO - Creating a new address
+2015-06-02 13:56:06,975 - root - INFO - @state.setter triggered...
+2015-06-02 13:56:06,975 - root - ERROR - STATE exception
+2015-06-02 13:56:06,975 - root - INFO - @state.setter triggered...
+2015-06-02 13:56:06,975 - root - INFO - Creating a new address
+2015-06-02 13:56:06,975 - root - INFO - @zip_code.getter triggered...
+2015-06-02 13:56:06,975 - root - INFO - @zip_code.setter triggered...
+2015-06-02 13:56:06,975 - root - ERROR - ZIPCODE exception
+2015-06-02 13:56:06,975 - root - INFO - @zip_code.setter triggered...
+2015-06-02 13:56:06,975 - root - INFO - @zip_code.getter triggered...
+2015-06-02 13:58:21,204 - root - INFO - Starting property_address.py program.
+2015-06-02 13:58:21,204 - root - DEBUG - LOG_LEVEL = debug
+2015-06-02 13:58:21,204 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 13:58:21,204 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 13:58:21,204 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 13:58:21,204 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 13:58:21,204 - root - INFO - Reading configuration from external file...
+2015-06-02 13:58:21,205 - root - ERROR - Invalid cmd line STATE format given!
+2015-06-02 13:58:27,280 - root - INFO - Starting property_address.py program.
+2015-06-02 13:58:27,280 - root - DEBUG - LOG_LEVEL = debug
+2015-06-02 13:58:27,280 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 13:58:27,280 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 13:58:27,280 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 13:58:27,280 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 13:58:27,280 - root - INFO - Reading configuration from external file...
+2015-06-02 13:58:27,282 - root - INFO - Starting property_address.py program.
+2015-06-02 13:58:27,282 - root - DEBUG - LOG_LEVEL = warning
+2015-06-02 13:58:27,282 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 13:58:27,282 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 13:58:27,282 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 13:58:27,282 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 13:58:27,282 - root - INFO - Reading configuration from external file...
+2015-06-02 13:58:27,282 - root - INFO - Creating a new address
+2015-06-02 13:58:30,984 - root - INFO - Starting property_address.py program.
+2015-06-02 13:58:30,984 - root - DEBUG - LOG_LEVEL = debug
+2015-06-02 13:58:30,984 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 13:58:30,984 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 13:58:30,984 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 13:58:30,985 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 13:58:30,985 - root - INFO - Reading configuration from external file...
+2015-06-02 13:58:30,986 - root - ERROR - Invalid cmd line STATE format given!
+2015-06-02 13:58:39,750 - root - INFO - Starting property_address.py program.
+2015-06-02 13:58:39,751 - root - DEBUG - LOG_LEVEL = debug
+2015-06-02 13:58:39,751 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 13:58:39,751 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 13:58:39,751 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 13:58:39,751 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 13:58:39,751 - root - INFO - Reading configuration from external file...
+2015-06-02 13:58:39,752 - root - ERROR - Invalid cmd line ZIP_CODE format given!
+2015-06-02 13:58:44,800 - root - INFO - Starting property_address.py program.
+2015-06-02 13:58:44,800 - root - DEBUG - LOG_LEVEL = debug
+2015-06-02 13:58:44,800 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 13:58:44,800 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 13:58:44,800 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 13:58:44,800 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 13:58:44,800 - root - INFO - Reading configuration from external file...
+2015-06-02 13:58:44,802 - root - INFO - Starting property_address.py program.
+2015-06-02 13:58:44,802 - root - DEBUG - LOG_LEVEL = warning
+2015-06-02 13:58:44,802 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 13:58:44,802 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 13:58:44,802 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 13:58:44,802 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 13:58:44,802 - root - INFO - Reading configuration from external file...
+2015-06-02 13:58:44,802 - root - INFO - Creating a new address
+2015-06-02 13:59:37,241 - root - INFO - Starting property_address.py program.
+2015-06-02 13:59:37,241 - root - DEBUG - LOG_LEVEL = debug
+2015-06-02 13:59:37,241 - root - DEBUG - LOG_FILENAME = homework12.log
+2015-06-02 13:59:37,241 - root - DEBUG - LOG_FORMAT = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2015-06-02 13:59:37,241 - root - DEBUG - re_STATE_FMT = [A-Z]{3}$
+2015-06-02 13:59:37,241 - root - DEBUG - re_ZIP_FMT = \d{5}\-\d{4}$
+2015-06-02 13:59:37,241 - root - INFO - Reading configuration from external file...
+2015-06-02 13:59:37,243 - root - ERROR - Invalid cmd line ZIP_CODE format given!
+2015-06-05 16:06:39,445 - root - INFO - Starting property_address.py program.
+2015-06-05 16:06:39,445 - root - INFO - Reading configuration from external file...
+2015-06-05 16:06:39,448 - root - INFO - Creating a new address
+2015-06-05 16:06:39,448 - root - INFO - @name.getter triggered...
+2015-06-05 16:06:39,449 - root - ERROR - AttributeError raised: Cannot reset existing name.
+2015-06-05 16:06:39,449 - root - INFO - Creating a new address
+2015-06-05 16:06:39,449 - root - INFO - Creating a new address
+2015-06-05 16:06:39,449 - root - INFO - @zip_code.getter triggered...
+2015-06-05 16:06:39,449 - root - INFO - @zip_code.setter triggered...
+2015-06-05 16:06:39,449 - root - ERROR - ZIPCODE exception
+2015-06-05 16:06:39,450 - root - INFO - @zip_code.setter triggered...
+2015-06-05 16:06:39,450 - root - INFO - @zip_code.getter triggered...
+2015-06-05 16:06:59,538 - root - INFO - Starting property_address.py program.
+2015-06-05 16:06:59,538 - root - INFO - Reading configuration from external file...
+2015-06-05 16:06:59,540 - root - INFO - Creating a new address
+2015-06-05 16:06:59,540 - root - INFO - @name.getter triggered...
+2015-06-05 16:06:59,540 - root - ERROR - AttributeError raised: Cannot reset existing name.
+2015-06-05 16:06:59,541 - root - INFO - Creating a new address
+2015-06-05 16:06:59,541 - root - INFO - @state.setter triggered...
+2015-06-05 16:06:59,541 - root - ERROR - STATE exception
+2015-06-05 16:06:59,541 - root - INFO - @state.setter triggered...
+2015-06-05 16:06:59,541 - root - ERROR - STATE exception
+2015-06-05 16:06:59,541 - root - INFO - Creating a new address
+2015-06-05 16:06:59,541 - root - INFO - @zip_code.getter triggered...
+2015-06-05 16:06:59,542 - root - INFO - @zip_code.setter triggered...
+2015-06-05 16:06:59,542 - root - ERROR - ZIPCODE exception
+2015-06-05 16:06:59,542 - root - INFO - @zip_code.setter triggered...
+2015-06-05 16:06:59,542 - root - INFO - @zip_code.getter triggered...
+2015-06-05 16:07:54,849 - root - INFO - Starting property_address.py program.
+2015-06-05 16:07:54,849 - root - INFO - Reading configuration from external file...
+2015-06-05 16:07:54,851 - root - INFO - Creating a new address
+2015-06-05 16:07:54,851 - root - INFO - @name.getter triggered...
+2015-06-05 16:07:54,852 - root - ERROR - AttributeError raised: Cannot reset existing name.
+2015-06-05 16:07:54,852 - root - INFO - Creating a new address
+2015-06-05 16:07:54,852 - root - INFO - @state.setter triggered...
+2015-06-05 16:07:54,852 - root - ERROR - STATE exception
+2015-06-05 16:07:54,852 - root - INFO - @state.setter triggered...
+2015-06-05 16:07:54,852 - root - INFO - Creating a new address
+2015-06-05 16:07:54,852 - root - INFO - @zip_code.getter triggered...
+2015-06-05 16:07:54,852 - root - INFO - @zip_code.setter triggered...
+2015-06-05 16:07:54,852 - root - ERROR - ZIPCODE exception
+2015-06-05 16:07:54,852 - root - INFO - @zip_code.setter triggered...
+2015-06-05 16:07:54,853 - root - INFO - @zip_code.getter triggered...
+2016-01-12 11:48:01,660 - root - INFO - Starting property_address.py program.
+2016-01-12 11:48:01,660 - root - INFO - Reading configuration from external file...
+2016-01-12 11:48:01,663 - root - INFO - Creating a new address
+2016-01-12 11:48:01,663 - root - INFO - @name.getter triggered...
+2016-01-12 11:48:01,663 - root - ERROR - AttributeError raised: Cannot reset existing name.
+2016-01-12 11:48:01,663 - root - INFO - Creating a new address
+2016-01-12 11:48:01,663 - root - INFO - @state.setter triggered...
+2016-01-12 11:48:01,663 - root - ERROR - STATE exception
+2016-01-12 11:48:01,663 - root - INFO - @state.setter triggered...
+2016-01-12 11:48:01,663 - root - INFO - Creating a new address
+2016-01-12 11:48:01,663 - root - INFO - @zip_code.getter triggered...
+2016-01-12 11:48:01,664 - root - INFO - @zip_code.setter triggered...
+2016-01-12 11:48:01,664 - root - ERROR - ZIPCODE exception
+2016-01-12 11:48:01,664 - root - INFO - @zip_code.setter triggered...
+2016-01-12 11:48:01,664 - root - INFO - @zip_code.getter triggered...
+2016-01-12 11:51:14,386 - root - INFO - Starting property_address.py program.
+2016-01-12 11:51:14,386 - root - INFO - Reading configuration from external file...
+2016-01-12 11:51:14,389 - root - INFO - Creating a new address
+2016-01-12 11:51:14,390 - root - INFO - @name.getter triggered...
+2016-01-12 11:51:14,390 - root - ERROR - AttributeError raised: Cannot reset existing name.
+2016-01-12 11:51:14,390 - root - INFO - Creating a new address
+2016-01-12 11:51:14,390 - root - INFO - @state.setter triggered...
+2016-01-12 11:51:14,390 - root - ERROR - STATE exception
+2016-01-12 11:51:14,390 - root - INFO - @state.setter triggered...
+2016-01-12 11:51:14,390 - root - INFO - Creating a new address
+2016-01-12 11:51:14,390 - root - INFO - @zip_code.getter triggered...
+2016-01-12 11:51:14,391 - root - INFO - @zip_code.setter triggered...
+2016-01-12 11:51:14,391 - root - ERROR - ZIPCODE exception
+2016-01-12 11:51:14,391 - root - INFO - @zip_code.setter triggered...
+2016-01-12 11:51:14,391 - root - INFO - @zip_code.getter triggered...

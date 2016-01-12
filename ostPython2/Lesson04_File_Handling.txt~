@@ -1,0 +1,205 @@
+Lesson 4:  File Handling
+
+Project:
+
+Here are your instructions:
+
+
+Make a FileHandling_Homework project and assign it to your Python2_Homework working set. 
+In that project, write a module containing a function to examine the contents of the current 
+working directory and print out a count of how many files have each extension (".txt", ".doc", etc.)
+
+Write a separate module to verify by testing that the function gives correct results.
+
+===============
+Mentor Feedback:
+===============
+
+=======  First Attempt:
+
+Overall Comments:
+Hi David,
+
+This is a really good 1st attempt. You have most of the working pieces here. However there are a couple of 
+things I would like you to have another look at:
+
+-The tests you create should be as human readable as possible. I can see in setUp() that you've written a ton 
+of files. However I can't tell what they are by simple inspection. As a human consumer of these tests I don't 
+really know what the heck is supposed to happen.
+
+-To the extent possible, you want to keep all your variables as "local" as possible. Here, there is no need to 
+define the file list as a module/instance/class variable.
+
+Sometimes you really do need good to find something more globally. For instance, when you "remember" the name of 
+the original directory, you want that to be available to your tearDown() method. This is an appropriate use of 
+"globalization" because you have a real, affirmative need to do so.
+
+Another advantage of keeping things local is that it's a lot easier to read. All the stuff your test method needs is 
+geographically accessible. With the program. This small it doesn't really matter a lot, but what if you had a large 
+project with several pages of test methods?  Yikes!
+
+-Unless you are doing stress testing on a system, you don't really learn a lot about how your program functions by 
+doing the same thing over and over again. Better to provide a variety of situations (as you of done with a rich selection 
+of extensions) than by sheer volume (as you have done with providing a dozen base filenames). Here you might try a couple 
+filenames with no extensions, strangely.named.files.txt, etc. - in directories with and without subdirectories.
+
+Could you have another look, please?
+
+-Pat
+Grade:
+
+Try Again
+
+=========  Second Attempt:
+
+Overall Comments:
+Hi David,
+
+Thanks for your 2nd draft.
+
+To tell you the truth, I still find the tests you're running to be hopelessly tangled and confusing. Instead of investing 
+the time to figure them out, I just wrote my own. One of the strengths of the unittest framework is that it's pretty easy 
+for teammates to drop in their own test method or classes. Anyway, here's what I used:
+
+class TestModule(unittest.TestCase):
+       
+    def setUp(self):
+        self.home = os.getcwd()
+        self.testdir = tempfile.mkdtemp()
+        os.chdir(self.testdir)
+
+    def test_working(self):
+        #os.mkdir('bogus.bogus')
+        for file in ["test1.doc", "test2.doc", "long.file.ext.tz", "no_ext", "joe.zip"]:
+            f = open(file, 'w').close()  
+        expected = {".doc":2, ".tz":1, "":1, ".zip":1}  # dict of expected extensions        
+        observed = FileTypeLister.listFiles(os.getcwd())
+        self.assertEqual(observed, expected, "uh oh, problem")
+
+Note it's simplicity and approachability.  This test passed - that is until I uncommented creation of a new subdirectory. 
+The likely cause: file system inspection routines typically can't tell a difference between a file and a directory. To do this 
+you would want to use something like os.path.isfile().
+
+Could you please have another look?
+
+- Pat
+Grade:
+
+Try Again
+
+============  Third Attempt:
+
+Overall Comments:
+Hi David,
+
+Your elegant, well-written, well documented project now passes with flying colors. Thanks much 
+for your latest attempt. I hope you'll agree that it is about 1000% better than your 1st, and 
+well worth the effort.
+
+Very nicely done!
+
+-Pat
+Grade:
+
+Great
+
+
+=============
+=============
+QUIZ 1:::
+=============
+=============
+
+Question 1:
+
+
+Which function can you call to delete a single file from the filestore?
+
+Your Answer:
+os.remove(filename)
+Mentor Comments:
+none
+Question 2:
+
+
+What is a "stub" function?
+
+Your Answer:
+When you're writing a test, before you write the function to test, you want to make sure you're test works before you worry about the function being tested.  So you create a "stub" function to test to work with so you can at least get the Errors to go away before you worry about the actual values returned by the function.  The stub has to be formatted correctly.
+Mentor Comments:
+none
+Question 3:
+
+
+What should you verify regarding the status of the tests before replacing your stub functions with real code?
+
+Your Answer:
+If the stub function is correctly structured, and if the test is correct, you'll see Failures instead of Errors.  (F's instead of E's)  You want to eliminate the E's before you replace the stub functions with real code.
+Mentor Comments:
+Typical TDD scenario:
+
+
+EEEFEEFF   # <-- still fine tuning stubs
+EFFFFEEF   # <-- close to ready to develop
+FFFFFFFF    # <-- ready to develop!
+F..F...FFF     # <-- getting to the goal
+........    # <-- yay, all tests pass
+Question 4:
+
+
+What does the os.path.exists(f) function do?
+
+Your Answer:
+This will test to see whether 'f' exists.  If 'f' is a path or if 'f' is a file in the current working directory, the method will return True.  If not, or if 'f' is a broken symlink, the method will return False.
+Mentor Comments:
+none
+Overall Comments:
+Hi David,
+
+This is completely perfect. Great work.
+
+-Pat
+Grade:
+
+Great
+
+
+================
+******* QUIZ 2:
+================
+
+Question 1:
+
+
+How can you obtain the last modification time for a file?
+
+Your Answer:
+os.path.getmtime(pathtofile)
+Mentor Comments:
+none
+Question 2:
+
+
+What would be returned by the call glob.glob("test*")?
+
+Your Answer:
+list of all files in current working directory starting with 'test'.  Example: "testone", "test-flight", "testing123" and so on.
+Mentor Comments:
+none
+Question 3:
+
+
+What is the value of the expression os.path.split("/tmp/rhubarb/a.py")?
+
+Your Answer:
+creates a tuple of two values, the first (the 'head') would be "/tmp/rhubarb" and the second (the tail) would be "a.py".
+Mentor Comments:
+none
+Overall Comments:
+Awesome!
+
+-Pat
+Grade:
+
+Great
+

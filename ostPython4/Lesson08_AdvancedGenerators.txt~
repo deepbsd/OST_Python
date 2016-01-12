@@ -1,0 +1,113 @@
+Lesson 8:  Advanced Generators
+
+
+Project: 
+
+Filename(s):  generatorspeed.py
+
+
+Write a program that uses timeit() to show the difference between a list
+comprehension and the list() function applied to:
+
+* a list of a million random numbers.
+* a generator that generates a sequence of a million random numbers. 
+
+**************************
+Teacher Feedback:
+**************************
+
+Overall Comments:
+Hi David,
+
+This works just fine. You might have run it through timeit a few more cycles
+to get something closer to an average - if you only run it through wants you
+results are going to be a function of a bunch of things unrelated to the code
+your testing like other loads on the system. But what you have here is
+completely OK for this task.
+
+Generator expressions forced to the end are not faster than list
+comprehensions with the same fate. Why generators speed up the code is lists
+tend to be used to store data before it's needed and then the program may take
+a turn where that data is discarded, unused.  A generator, on the other hand,
+is more controlled about when it produces and therefore helps programmers
+avoid the wastefulness of list-based computing.
+
+In brick and mortar world we have what's called "just in time" inventory
+management which is the opposite of stockpiling and is instead just having
+what you need to get through the next  day or two -- order in small amounts
+and in direct response to customer demand.  In programming terms, this
+philosophy / strategy has become a part of Agile.
+
+FYI, here's a solution that I think is pretty clean in terms of extricating
+much of the code into module-level functions:
+
+===
+
+from random import random
+from timeit import Timer
+
+
+j = 1000000
+
+# list comprehension example
+
+def a():
+   return [random() for i in range(j)]
+ 
+# list function applied to a generator
+
+def b():
+   return list(random() for i in range(j))
+
+t = Timer("time = a()", "from __main__ import a")
+  
+v = Timer("time = b()", "from __main__ import b")
+
+# printing results
+
+print("List comprehension example: ")
+print(t.timeit(number=10))
+
+
+print ("List function applied to a generator: ")
+print (v.timeit(number=10))
+ 
+===
+
+Overall: great job.
+
+-Pat
+Grade:
+
+Great
+
+*************************
+*************************
+
+
+Quiz 1:
+
+Q1:  How does a for loop extract values from a generator?
+
+
+The next() function is handy for this for consuming data from a generator.
+Inside the generator itself, the yield statement is used.
+
+
+Q2:  Which generator can be used to concatenate multiple sequences?
+
+itertools.chain()
+
+Q3:  What is the difference between a generator expression and a list comprehension?
+
+A list comprehension is surrounded by brackets and contains an expression
+which populates the list.  A generator expression is contained inside
+parenthises and generates a sequence until it is exhausted.  The list is
+persistent and cannot be exhausted by consuming its contents.  The generator
+is exhausted once its contents have been consumed once. Generators might
+possibly be faster with larger data sets--even though lists are very fast in
+Python--because the actual data itself is not being generated yet.  Generators
+will be more friendly towards memory.
+
+
+

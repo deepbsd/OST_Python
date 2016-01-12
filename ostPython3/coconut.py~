@@ -1,0 +1,91 @@
+#!/usr/bin/env python3
+#
+#
+#          coconut.py
+#
+#    Lesson 2: Structured Objects
+#
+#     by David S. Jackson
+#          4/21/2015
+#   
+#  OST Python3: The Python Environment
+#     for Kirby Urner, Instructor
+#
+"""
+coconuts.py contains an inventory class that tracks different types of coconuts
+from around the world.  The different types of coconuts must have these weight
+attribute values (South Asian: 3; Middle Eastern: 2.5; American: 3.5)  The
+inventory class must have the following methods: add_coconut(), which accepts
+a coconut as an argument.  Other types throw an AttributeError.  And
+total_weight(), which provides the total weight of coconuts.  
+I have also used the isinstance built-in as recommended.
+The test program must check:
+1. that different coconut types each have a different weight.
+2. that if a string object is passed to Inventory.add_coconut method, an
+   AttributeError is thrown
+3. that if 2 South Asian, 1 Middle Eastern, and 3 American coconuts are added
+   to the inventory, the Inventory.total_weight() method returns 19.
+"""
+
+
+class Inventory(object):
+    """
+    A class to protect coconut weight attributes for programs that use a
+    coconut inventory.  The class applies to southasian, middle_eastern and
+    american coconuts only.
+    """
+
+    coconutdict = {'southasian': 0, 'middle_eastern': 0, 'american': 0}
+
+    # consider: should this inherit Bunch class attributes???
+    # is this an api???
+
+    def __init__(self, name="", num=0, **kwargs):
+        """
+        Initialize instances of coconut Inventory class objects with their
+        weights
+        """
+        self.southasian = 3
+        self.middle_eastern = 2.5
+        self.american = 3.5
+
+
+    def add_coconut(self, ctype, name, num):
+        "Add coconut type to inventory of with quantity num"
+        if isinstance(ctype, Inventory):
+            print(ctype)  # debugging
+            if name in self.coconutdict.keys():
+                print("updating ", name, "with ", num, "\n")   # debugging
+                self.coconutdict[name] += num
+        else:
+            raise AttributeError("Coconut type is not recognized by Inventory class!")
+
+        # for debugging
+        for key, value in self.coconutdict.items():
+            print("key: ", key, "value: ", value)   
+
+
+
+    def total_weight(self):
+        "Returns the total weight of all coconuts in inventory"
+        total = 0
+        for key, value in self.coconutdict.items():
+            if key == 'southasian' :
+                total += value*self.southasian
+            if key == 'middle_eastern':
+                total += value*self.middle_eastern
+            if key == 'american':
+                total += value*self.american
+        return total
+
+
+
+if __name__ == "__main__":
+    SouthAsian = Inventory()
+    American = Inventory()
+    MiddleEastern = Inventory()
+    SouthAsian.add_coconut(SouthAsian, name='southasian', num=2)
+    MiddleEastern.add_coconut(MiddleEastern, name='middle_eastern', num=1)
+    American.add_coconut(American, name='american', num=3)
+    print(SouthAsian.total_weight())
+

@@ -1,0 +1,185 @@
+Lesson 15:  Memory-Mapped Files
+
+Project:  
+
+Filename(s):   mmap_timer.py
+
+
+Write a program that creates a ten-megabyte data file in two different ways, and time 
+each method. The first technique should create a memory-mapped file and write the data 
+by setting one chunk at a time using successively higher indexes. The second technique 
+should create an empty binary file and repeatedly use the write() method to write a 
+chunk of data. Show how the timings vary with the size of the chunk.
+
+********************  My Comments To Instructor:
+
+Your Comment:
+What a difference in timings between my home machine and the OST machine!!!  
+I was getting times of 6-8 seconds for the mmap() function on my home machine, and 
+the total time for both functions was about 5-10 seconds of execution.  On the OST machine, 
+we're talking 2-3 seconds max!  It's clear that I need to upgrade my home hardware!!! :-)
+
+Oh, I put some conclusions in the program header.  But I can see that with mmap(), hardware
+makes a huge difference!!  :-)
+
+Thanks Pat!  Fun project!
+
+Dave
+
+################################  Mentor Feedback:
+
+
+Items Handed In
+Open Project Handed In
+
+Overall Comments:
+Hi David
+
+Terrific work on this project. Great application of the timeit library.  Had you expanded 
+your selection of chunk sizes, you might have noticed that the advantages of memory 
+mapping are much more significant when working with small chunks of data, and the 
+advantages tend to disappear as the chunks grow larger.
+
+Here are some more typical results obtained from a larger repertoire of chunk sizes:
+
+************MEMORY MAPPED FILE************
+Block Size (Kb)       Run Time
+==========================================
+1.................... 5.34375                              
+8.................... 0.7509758472442627                   
+16................... 0.421875                             
+64................... 0.1728520393371582                   
+128.................. 0.109375                             
+256.................. 0.109375                             
+1024................. 0.09375                              
+8192................. 0.0625                               
+131072............... 0.078125                             
+262144............... 0.078125                             
+524288............... 0.078125                             
+1048576.............. 0.09375                              
+2097152.............. 0.09375                              
+5242880.............. 0.0791010856628418                   
+10485760............. 0.109375                             
+******************************************
+
+**********STRAIGHT FILE WRITE()***********
+Block Size (Kb)       Run Time
+==========================================
+1.................... 13.21875                             
+8.................... 1.78125                              
+16................... 0.8916008472442627                   
+64................... 0.25                                 
+128.................. 0.1259770393371582                   
+256.................. 0.078125                             
+1024................. 0.03125                              
+8192................. 0.03125                              
+131072............... 0.015625                             
+262144............... 0.0                                  
+524288............... 0.015625                             
+1048576.............. 0.0                                  
+2097152.............. 0.0                                  
+5242880.............. 0.015625                             
+10485760............. 0.0                                  
+
+If you're interested in further reading, this post contains a lively discussion 
+about using mmap() versus C++fstream library that delves into costs/benefits of 
+using mmap():
+
+http://stackoverflow.com/questions/45972/mmap-vs-reading-blocks
+
+I'm delighted that you enjoyed this project
+..
+
+-Pat
+Grade:
+
+Great
+
+
+
+
+=======
+QUIZ 1
+=======
+
+Q1:  Does accessing a memory-mapped file using indexing affect the position
+used by the readline() method?
+
+Yes!  The cursor only reads forward of its own position.  If you want to
+read behind your current position, you need to move the cursor with the 
+seek(P) command, where P is the cursor position where you want to read from.
+
+### Mentor Feedback:
+
+Mentor Comments:
+I'm not sure you have interpreted this question correctly. It's asking whether read 
+operations using a memory mapped file affect the pointer utilized  by the readline() 
+method. Could you think this over little bit more and try again?
+
+###########  My 2nd Attempt on Q1:
+
+I misunderstood this question the first time!  Access using index slicing will not affect 
+current cursor position used by readline().
+
+
+Q2:  What should the first argument to the mmap.mmap() function be?
+
+The filehandle and the "fileno()" method.  This is the internal number used to
+identify the file to the operating system.  That's how mmap() identifies
+files, apparently.  Example:  mapf = mmap.mmap(f.fileno(), 0, access=mmap.ACCESS_WRITE)
+
+####### Mentor Feedback:
+
+
+Q3:  How does mmap.mmap() achieve high-speed inter-process communication?
+
+In the case of the lesson example, the program created a file that held data
+(encoded by the struct module, in this example), and the data was passed
+between the main program and subprocesses.  The file data was split into segments
+called "slots", with each large enouth to hold a byte used to indicate the status of
+that slot, a 7-character string ("*******"), and three double-length floating
+point numbers.  The subprocesses terminated when the status byte was set to
+TERM.  Until that time, the status byte was set to EMPTY, and the subprocesses
+had a green light.  Eventually, enough was enough!
+
+######## Mentor Feedback:
+Mentor Comments:
+This question is little bit more general. It a high level, how does mmap.mmap() 
+speed things up?
+
+###############  My 2nd Attempt on Q3:
+
+Especially in modern systems that have plenty of memory and processing cores, multiple 
+processes can access the same mmap file entirely in memory without any need for accessing 
+any peripherals in the system.  Processes can share the same mmapped file entirely in their 
+own address space. Each process can even see the changes taking place in real time by each 
+process sharing the file.  With a file being mapped into both process's address space 
+simultaneously, IPC is very fast!
+
+##############  Mentor Feedback on Q3 2nd Attempt:
+
+Mentor Comments:
+Great answer.
+
+##########################  Overall Comments after 1st Attempt:
+
+Overall Comments:
+This is a good first attempt, David, but I'd like you to take another look at the answers on 
+Q1 and Q3.  I tried to clarify the questions in my comments.
+
+-Pat
+Grade:
+
+Try Again
+
+##########################  Overall Comments after 2nd Attempt:
+Overall Comments:
+Hi David,
+
+You've done it!  The icing on the cake. Again, congratulations and best wishes.
+
+-Pat
+Grade:
+
+Great
+

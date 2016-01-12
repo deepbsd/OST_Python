@@ -1,0 +1,757 @@
+2015-06-02 09:23:40,148 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 09:23:40,148 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 09:23:40,148 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 09:23:40,148 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 09:23:40,148 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 09:23:40,148 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 09:23:40,148 - INFO - __init__ - Creating a new address
+
+2015-06-02 09:32:44,054 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 09:32:44,054 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 09:32:44,054 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 09:32:44,054 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 09:32:44,054 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 09:32:44,054 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 09:33:22,830 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 09:33:22,830 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 09:33:22,830 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 09:33:22,830 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 09:33:22,830 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 09:33:22,830 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 09:35:06,170 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 09:35:06,170 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 09:35:06,170 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 09:35:06,170 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 09:35:06,170 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 09:35:06,170 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 09:35:06,170 - INFO - start_logging - Reading configuration from static variables...
+
+2015-06-02 09:35:06,170 - INFO - __init__ - Creating a new address
+
+2015-06-02 09:35:54,046 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 09:35:54,046 - INFO - start_logging - Reading configuration from static variables...
+
+2015-06-02 09:35:54,049 - INFO - __init__ - Creating a new address
+
+2015-06-02 09:35:54,049 - INFO - name - @name.getter triggered...
+
+2015-06-02 09:35:54,049 - ERROR - name - AttributeError raised: Cannot reset existing name.
+
+2015-06-02 09:35:54,049 - INFO - __init__ - Creating a new address
+
+2015-06-02 09:35:54,049 - INFO - state - @state.setter triggered...
+
+2015-06-02 09:35:54,049 - ERROR - __init__ - STATE exception
+
+2015-06-02 09:35:54,049 - INFO - state - @state.setter triggered...
+
+2015-06-02 09:35:54,049 - INFO - __init__ - Creating a new address
+
+2015-06-02 09:35:54,049 - INFO - zip_code - @zip_code.getter triggered...
+
+2015-06-02 09:35:54,050 - INFO - zip_code - @zip_code.setter triggered...
+
+2015-06-02 09:35:54,050 - ERROR - __init__ - ZIPCODE exception
+
+2015-06-02 09:35:54,050 - INFO - zip_code - @zip_code.setter triggered...
+
+2015-06-02 09:35:54,050 - INFO - zip_code - @zip_code.getter triggered...
+
+2015-06-02 09:56:55,288 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 09:56:55,288 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 09:56:55,288 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 09:56:55,288 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 09:56:55,288 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 09:56:55,288 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 09:56:55,288 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 09:56:55,288 - INFO - __init__ - Creating a new address
+
+2015-06-02 09:57:19,230 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 09:57:19,230 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 09:57:19,230 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 09:57:19,230 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 09:57:19,230 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 09:57:19,230 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 09:57:19,230 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 09:57:19,230 - INFO - __init__ - Creating a new address
+
+2015-06-02 09:58:42,918 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 09:58:42,919 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 09:58:42,919 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 09:58:42,919 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 09:58:42,919 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 09:58:42,919 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 09:58:42,919 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 09:58:42,919 - INFO - __init__ - Creating a new address
+
+2015-06-02 09:58:51,435 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 09:58:51,436 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 09:58:51,436 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 09:58:51,436 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 09:58:51,436 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 09:58:51,436 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 09:58:51,436 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 09:58:51,436 - INFO - __init__ - Creating a new address
+
+2015-06-02 10:00:11,841 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 10:00:11,841 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 10:00:11,841 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 10:00:11,842 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 10:00:11,842 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 10:00:11,842 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 10:00:11,842 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 10:00:11,842 - INFO - __init__ - Creating a new address
+
+2015-06-02 10:03:32,615 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 10:03:32,615 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 10:03:32,615 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 10:03:32,615 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 10:03:32,615 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 10:03:32,615 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 10:03:32,615 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 10:03:32,616 - ERROR - validate_state - Invalid cmd line STATE format given!
+
+2015-06-02 10:03:32,617 - INFO - __init__ - Creating a new address
+
+2015-06-02 10:04:17,434 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 10:04:17,434 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 10:04:17,434 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 10:04:17,435 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 10:04:17,435 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 10:04:17,435 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 10:04:17,435 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 10:04:17,436 - ERROR - validate_zip - Invalid cmd line ZIP_CODE format given!
+
+2015-06-02 10:04:17,436 - INFO - __init__ - Creating a new address
+
+2015-06-02 10:19:00,908 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 10:19:00,908 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 10:19:00,908 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 10:19:00,909 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 10:19:00,909 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 10:19:00,909 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 10:19:00,909 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 10:19:00,910 - ERROR - validate_zip - Invalid cmd line ZIP_CODE format given!
+
+2015-06-02 10:19:00,910 - ERROR - __init__ - ZIPCODE exception
+
+2015-06-02 10:19:16,541 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 10:19:16,541 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 10:19:16,542 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 10:19:16,542 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 10:19:16,542 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 10:19:16,542 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 10:19:16,542 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 10:19:16,543 - INFO - __init__ - Creating a new address
+
+2015-06-02 10:19:29,627 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 10:19:29,627 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 10:19:29,627 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 10:19:29,627 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 10:19:29,627 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 10:19:29,627 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 10:19:29,627 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 10:19:29,628 - ERROR - validate_zip - Invalid cmd line ZIP_CODE format given!
+
+2015-06-02 10:19:29,629 - ERROR - __init__ - ZIPCODE exception
+
+2015-06-02 10:19:45,626 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 10:19:45,626 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 10:19:45,627 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 10:19:45,627 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 10:19:45,627 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 10:19:45,627 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 10:19:45,627 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 10:19:45,628 - ERROR - validate_state - Invalid cmd line STATE format given!
+
+2015-06-02 10:19:45,628 - ERROR - __init__ - STATE exception
+
+2015-06-02 10:31:26,215 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 10:31:26,215 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 10:31:26,215 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 10:31:26,215 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 10:31:26,215 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 10:31:26,215 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 10:31:26,215 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 10:31:26,216 - ERROR - validate_state - Invalid cmd line STATE format given!
+
+2015-06-02 10:31:26,216 - ERROR - __init__ - STATE exception
+
+2015-06-02 10:31:40,981 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 10:31:40,981 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 10:31:40,981 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 10:31:40,981 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 10:31:40,981 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 10:31:40,981 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 10:31:40,981 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 10:31:40,982 - ERROR - validate_zip - Invalid cmd line ZIP_CODE format given!
+
+2015-06-02 10:31:40,982 - ERROR - __init__ - ZIPCODE exception
+
+2015-06-02 10:31:45,463 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 10:31:45,464 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 10:31:45,464 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 10:31:45,464 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 10:31:45,464 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 10:31:45,464 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 10:31:45,464 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 10:31:45,466 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 10:31:45,466 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 10:31:45,466 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 10:31:45,466 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 10:31:45,466 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 10:31:45,466 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 10:31:45,466 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 10:31:45,466 - INFO - __init__ - Creating a new address
+
+2015-06-02 10:33:36,237 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 10:33:36,237 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 10:33:36,237 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 10:33:36,237 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 10:33:36,237 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 10:33:36,238 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 10:33:36,238 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 10:33:50,907 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 10:33:50,907 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 10:33:50,907 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 10:33:50,907 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 10:33:50,907 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 10:33:50,907 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 10:33:50,907 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 10:35:15,886 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 10:35:15,886 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 10:35:15,886 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 10:35:15,886 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 10:35:15,886 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 10:35:15,886 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 10:35:15,886 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 10:35:15,887 - ERROR - validate_zip - Invalid cmd line ZIP_CODE format given!
+
+2015-06-02 10:35:15,888 - ERROR - __init__ - ZIPCODE exception
+
+2015-06-02 10:42:11,203 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 10:42:11,203 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 10:42:11,203 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 10:42:11,203 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 10:42:11,203 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 10:42:11,203 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 10:42:11,203 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 10:42:11,204 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 10:42:11,204 - DEBUG - start_logging - LOG_LEVEL = warning
+
+2015-06-02 10:42:11,205 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 10:42:11,205 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 10:42:11,205 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 10:42:11,205 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 10:42:11,205 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 10:42:11,205 - INFO - __init__ - Creating a new address
+
+2015-06-02 10:42:18,441 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 10:42:18,441 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 10:42:18,441 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 10:42:18,441 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 10:42:18,441 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 10:42:18,441 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 10:42:18,441 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 10:42:18,443 - ERROR - validate_zip - Invalid cmd line ZIP_CODE format given!
+
+2015-06-02 10:42:18,443 - ERROR - __init__ - ZIPCODE exception
+
+2015-06-02 10:42:29,107 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 10:42:29,107 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 10:42:29,107 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 10:42:29,107 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 10:42:29,107 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 10:42:29,107 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 10:42:29,107 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 10:42:29,109 - ERROR - validate_zip - Invalid cmd line ZIP_CODE format given!
+
+2015-06-02 10:42:29,109 - ERROR - __init__ - ZIPCODE exception
+
+2015-06-02 10:43:36,216 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 10:43:36,216 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 10:43:36,216 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 10:43:36,216 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 10:43:36,216 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 10:43:36,216 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 10:43:36,216 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 10:43:36,217 - ERROR - validate_zip - Invalid cmd line ZIP_CODE format given!
+
+2015-06-02 10:43:36,217 - ERROR - __init__ - ZIPCODE exception
+
+2015-06-02 10:44:05,663 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 10:44:05,663 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 10:44:05,663 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 10:44:05,663 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 10:44:05,663 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 10:44:05,664 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 10:44:05,664 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 10:44:05,665 - ERROR - validate_zip - Invalid cmd line ZIP_CODE format given!
+
+2015-06-02 10:44:05,665 - ERROR - __init__ - ZIPCODE exception
+
+2015-06-02 10:46:49,248 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 10:46:49,248 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 10:46:49,248 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 10:46:49,248 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 10:46:49,248 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 10:46:49,248 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 10:46:49,248 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 10:46:49,249 - ERROR - validate_zip - Invalid cmd line ZIP_CODE format given!
+
+2015-06-02 10:46:49,249 - ERROR - __init__ - ZIPCODE exception
+
+2015-06-02 10:46:58,219 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 10:46:58,220 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 10:46:58,220 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 10:46:58,220 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 10:46:58,220 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 10:46:58,220 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 10:46:58,220 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 10:46:58,221 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 10:46:58,221 - DEBUG - start_logging - LOG_LEVEL = warning
+
+2015-06-02 10:46:58,221 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 10:46:58,221 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 10:46:58,221 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 10:46:58,221 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 10:46:58,222 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 10:46:58,222 - INFO - __init__ - Creating a new address
+
+2015-06-02 13:18:09,805 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 13:18:09,805 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 13:18:09,805 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 13:18:09,805 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 13:18:09,805 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 13:18:09,805 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 13:18:09,805 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 13:34:36,253 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 13:34:36,253 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 13:34:36,253 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 13:34:36,253 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 13:34:36,253 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 13:34:36,254 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 13:34:36,254 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 13:34:36,255 - ERROR - validate_state - Invalid cmd line STATE format given!
+
+2015-06-02 13:34:48,335 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 13:34:48,335 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 13:34:48,335 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 13:34:48,335 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 13:34:48,335 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 13:34:48,335 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 13:34:48,335 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 13:34:48,336 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 13:34:48,336 - DEBUG - start_logging - LOG_LEVEL = warning
+
+2015-06-02 13:34:48,336 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 13:34:48,336 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 13:34:48,336 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 13:34:48,336 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 13:34:48,337 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 13:34:48,337 - INFO - __init__ - Creating a new address
+
+2015-06-02 13:35:18,833 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 13:35:18,833 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 13:35:18,833 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 13:35:18,833 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 13:35:18,833 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 13:35:18,833 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 13:35:18,833 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 13:35:18,835 - ERROR - validate_state - Invalid cmd line STATE format given!
+
+2015-06-02 13:35:39,559 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 13:35:39,559 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 13:35:39,559 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 13:35:39,560 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 13:35:39,560 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 13:35:39,560 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 13:35:39,560 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 13:35:39,561 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 13:35:39,561 - DEBUG - start_logging - LOG_LEVEL = warning
+
+2015-06-02 13:35:39,561 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 13:35:39,561 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 13:35:39,561 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 13:35:39,561 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 13:35:39,561 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 13:35:39,561 - INFO - __init__ - Creating a new address
+
+2015-06-02 13:35:41,983 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 13:35:41,984 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 13:35:41,984 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 13:35:41,984 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 13:35:41,984 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 13:35:41,984 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 13:35:41,984 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 13:35:41,985 - ERROR - validate_state - Invalid cmd line STATE format given!
+
+2015-06-02 14:01:09,851 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 14:01:09,851 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 14:01:09,851 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 14:01:09,851 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 14:01:09,851 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 14:01:09,851 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 14:01:09,851 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 14:01:09,853 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 14:01:09,853 - DEBUG - start_logging - LOG_LEVEL = warning
+
+2015-06-02 14:01:09,853 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 14:01:09,853 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 14:01:09,853 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 14:01:09,853 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 14:01:09,853 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 14:01:09,853 - INFO - __init__ - Creating a new address
+
+2015-06-02 14:01:48,716 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 14:01:48,716 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 14:01:48,716 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 14:01:48,716 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 14:01:48,716 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 14:01:48,716 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 14:01:48,716 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 14:02:18,019 - INFO - start_logging - Starting property_address.py program.
+
+2015-06-02 14:02:18,019 - DEBUG - start_logging - LOG_LEVEL = debug
+
+2015-06-02 14:02:18,019 - DEBUG - start_logging - LOG_FILENAME = property_address.log
+
+2015-06-02 14:02:18,019 - DEBUG - start_logging - LOG_FORMAT = %(asctime)s - %(levelname)s - %(funcName)s - %(message)s
+
+
+2015-06-02 14:02:18,019 - DEBUG - start_logging - re_STATE_FMT = [A-Z]{2}$
+
+2015-06-02 14:02:18,019 - DEBUG - start_logging - re_ZIP_FMT = \d{5}$
+
+2015-06-02 14:02:18,020 - INFO - start_logging - Reading configuration from internal static variables...
+
+2015-06-02 14:02:18,021 - ERROR - validate_zip - Invalid cmd line ZIP_CODE format given!
+

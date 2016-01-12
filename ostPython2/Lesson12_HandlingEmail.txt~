@@ -1,0 +1,181 @@
+Lesson 12:  Handling Electronic Mail Messages
+
+Project:
+
+
+Filename(s):  email_handler.py testEmailHandler.py email-steampunk.txt
+steampunk.html vaporizor.jpg blaster.jpg
+
+
+Write a function that takes an email address, a string, and a list argument.
+It should return an email message addressed to the email address passed as the
+first argument, with the second argument as the message body. If the list is
+non-empty, then each list item should be treated as the name of a file and the
+corresponding file should be attached (with an appropriate MIME type) to the
+message.
+
+Please include any files to attach in the same folder as your program. There
+is no need to send it as an email with smtp, though you may wish to print it
+as a string as a part of testing.
+
+=================== Overall Mentor Feedback on Project:
+
+Overall Comments:
+Hi David,
+
+This is hilarious! I just put a Boot Blaster on my Christmas list.
+
+Your project is completely masterful. Just a pleasure to review.
+
+FYI, you can't always guess the mime type of the file. The method mimetypes.guess_type 
+doesn't always even read a file's contents - sometimes it only looks at the file's extension.
+
+When this happens, you can use a generic encoding to bundle it up and send it on its way. 
+The recipients client won't be able to choose the right app to open it, of course, but at 
+least it will arrive safely. You can make this happen by including code something like:
+
+        for fn in attachments:  
+            ctype, encoding = mimetypes.guess_type(fn)
+            if not ctype:
+                ctype = 'application/octet-stream'  #  if we're heading to else suite
+                
+            maintype, subtype = ctype.split('/', 1)
+
+A good example is in the Python docs:
+
+http://docs.python.org/3.2/library/email-examples.html
+
+Scroll down to the example of emailing all the files in a given directory.
+Note the stack of if / elif / elif /elif /... ending in else, which is where a 
+catchall base64 encoding is applied.
+
+Remember the challenge:   to squeeze content through a pipe that's only comfortable with 
+the first 127 ASCII characters.
+
+-Pat
+Grade:
+
+Great
+
+
+
+########################   QUIZ 1:
+
+Q1: What function can you use to create an email.message.Message object from
+its string representation?
+
+import email
+msg = email.message_from_string(unixfrom=False, maxheaderlen=0, policy=None)
+
+Apparently this can be used with StringIO from the io module and with the
+Generator module from email.generator, according to the docs at:
+https://docs.python.org/3.4/library/email.message.html
+
+In the text we used the object.as_string() method together with the print
+command after already having created the msg object from a file:
+
+import email
+msg = email.message_from_file(open(r'path_to_file'))
+print(msg.as_string())
+
+================= Mentor Feedback:
+
+This is an awesome, encyclopedic answer.
+
+
+Q2: Which library would you use to send emails?
+
+import smtplib
+
+Q3: What is the structure of an email header?
+
+Here is a basic structure that we've been using.  Apparently there's an
+ongoing discussion in and about RFCs about what *can* go into a header. 
+Also, MIME emails could also require more headers:
+
+orig-date
+from
+to
+subject
+
+Example:
+
+From: someone@somewhere.com
+To: someone@somewhereelse.com
+Subject: Some Subject
+Date: 1 Mon 2015 12:34:56 -0400 (CRLF)
+(CRLF)
+Body of text
+
+The body of text must be separated by exactly to CRLFs (Carriage Return Line
+Feeds).
+
+================= Mentor Feedback on Q3:
+Mentor Comments:
+
+Right, and another good answer would be:
+
+One or more instances of individual headers, which consist of field name, 
+followed by a :, followed by a field body.  The field name must be comprised of 
+printable US-ASCII characters (excluding :), while the body can contain any US-ASCII 
+characters except CR and LF.  Headers are separated from each other by CRLF characters.
+
+============== Overall Mentor Feedback on Quiz 1:
+
+Overall Comments:
+Great job here, David.
+
+-Pat
+Grade:
+
+Great
+
+#####################################  QUIZ 2:
+
+Q1: What separates the body of a message from its headers?
+
+Two CRLFs
+
+
+Q2: What is the usual Content-Type of a multipart message?
+
+MIMEMultipart() gives us
+Content-Type: multipart/mixed; boundary="========123blah690what?=="
+
+where the number in the boundary is a unique generated string.
+
+
+Q3: What function might you use to determine the mime type of a file?
+
+You could use mimetypes.guess_type(file)
+
+example: 
+file = 'path_to_file'
+import mimetypes
+mimetypes.guess_type(file)
+
+Once you know what mimetype it is, you could use other libraries to do more
+fun things.  If it were an image, for example, you could use MIMEImage to
+learn many more good things about the file.
+
+========= Mentor Feedback on Question 3:
+
+mimetypes has a function for when the mimtype is not yet known.
+
+the docstring will read... in part
+
+    Return value is a tuple (type, encoding) where type is None if the
+    type can't be guessed (no or unknown suffix) or a string of the
+    form type/subtype, usable for a MIME Content-type header
+    
+=========== Overall Mentor Feedback on Quiz 2:
+
+Overall Comments:
+Great work here, David. Please see the comments on Q3 -  they may come in handy sooner 
+than you think.
+
+-Pat
+Grade:
+
+Great
+

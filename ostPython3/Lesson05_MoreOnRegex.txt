@@ -1,0 +1,77 @@
+Quiz 1
+Q1: Provide a new regular expression that will find three adjacent digits,
+different from the one you provided in last lesson's homework. Include your
+previous answer.
+
+I don't remember which one I used, but here are four off the top of my head:
+
+"\d{3}"
+"\d\d\d"
+"[0-9]{3}"
+"[0-9][0-9][0-9]"
+
+
+
+Q2: What is the difference between re.match() and re.search()?
+
+re.match() finds the pattern if it's at the beginning of the text to be
+searched.  re.search() finds the pattern anywhere in the text.
+
+
+Quiz 2
+Q1: Write a pattern that matches a sequence of one or more lower-case letters
+between a and h, all lowercase.
+
+"[a-h]+"
+
+
+Q2: If the pattern "((?P<letters>[A-Za-z]+)\d+ +)+" is matched against the
+string "ABC123 DEF234 GHI345" to give a match object m, how would you retrieve
+the string matched by the "letters" group, and what would it contain?
+
+m.group('letters')
+
+'DEF'
+
+If it weren't for the very final '+' at the end of the expression, the answer
+would be 'ABC'.
+
+
+PROJECT
+=======
+
+Filename(s):  ccn_safety.py test_ccn_safety.py
+
+
+Create a Python3_Homework05 project and assign it to your Python3_Homework
+working set. In the Python3_Homework05/src folder, create a program named
+ccn_safety.py with a function that substitutes X for all but the last four
+digits of any credit card numbers in a string, returning the updated string as
+its result. Use the following text as a sample:
+
+Text to use in ccn_safety.py:
+
+Have you ever noticed, in television and movies, that phone numbers and credit
+cards are obviously fake numbers like 555-123-4567 or 5555-5555-5555-5555? It
+is because a number that appears to be real, such as 1234-5678-1234-5678,
+triggers the attention of privacy and security experts.
+
+Your project should meet the following conditions:
+
+oFor our purposes, it only needs to convert numbers of the form
+XXXX-XXXX-XXXX-XXXX.
+
+oThe program should return this text: 
+
+"Have you ever noticed, in television and movies, that phone numbers and
+credit cards are obviously fake numbers like 555-123-4567 or
+XXXX-XXXX-XXXX-5555? It is because a number that appears to be real, such as
+XXXX-XXXX-XXXX-5678, triggers the attention of privacy and security experts."
+Note that the phone numbers should not be replaced!  
+
+oYou should include a test_ccn_safety.py program in a separate file that
+confirms that your code functions as expected.
+
+Submit ccn_safety.py and test_ccn_safety.py when they are working to your
+satisfaction.
+

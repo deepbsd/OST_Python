@@ -1,0 +1,124 @@
+Lesson 7 (String Formatting) Project
+
+Objective:
+
+This project tests your ability to handle string formatting.
+
+1. Create a new Python source file named multuple.py.
+
+2. Write a program that takes as data a tuple of two-element tuples, such as
+   ((1, 1), (2, 2), (12, 13), (4, 4), (99, 98)). This and/or similar data should
+   be hard-coded (no need for user input).
+
+3. Loop over the tuple and print out the results of multiplying the
+   two numbers together, and use string formatting to display nicely.
+
+Below is an example of output from running the program with the
+sample data above. Preserve the spacing, assuming that no input
+number is greater than 99.
+
+       1 =  1 x  1
+       4 =  2 x  2
+     156 = 12 x 13
+      16 =  4 x  4
+    9702 = 99 x 98
+
+
+
+
+Here are the files you handed in:
+Python1/multuple.py
+
+
+Overall Comments:
+
+This looks really good, David. If you like zombies, you could go: 
+
+st = 'Python' 
+z = "ZOMBIE" 
+z5 = z * 5 
+print(z5) 
+print("{2} {0:^{1}} {2}".format(st, int(len(z5)/2) , z)) 
+print(z5) ... which results in
+
+ZOMBIEZOMBIEZOMBIEZOMBIEZOMBIE 
+ZOMBIE      Python      ZOMBIE
+ZOMBIEZOMBIEZOMBIEZOMBIEZOMBIE 
+
+The official Python documentation is, IMHO, uneven in quality. This being
+said, the section on the formatting many-language is really good and has some
+truly excellent examples. I would highly recommend having a quick look and
+bookmarking this:
+
+https://docs.python.org/3.4/library/string.html#format-specification-mini-language
+
+-Pat
+
+GRADE: Great
+
+======
+QUIZ 1
+======
+Q1: Change "{a} {b} {c}" to say "Python is fun."
+
+
+Answer #1:
+print("{a} {b} {c}".format(a="Python", b="is", c="fun"))
+
+Comments:
+Note that you can even switch 'em around:
+
+print("{a} {b} {c}".format(b = "is", c = "fun", a = "Python"))
+
+Q2: Change "{0} {1} {2}" to say "Python is fun"
+
+
+Answer #2:
+print("{0} {1} {2}".format("Python", "is", "fun"))
+
+Overall Comments:
+
+Good work here, David. -Pat
+
+
+
+GRADE: Great
+
+=======
+QUIZ 2
+=======
+Q1: How do you display braces '{ }' in your formatted output?
+
+
+Answer #1:
+print("{{}}".format())
+
+Comments:
+Here's an example:
+
+"{{ 0 }}".format(1) will just show up as { 0 }, i.e. doubling the brace
+character effectively escapes it.
+
+"{{ {0} }} is King!".format("Arthur") would result in "{ Arthur } is King!"
+
+or check out this example:
+
+"{{\"a\":1}} is a {0}".format("dictionary")
+
+Q2: How can you center your text?
+
+
+Answer #2:
+print("{a:^6}".format(a="hi"))
+
+Q3: Which needs to come first, positional arguments or keyword arguments?
+
+
+Answer #3:
+positional arguments
+
+Overall Comments:
+
+This is awesome, David. Please have a look at the comments on Q1. -Pat
+
+GRADE: Great

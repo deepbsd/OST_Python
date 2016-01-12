@@ -1,0 +1,29 @@
+There were three projects for Python1!
+
+The files are:
+
+1. refactor.py  (outputs to display only if there's an error)
+   This is a first test program.  Python2 begins Agile practice.
+2. final.py  (requires declaration.txt)
+   This outputs a calculation of how many times each wordlength
+   appears in a piece of text.  You can add a '-t' switch to see
+   the raw data and count being analyzed.
+3. final2.py (also requires declaration.txt)
+   This program displays a histogram of the data described above.
+
+
+final and final2 both require an argument:
+
+Usage:  final.py declaration.txt
+
+note: add -t switch if you want to see the raw data rather
+than the just the summary.  Example:  
+
+final.py declaration.txt -t | less
+
+You'll probably need to use your favorite pager (like less)
+since this output is large.
+
+Usage:  final2.py declaration.txt
+
+

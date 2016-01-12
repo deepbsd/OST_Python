@@ -1,0 +1,108 @@
+Lesson 13:  More About Functions
+
+Project:
+
+Objective:
+
+This project further tests your ability to write and use custom functions.
+
+    Create a new Python source file named caser.py.
+    Create these functions:
+        capitalize accepts a string parameter and applies the capitalize() method.
+        title accepts a string parameter and applies the title() method.
+        upper accepts a string parameter and applies the upper() method.
+        lower accepts a string parameter and applies the lower() method.
+        exit ends the program.
+    Store these functions in a dict with the keys matching the function names.
+    Create a while loop that requests two inputs from the user: one of the above function names, and any string.
+    Use function dispatch to get the correct function based on the first input, and then apply that function to the second input.
+
+Below is an example of possible output from running the program (note the difference between upper case, capitalization, and title case).
+
+Enter a function name (capitalize, title, upper, lower, or exit): lower
+Enter a string: python is a Dynamic language
+python is a dynamic language
+Enter a function name (capitalize, title, upper, lower, or exit): upper
+Enter a string: python is a Dynamic language
+PYTHON IS A DYNAMIC LANGUAGE
+Enter a function name (capitalize, title, upper, lower, or exit): capitalize
+Enter a string: Python Is A Dynamic language
+Python is a dynamic language
+Enter a function name (capitalize, title, upper, lower, or exit): title
+Enter a string: python is a Dynamic language
+Python Is A Dynamic Language
+Enter a function name (capitalize, title, upper, lower, or exit): exit
+Enter a string: seeya
+Goodbye for now!
+
+Can you think of a way you could simplify the creation of the function dispatch table? 
+(Hint: you can use methods of the string type, str, directly as functions that take a single string argument.)
+
+
+
+===================================
+Feedback From Pat...
+===================================
+
+
+
+Overall Comments:
+
+Hi David,
+
+You're more than welcome! No harm in lifting this verbatim from the lesson. Sometimes you just don't want to reinvent the wheel. This being said, there is a slick way to simplify this. You might find it worthwhile to accept the challenge (or might not, your call). I'll skip a few lines before showing you how it might be accomplished feel have to scroll down to see it - I don't want to give it away unless you want to see it.
+
+
+
+
+Here it is. You'll note that the functions in the dispatch object are themselves quite simple.
+
+import sys
+
+# build the dispatch table dict
+
+switch = {
+'capitalize':str.capitalize,
+'title':str.title,
+'upper':str.upper,
+'lower':str.lower,
+'exit':sys.exit
+}
+
+# build the list of options
+options = switch.keys()
+
+
+# create the prompts
+prompt_opt = 'Enter a function name (%s): ' % ', '.join(options)
+prompt_str = 'Enter a string: '
+
+while True:
+    # request the option from the user
+    opt_inp = input(prompt_opt)
+
+    # get the option value (desired function) from the dispatch table dict
+
+    option = switch.get(opt_inp, None)
+    if not option:
+        # option is not valid.
+        # will not prompt for string until option is valid.
+        print('Please select a valid option!')
+    else:
+        # If option is 'exit', exit immediately
+        if opt_inp == 'exit':
+            print("Goodbye for now!")
+            option()
+
+    # Option is valid and not 'exit'.
+    # Request and process a string.
+
+    str_inp = input(prompt_str)
+    print(option(str_inp))
+
+
+-Pat
+
+
+
+GRADE: Great

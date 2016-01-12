@@ -1,0 +1,44 @@
+
+Lesson1 Quiz 1
+
+Q1: Why should you not cut and paste the code when working in O'Reilly School
+of Technology courses?
+
+It gives one "a feel" for the programming task...  For me, I notice that I
+want to "own" the code more if I type it myself.  I am more likely to
+experiment and play around with the code if I type it myself; I am more likely
+to get curious about code that I type.
+
+Q2: What is a working set?
+
+Apparently a working set is a visual aid in helping the user organize his work
+without dealing directly with the underlying filesystem structure.  It seems
+to be a more flexible and convenient way of dealing with work files than by
+dealing with what may be an unfamiliar filesystem.
+
+Q3: What module and variable name contains command-line arguments?
+
+sys.argv
+
+For example, sys.argv[1] would contain the first command line argument,
+sys.argv[2] the second, and so forth.  sys.argv[0] contains the command
+itself.
+
+
+Q4: How often should you write tests for your code?
+
+If I understand Agile programming, the answer is always.
+
+
+Lesson1 Project
+
+Create a Python3_Homework01 project and assign it to your Python3_Homework
+working set. In the Python3_Homework01/src folder, create a program named
+adder.py; in it, create a function that takes two objects and adds them
+together only if they are both of the integer type. Raise a TypeError
+otherwise. Then, create a test_adder.py file that tests the correctness of
+this function.
+
+When they are working to your satisfaction, submit adder.py and test_adder.py.
+
+

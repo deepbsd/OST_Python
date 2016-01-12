@@ -1,0 +1,108 @@
+Lesson 10: Python's Built-in Functions
+
+Project:
+
+Objective:
+
+This project requires you to use built-in functions to perform character
+manipulations.
+
+1. Create a new Python source file named secret_code.py.
+
+2.  Write a program to read a line of input from the user, and encode it using the
+    following cipher:
+
+3.  Take each character of the string individually, and make the corresponding
+    character in the output string be that whose ordinal value is 1 more than the
+    ordinal value of the input character.  Once the output string has been
+    constructed in this way, the output of the program should be the reverse of
+    the constructed output string.
+
+4. Below is an example of possible input and output from running the program.
+
+Message: This is it
+uj!tj!tjiU
+
+
+
+verall Comments:
+
+Hi David,
+
+"lspx!djutbuobg =)   Great job with this one.  Sometimes you have to work
+through complexity to get to simplicity.
+
+Various similar / alternative solutions:
+
+===
+"""secret_code.py Encodes stuff in a mildly interesting way """
+
+s = input("Message:")
+o = ''
+
+for c in s:  
+    o += chr(ord(c)+1)
+
+print(o[::-1])
+=====
+
+
+"""This program takes a user input and encodes it with a cypher"""
+
+inp = input("Message: ")
+outp = ""
+
+for c in inp:  
+   outp = chr(ord(c) + 1) + outp
+
+print(outp)
+
+===
+"""Secret code program"""
+
+x = input("Message: ").strip()
+y = []
+
+for i in x:  
+    y.append(chr(ord(i) + 1))
+
+print ("".join ( reversed(y)) )
+
+===
+
+text = input('Message: ').strip()
+tmp = str() # empty string
+
+for c in text:  
+    tmp += chr ( ord(c)+1 )
+
+tmp = tmp[::-1]
+print(tmp)
+
+===
+
+"""Input to secret"""
+
+s = input("Message: ").strip()
+mess = ""
+
+for char in s:  
+    mess += chr(ord(char)+1)
+
+for i in reversed(mess):  print("{}".format(i), end="")
+
+===
+
+code = ''
+
+uin = input('Message: ')
+for char in uin:  
+    code = chr(ord(char) + 1) + code
+print(code)
+
+-Pat
+
+
+
+GRADE: Great
+

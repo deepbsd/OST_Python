@@ -1,0 +1,4498 @@
+There is an old custom among my people.  When a woman saves a man's
+life, he is grateful.
+		-- Nona, the Kanuto which woman, "A Private Little War",
+		   stardate 4211.8.
+%
+Fascinating, a totally parochial attitude.
+		-- Spock, "Metamorphosis", stardate 3219.8
+%
+> Is there any hope for me? Am I just thick? Does anyone remember the
+> Rubiks Cube, it was easier!
+I found that the Rubiks cube and Linux are alike. Looks real confusing
+until you read the right book. :-)
+	-- seen on c.o.l.misc, about the "Linux Learning Curve"
+%
+All your people must learn before you can reach for the stars.
+		-- Kirk, "The Gamesters of Triskelion", stardate 3259.2
+%
+Live long and prosper.
+		-- Spock, "Amok Time", stardate 3372.7
+%
+The memory management on the PowerPC can be used to frighten small children.
+	-- Linus Torvalds
+%
+"Logic and practical information do not seem to apply here."
+"You admit that?"
+"To deny the facts would be illogical, Doctor"
+		-- Spock and McCoy, "A Piece of the Action", stardate unknown
+%
+Computers make excellent and efficient servants, but I have no wish to
+serve under them.  Captain, a starship also runs on loyalty to one
+man.  And nothing can replace it or him.
+		-- Spock, "The Ultimate Computer", stardate 4729.4
+%
+It is more rational to sacrifice one life than six.
+		-- Spock, "The Galileo Seven", stardate 2822.3
+%
+Eh, that's it, I guess.  No 300 million dollar unveiling event for this
+kernel, I'm afraid, but you're still supposed to think of this as the
+"happening of the century" (at least until the next kernel comes along). 
+	-- Linus, in the announcement for 1.3.27
+%
+War is never imperative.
+		-- McCoy, "Balance of Terror", stardate 1709.2
+%
+You are an excellent tactician, Captain.  You let your second in
+command attack while you sit and watch for weakness.
+		-- Khan Noonian Singh, "Space Seed", stardate 3141.9
+%
+I'm a soldier, not a diplomat.  I can only tell the truth.
+		-- Kirk, "Errand of Mercy", stardate 3198.9
+%
+A farmer I know named O'Doole
+Had a long and incredible tool.
+	He can use it to plow,
+	Or to diddle a cow,
+Or just as a cue-stick at pool.
+%
+Note that if I can get you to "su and say" something just by asking,
+you have a very serious security problem on your system and you should
+look into it.
+	-- Paul Vixie, vixie-cron 3.0.1 installation notes
+%
+"The glory of creation is in its infinite diversity."
+"And in the way our differences combine to create meaning and beauty."
+		-- Dr. Miranda Jones and Spock, "Is There in Truth No Beauty?",
+		   stardate 5630.8
+%
+A certain young man, it was noted,
+Went about in the heat thickly-coated;
+	He said, "You may scoff,
+	But I shan't take it off;
+Underneath I am horribly bloated."
+		-- Edward Gorey
+%
+One of the advantages of being a captain is being able to ask for
+advice without necessarily having to take it.
+		-- Kirk, "Dagger of the Mind", stardate 2715.2
+%
+Oh, and this is another kernel in that great and venerable "BugFree(tm)"
+series of kernels.  So be not afraid of bugs, but go out in the streets
+and deliver this message of joy to the masses.
+	-- Linus, in the announcement for 1.3.27
+%
+Linux: The OS people choose without $200,000,000 of persuasion.
+	-- Mike Coleman
+%
+The heart is not a logical organ.
+		-- Dr. Janet Wallace, "The Deadly Years", stardate 3479.4
+%
+...and scantily clad females, of course.  Who cares if it's below zero
+outside.
+	-- Linus Torvalds
+%
+Women are more easily and more deeply terrified ... generating more
+sheer horror than the male of the species.
+		-- Spock, "Wolf in the Fold", stardate 3615.4
+%
+Yes, it is written.  Good shall always destroy evil.
+		-- Sirah the Yang, "The Omega Glory", stardate unknown
+%
+There was an old man of Brienz
+The length of whose cock was immense:
+	With one swerve he could plug
+	A boy's bottom in Zug,
+And a kitchen-maid's cunt in Coblenz.
+%
+Besides, I think Slackware sounds better than 'Microsoft,' don't you?
+	-- Patrick Volkerding
+%
+There once was a miner named Dave,
+Who kept a dead whore in his cave.
+	She was ugly as shit,
+	And missing one tit,
+But think of the money he saves.
+%
+Sigh.  I like to think it's just the Linux people who want to be on
+the "leading edge" so bad they walk right off the precipice.
+	-- Craig E. Groeschel
+%
+Insults are effective only where emotion is present.
+		-- Spock, "Who Mourns for Adonais?"  stardate 3468.1
+%
+[Doctors and Bartenders], We both get the same two kinds of customers
+-- the living and the dying.
+		-- Dr. Boyce, "The Menagerie" ("The Cage"), stardate unknown
+%
+I still maintain the point that designing a monolithic kernel in 1991 is a
+fundamental error.  Be thankful you are not my student.  You would not get a
+high grade for such a design :-)
+	-- Andrew Tanenbaum to Linus Torvalds
+%
+Yes, it is written.  Good shall always destroy evil.
+		-- Sirah the Yang, "The Omega Glory", stardate unknown
+%
+Not me, guy.  I read the Bash man page each day like a Jehovah's Witness reads
+the Bible.  No wait, the Bash man page IS the bible.  Excuse me...
+	-- More on confusing aliases, taken from comp.os.linux.misc
+%
+There once was a man from Exameter
+Who had a prodigious diameter
+	But it wasn't the size
+	That brought forth the cries
+'Twas his rythm, iambic pentameter.
+%
+Be warned that typing \fBkillall \fIname\fP may not have the desired
+effect on non-Linux systems, especially when done by a privileged user.
+	-- From the killall manual page
+%
+Without freedom of choice there is no creativity.
+		-- Kirk, "The return of the Archons", stardate 3157.4
+%
+Not me, guy.  I read the Bash man page each day like a Jehovah's Witness reads
+the Bible.  No wait, the Bash man page IS the bible.  Excuse me...
+	-- More on confusing aliases, taken from comp.os.linux.misc
+%
+There was a young laundress named Wrangle
+Whose tits tilted up at an angle.
+	"They may tickle my chin,"
+	She said with a grin,
+"But at least they keep out of the mangle."
+%
+Linux!  Guerrilla UNIX Development     Venimus, Vidimus, Dolavimus.
+	-- Mark A. Horton KA4YBR, mah@ka4ybr.com
+%
+It always delights me at Hank's
+To walk up the old river banks.
+	One time in the grass
+	I stepped on an ass,
+And heard a young girl murmur, "Thanks."
+%
+"We have the right to survive!"
+"Not be killing others."
+		-- Deela and Kirk, "Wink of An Eye", stardate 5710.5
+%
+Where there's no emotion, there's no motive for violence.
+		-- Spock, "Dagger of the Mind", stardate 2715.1
+%
+And the next time you consider complaining that running Lucid Emacs
+19.05 via NFS from a remote Linux machine in Paraguay doesn't seem to
+get the background colors right, you'll know who to thank.
+	-- Matt Welsh
+%
+There was a young lady named Bright
+Who could travel much faster than light.
+	She took off one day,
+	In a relative way,
+And returned on the previous night.
+%
+Extreme feminine beauty is always disturbing.
+		-- Spock, "The Cloud Minders", stardate 5818.4
+%
+Intuition, however illogical, is recognized as a command prerogative.
+		-- Kirk, "Obsession", stardate 3620.7
+%
+The memory management on the PowerPC can be used to frighten small children.
+	-- Linus Torvalds
+%
+A habit obscene and unsavory,
+Holds a CS professor in slavery.
+	With maniacal howls,
+	He deflowers young owls,
+That he keeps in an underground aviary.
+%
+... The prejudices people feel about each other disappear when then get
+to know each other.
+		-- Kirk, "Elaan of Troyius", stardate 4372.5
+%
+It would be illogical to kill without reason
+		-- Spock, "Journey to Babel", stardate 3842.4
+%
+There once was a fellow named Brewster
+Who said to his wife, as he goosed her,
+	"It used to be grand
+	But look at my hand
+You're not wiping as clean as ya uster."
+%
+We are MicroSoft.  You will be assimilated.  Resistance is futile.
+	-- Attributed to B.G., Gill Bates
+%
+By golly, I'm beginning to think Linux really *is* the best thing since
+sliced bread.
+	-- Vance Petree, Virginia Power
+%
+A hearty young fellow named Yost
+Once had an affair with a ghost.
+	At the height of the spasm
+	The poor ectoplasm
+Cried, "Goodie, I feel it ... almost."
+%
+A lady from Kalamazoo
+Once found she had nothing to do,
+	So she sat on the stairs
+	And she counted her hairs:
+4,302.
+%
+"The release of emotion is what keeps us health.  Emotionally healthy."
+
+"That may be, Doctor.  However, I have noted that the healthy release
+of emotion is frequently unhealthy for those closest to you."
+		-- McCoy and Spock, "Plato's Stepchildren", stardate 5784.3
+%
+There was a young fellow of Perth
+Whose balls were the finest on earth.
+	They grew to such size
+	That one won a prize,
+And goodness knows what they were worth.
+%
+Footnotes are for things you believe don't really belong in LDP manuals,
+but want to include anyway.
+	-- Joel N. Weber II discussing the 'make' chapter of LPG
+%
+Compassion -- that's the one things no machine ever had.  Maybe it's
+the one thing that keeps men ahead of them.
+		-- McCoy, "The Ultimate Computer", stardate 4731.3
+%
+Superior ability breeds superior ambition.
+		-- Spock, "Space Seed", stardate 3141.9
+%
+Extreme feminine beauty is always disturbing.
+		-- Spock, "The Cloud Minders", stardate 5818.4
+%
+We are Pentium of Borg.  Division is futile.  You will be approximated.
+	-- seen in someone's .signature
+%
+No problem is insoluble.
+		-- Dr. Janet Wallace, "The Deadly Years", stardate 3479.4
+%
+What kind of love is that?  Not to be loved; never to have shown love.
+		-- Commissioner Nancy Hedford, "Metamorphosis",
+		   stardate 3219.8
+%
+"We have the right to survive!"
+"Not be killing others."
+		-- Deela and Kirk, "Wink of An Eye", stardate 5710.5
+%
+We are using Linux daily to UP our productivity - so UP yours!
+	-- Adapted from Pat Paulsen by Joe Sloan
+%
+All language designers are arrogant. Goes with the territory...
+	-- Larry Wall
+%
+panic("Foooooooood fight!");
+	-- In the kernel source aha1542.c, after detecting a bad segment list
+%
+There was a young woman named Alice
+Who peed in a Catholic chalice.
+	She said, "I do this
+	From a great need to piss,
+And not from sectarian malice."
+%
+Military secrets are the most fleeting of all.
+		-- Spock, "The Enterprise Incident", stardate 5027.4
+%
+...very few phenomena can pull someone out of Deep Hack Mode, with two
+noted exceptions: being struck by lightning, or worse, your *computer*
+being struck by lightning.
+	-- Matt Welsh
+%
+There was an old man of Tagore
+Whose tool was a yard long or more,
+	So he wore the damn thing
+	In a surgical sling
+To keep it from wiping the floor.
+%
+Your job is being a professor and researcher: That's one hell of a good excuse
+for some of the brain-damages of minix.
+	-- Linus Torvalds to Andrew Tanenbaum
+%
+Never trust an operating system you don't have sources for. ;-)
+	-- Unknown source
+%
+How do I type "for i in *.dvi do xdvi $i done" in a GUI?
+	-- Discussion in comp.os.linux.misc on the intuitiveness of interfaces
+%
+Every living thing wants to survive.
+		-- Spock, "The Ultimate Computer", stardate 4731.3
+%
+Star Trek Lives!
+%
+Even historians fail to learn from history -- they repeat the same
+mistakes.
+		-- John Gill, "Patterns of Force", stardate 2534.7
+%
+Do you know about being with somebody?  Wanting to be?  If I had the
+whole universe, I'd give it to you, Janice.  When I see you, I feel
+like I'm hungry all over.  Do you know how that feels?
+		-- Charlie Evans, "Charlie X", stardate 1535.8
+%
+It's now the GNU Emacs of all terminal emulators.
+	-- Linus Torvalds, regarding the fact that Linux started off as a terminal emulator
+%
+Actually, typing random strings in the Finder does the equivalent of
+filename completion.
+	-- Discussion on file completion vs. the Mac Finder
+%
+From the bathing machine came a din
+As of jollification within;
+	It was heard far and wide,
+	And the incoming tide
+Had a definite flavour of gin.
+		-- Edward Gorey
+%
+There was a young lady of Wheeling
+Said to her beau, "I've a feeling
+	My little brown jug
+	Has need of a plug" --
+And straightaway she started to peeling.
+%
+Those who don't understand Linux are doomed to reinvent it, poorly.
+	-- unidentified source
+%
+There's nothing disgusting about it [the Companion].  It's just another
+life form, that's all.  You get used to those things.
+		-- McCoy, "Metamorphosis", stardate 3219.8
+%
+Without facts, the decision cannot be made logically.  You must rely on
+your human intuition.
+		-- Spock, "Assignment: Earth", stardate unknown
+%
+Prepare for tomorrow -- get ready.
+		-- Edith Keeler, "The City On the Edge of Forever",
+		   stardate unknown
+%
+There was a young lady of Gloucester,
+Met a passionate fellow who tossed her.
+	She wasn't much hurt,
+	But he dirtied her skirt,
+So think of the anguish it cost her.
+%
+Madness has no purpose.  Or reason.  But it may have a goal.
+		-- Spock, "The Alternative Factor", stardate 3088.7
+%
+'Mounting' is used for three things: climbing on a horse, linking in a
+hard disk unit in data systems, and, well, mounting during sex.
+	-- Christa Keil
+%
+When dreams become more important than reality, you give up travel,
+building, creating; you even forget how to repair the machines left
+behind by your ancestors.  You just sit living and reliving other lives
+left behind in the thought records.
+		-- Vina, "The Menagerie" ("The Cage"), stardate unknown
+%
+After watching my newly-retired dad spend two weeks learning how to make a new
+folder, it became obvious that "intuitive" mostly means "what the writer or
+speaker of intuitive likes".
+	-- Bruce Ediger, bediger@teal.csn.org, on X the intuitiveness of a Mac interface
+%
+There are always alternatives.
+		-- Spock, "The Galileo Seven", stardate 2822.3
+%
+> I'm an idiot..  At least this [bug] took about 5 minutes to find..
+Disquieting ...
+	-- Gonzalo Tornaria in response to Linus Torvalds's
+%
+Even more amazing was the realization that God has Internet access.  I
+wonder if He has a full newsfeed?
+	-- Matt Welsh
+%
+Emotions are alien to me.  I'm a scientist.
+		-- Spock, "This Side of Paradise", stardate 3417.3
+%
+Youth doesn't excuse everything.
+		-- Dr. Janice Lester (in Kirk's body), "Turnabout Intruder",
+		   stardate 5928.5.
+%
+...[Linux's] capacity to talk via any medium except smoke signals.
+	-- Dr. Greg Wettstein, Roger Maris Cancer Center
+%
+.. I used to get in more fights with SCO than I did my girlfriend, but 
+now, thanks to Linux, she has more than happily accepted her place back at 
+number one antagonist in my life.. 
+	-- Jason Stiefel, krypto@s30.nmex.com
+%
+There once was a man named Lodge,
+who had seatbelts installed in his Dodge.
+	When his date was strapped in,
+	He committed a sin,
+without ever leaving the garage.
+%
+Humans do claim a great deal for that particular emotion (love).
+		-- Spock, "The Lights of Zetar", stardate 5725.6
+%
+Linux poses a real challenge for those with a taste for late-night
+hacking (and/or conversations with God).
+	-- Matt Welsh
+%
+The face of war has never changed.  Surely it is more logical to heal
+than to kill.
+		-- Surak of Vulcan, "The Savage Curtain", stardate 5906.5
+%
+"It's hard to believe that something which is neither seen nor felt can
+do so much harm."
+
+"That's true.  But an idea can't be seen or felt.  And that's what kept
+the Troglytes in the mines all these centuries.  A mistaken idea."
+		-- Vanna and Kirk, "The Cloud Minders", stardate 5819.0
+%
+Women are more easily and more deeply terrified ... generating more
+sheer horror than the male of the species.
+		-- Spock, "Wolf in the Fold", stardate 3615.4
+%
+Only a fool fights in a burning house.
+		-- Kank the Klingon, "Day of the Dove", stardate unknown
+%
+We fight only when there is no other choice.  We prefer the ways of
+peaceful contact.
+		-- Kirk, "Spectre of the Gun", stardate 4385.3
+%
+There was a young man from Dallas
+Who had an exceptional phallus.
+	He couldn't find room
+	In any girl's womb
+Without rubbing it first with Vitalis.
+%
+You go slow, be gentle.  It's no one-way street -- you know how you
+feel and that's all.  It's how the girl feels too.  Don't press.  If
+the girl feels anything for you at all, you'll know.
+		-- Kirk, "Charlie X", stardate 1535.8
+%
+Love sometimes expresses itself in sacrifice.
+		-- Kirk, "Metamorphosis", stardate 3220.3
+%
+There was a young man with a fiddle
+Who asked of his girl, "Do you diddle?"
+	She replied, "Yes, I do,
+	But prefer to with two --
+It's twice as much fun in the middle."
+%
+A hacker-turned-pervert named Fisk
+Made love to the drive of his disk.
+	The thing circumsized him,
+	Which rather suprised him.
+He wasn't aware of *that* risk.
+%
+There was a young girl named McCall
+Whose cunt was exceedingly small,
+	But the size of her anus
+	Was something quite heinous --
+It could hold seven pricks and one ball.
+%
+After watching my newly-retired dad spend two weeks learning how to make a new
+folder, it became obvious that "intuitive" mostly means "what the writer or
+speaker of intuitive likes".
+	-- Bruce Ediger, bediger@teal.csn.org, on X the intuitiveness of a Mac interface
+%
+How do I type "for i in *.dvi do xdvi $i done" in a GUI?
+	-- Discussion in comp.os.linux.misc on the intuitiveness of interfaces
+%
+We are Pentium of Borg.  Division is futile.  You will be approximated.
+	-- seen in someone's .signature
+%
+It had snowed, and the man in the drift,
+Flagged her down and asked, "Give me a lift?"
+	They sat in her Bentley,
+	She fondled him gently,
+And the lift that he'd asked for was swift!
+%
+You'll learn something about men and women -- the way they're supposed
+to be.  Caring for each other, being happy with each other, being good
+to each other.  That's what we call love.  You'll like that a lot.
+		-- Kirk, "The Apple", stardate 3715.6
+%
+Look, I'm about to buy me a double barreled sawed off shotgun and show
+Linus what I think about backspace and delete not working.
+	-- some anonymous .signature
+%
+You can't evaluate a man by logic alone.
+		-- McCoy, "I, Mudd", stardate 4513.3
+%
+We fight only when there is no other choice.  We prefer the ways of
+peaceful contact.
+		-- Kirk, "Spectre of the Gun", stardate 4385.3
+%
+I don't know why, but first C programs tend to look a lot worse than
+first programs in any other language (maybe except for fortran, but then
+I suspect all fortran programs look like `firsts')
+	-- Olaf Kirch
+%
+There once was a floozie named Annie
+Whose prices were cosy--but cannie:
+	A buck for a fuck,
+	Fifty cents for a suck,
+And a dime for a feel of her fanny.
+%
+There was a young sailor from Brighton,
+Who remarked to his girl, "You're a tight one."
+	She replied, "'Pon my soul,
+	You're in the wrong hole;
+There's plenty of room in the right one."
+%
+> You know you are "there" when you are known by your first name, and
+> are recognized.
+> Lemmie see, there is Madonna, and Linus, and ..... help me out here!
+Bill ? ;-)
+	-- From some postings on comp.os.linux.misc
+%
+Footnotes are for things you believe don't really belong in LDP manuals,
+but want to include anyway.
+	-- Joel N. Weber II discussing the 'make' chapter of LPG
+%
+How do you power off this machine?
+	-- Linus, when upgrading linux.cs.helsinki.fi, and after using the machine for several months
+%
+There was a young squaw of Wohunt
+Who possessed a collapsible cunt.
+	It had many odd uses,
+	Produced no papooses,
+And fitted both giant and runt.
+%
+Yes, it is written.  Good shall always destroy evil.
+		-- Sirah the Yang, "The Omega Glory", stardate unknown
+%
+Whoa...I did a 'zcat /vmlinuz > /dev/audio' and I think I heard God...
+	-- mikecd on #Linux
+%
+Superior ability breeds superior ambition.
+		-- Spock, "Space Seed", stardate 3141.9
+%
+It is more rational to sacrifice one life than six.
+		-- Spock, "The Galileo Seven", stardate 2822.3
+%
+There was a young woman in Dee
+Who stayed with each man she did see.
+	When it came to a test
+	She wished to be best,
+And practice makes perfect, you see.
+%
+Problem solving under Linux has never been the circus that it is under
+AIX.
+	-- Pete Ehlke in comp.unix.aix
+%
+lp1 on fire
+	-- One of the more obfuscated kernel messages
+%
+Leave bigotry in your quarters; there's no room for it on the bridge.
+		-- Kirk, "Balance of Terror", stardate 1709.2
+%
+[War] is instinctive.  But the instinct can be fought.  We're human
+beings with the blood of a million savage years on our hands!  But we
+can stop it.  We can admit that we're killers ... but we're not going
+to kill today.  That's all it takes!  Knowing that we're not going to
+kill today!
+		-- Kirk, "A Taste of Armageddon", stardate 3193.0
+%
+A newlywed couple from Goshen
+Spent their honeymoon sailing the ocean.
+	In twenty-eight days
+	They got laid eighty ways --
+Imagine such fucking devotion!
+%
+N: Phil Lewis
+E: beans@bucket.ualr.edu
+D: Promised to send money if I would put his name in the source tree.
+S: PO Box 371
+S: North Little Rock, Arkansas 72115
+S: US
+	-- /usr/src/linux/CREDITS
+%
+Excusing bad programming is a shooting offence, no matter _what_ the
+circumstances.
+	-- Linus Torvalds, to the linux-kernel list
+%
+Vulcans believe peace should not depend on force.
+		-- Amanda, "Journey to Babel", stardate 3842.3
+%
+Not me, guy.  I read the Bash man page each day like a Jehovah's Witness reads
+the Bible.  No wait, the Bash man page IS the bible.  Excuse me...
+	-- More on confusing aliases, taken from comp.os.linux.misc
+%
+Are Linux users lemmings collectively jumping off of the cliff of
+reliable, well-engineered commercial software?
+	-- Matt Welsh
+%
+Death, when unnecessary, is a tragic thing.
+		-- Flint, "Requiem for Methuselah", stardate 5843.7
+%
+In short, at least give the penguin a fair viewing. If you still don't
+like it, that's ok: that's why I'm boss. I simply know better than you do.
+	-- Linus "what, me arrogant?" Torvalds, on c.o.l.advocacy
+%
+I object to intellect without discipline;  I object to power without
+constructive purpose.
+		-- Spock, "The Squire of Gothos", stardate 2124.5
+%
+Actual war is a very messy business.  Very, very messy business.
+		-- Kirk, "A Taste of Armageddon", stardate 3193.0
+%
+Murder is contrary to the laws of man and God.
+		-- M-5 Computer, "The Ultimate Computer", stardate 4731.3
+%
+There was a young man who said "God,
+I find it exceedingly odd,
+	That the willow oak tree
+	Continues to be,
+When there's no one about in the Quad."
+
+"Dear Sir, your astonishment's odd,
+For I'm always about in the Quad;
+	And that's why the tree,
+	Continues to be,"
+Signed "Yours faithfully, God."
+%
+If I can have honesty, it's easier to overlook mistakes.
+		-- Kirk, "Space Seed", stardate 3141.9
+%
+Q: Why shouldn't I simply delete the stuff I never use, it's just taking up 
+   space?
+A: This question is in the category of Famous Last Words..
+	-- From the Frequently Unasked Questions
+%
+When you fuck little Annie in Anza
+You get a great bossom bonanza:
+	Sucking Annie's soft tits
+	Makes her throw fifty fits,
+And the fuck is a sextravaganza!
+%
+A man either lives life as it happens to him, meets it head-on and
+licks it, or he turns his back on it and starts to wither away.
+		-- Dr. Boyce, "The Menagerie" ("The Cage"), stardate unknown
+%
+Change is the essential process of all existence.
+		-- Spock, "Let That Be Your Last Battlefield", stardate 5730.2
+%
+Our way is peace.
+		-- Septimus, the Son Worshiper, "Bread and Circuses",
+		   stardate 4040.7.
+%
+We should start referring to processes which run in the background by their 
+correct technical name... paenguins.
+	-- Kevin M. Bealer, commenting on the penguin Linux logo
+%
+War is never imperative.
+		-- McCoy, "Balance of Terror", stardate 1709.2
+%
+Intuition, however illogical, is recognized as a command prerogative.
+		-- Kirk, "Obsession", stardate 3620.7
+%
+"The combination of a number of things to make existence worthwhile."
+"Yes, the philosophy of 'none,' meaning 'all.'"
+		-- Spock and Lincoln, "The Savage Curtain", stardate 5906.4
+%
+A young man of acumen and daring,
+Who'd amassed a great fortune in herring,
+	Was left quite alone
+	When it soon became known
+That their use at his board was unsparing.
+		-- Edward Gorey
+%
+All your people must learn before you can reach for the stars.
+		-- Kirk, "The Gamesters of Triskelion", stardate 3259.2
+%
+There was a young lady named Blount
+Who had a rectangular cunt.
+	She learned for diversion
+	Posterior perversion,
+Since no one could fit here in front.
+%
+A sweetheart named Teresa Arden
+Went down on her beau in the garden.
+	He said, "Good lord, Tess,
+	Don't swallow that mess "
+And she replied, "Ulp, beg your pardon?"
+%
+There was a young student from Yale
+Who was getting his first piece of tail.
+	He shoved in his pole,
+	But in the wrong hole,
+And a voice from beneath yelled: "No sale!"
+%
+A Linux machine!  Because a 486 is a terrible thing to waste!
+	-- Joe Sloan, jjs@wintermute.ucr.edu
+%
+All language designers are arrogant. Goes with the territory...
+	-- Larry Wall
+%
+Do you know about being with somebody?  Wanting to be?  If I had the
+whole universe, I'd give it to you, Janice.  When I see you, I feel
+like I'm hungry all over.  Do you know how that feels?
+		-- Charlie Evans, "Charlie X", stardate 1535.8
+%
+The joys of love made her human and the agonies of love destroyed her.
+		-- Spock, "Requiem for Methuselah", stardate 5842.8
+%
+There was a young man of Kildare
+Who was fucking a girl on the stair.
+	The bannister broke,
+	But he doubled his stroke
+And finished her off in mid-air.
+%
+Men of peace usually are [brave].
+		-- Spock, "The Savage Curtain", stardate 5906.5
+%
+When a child is taught ... its programmed with simple instructions --
+and at some point, if its mind develops properly, it exceeds the sum of
+what it was taught, thinks independently.
+		-- Dr. Richard Daystrom, "The Ultimate Computer",
+		   stardate 4731.3.
+%
+War is never imperative.
+		-- McCoy, "Balance of Terror", stardate 1709.2
+%
+Sigh.  I like to think it's just the Linux people who want to be on
+the "leading edge" so bad they walk right off the precipice.
+	-- Craig E. Groeschel
+%
+An organist playing in York
+Had a prick that could hold a small fork,
+	And between obbligatos
+	He'd munch at tomatoes,
+To keep up his strength while at work.
+%
+Vulcans worship peace above all.
+		-- McCoy, "Return to Tomorrow", stardate 4768.3
+%
+There was a young fellow named Paul
+Who confessed, "I have only one ball.
+	But the size of my prick
+	Is God's dirtiest trick,
+For my girls always ask, 'Is that all?'"
+%
+There was a young man of Darjeeling
+Whose cock reached up to the ceiling.
+	In the electric light socket,
+	He'd put it and rock it--
+Oh God!  What a wonderful feeling!
+%
+Are Linux users lemmings collectively jumping off of the cliff of
+reliable, well-engineered commercial software?
+	-- Matt Welsh
+%
+Keep me informed on the behaviour of this kernel..  As the "BugFree(tm)"
+series didn't turn out too well, I'm starting a new series called the
+"ItWorksForMe(tm)" series, of which this new kernel is yet another
+shining example.
+	-- Linus, in the announcement for 1.3.29
+%
+Without facts, the decision cannot be made logically.  You must rely on
+your human intuition.
+		-- Spock, "Assignment: Earth", stardate unknown
+%
+There once was a fellow named Sweeney
+Who spilled gin all over his weenie.
+	Not being uncouth,
+	He added vermouth
+And slipped his amour a martini.
+%
+You can't evaluate a man by logic alone.
+		-- McCoy, "I, Mudd", stardate 4513.3
+%
+We do not colonize.  We conquer.  We rule.  There is no other way for
+us.
+		-- Rojan, "By Any Other Name", stardate 4657.5
+%
+Windows without the X is like making love without a partner.
+Sex, Drugs & Linux Rules
+win-nt from the people who invented edlin.
+Apples  have  meant  trouble  since  eden.
+Linux, the way to get rid of boot viruses
+	-- MaDsen Wikholm, mwikholm@at8.abo.fi
+%
+There is an old custom among my people.  When a woman saves a man's
+life, he is grateful.
+		-- Nona, the Kanuto which woman, "A Private Little War",
+		   stardate 4211.8.
+%
+Death.  Destruction.  Disease.  Horror.  That's what war is all about.
+That's what makes it a thing to be avoided.
+		-- Kirk, "A Taste of Armageddon", stardate 3193.0
+%
+Death, when unnecessary, is a tragic thing.
+		-- Flint, "Requiem for Methuselah", stardate 5843.7
+%
+Killing is stupid; useless!
+		-- McCoy, "A Private Little War", stardate 4211.8
+%
+Either one of us, by himself, is expendable.  Both of us are not.
+		-- Kirk, "The Devil in the Dark", stardate 3196.1
+%
+An eager young hacker named Gus
+Once buggered a VAX Unibus.
+	The hardware went bad,
+	But not the young lad
+He didn't expect all that fuss!
+%
+There once was a lady named Myrtle
+Who had an affair with a turtle.
+	She had crabs, so they say,
+	In a year and a day
+Which proved that that turtle was fertile.
+%
+There was a young girl from Peru,
+Who noticed her lovers were few;
+	So she walked out her door
+	With a fig leaf, no more,
+And now she's in bed - with the flu.
+%
+Romulan women are not like Vulcan females.  We are not dedicated to
+pure logic and the sterility of non-emotion.
+		-- Romulan Commander, "The Enterprise Incident",
+		   stardate 5027.3
+%
+It would be illogical to assume that all conditions remain stable
+		-- Spock, "The Enterprise" Incident", stardate 5027.3
+%
+To live is always desirable.
+		-- Eleen the Capellan, "Friday's Child", stardate 3498.9
+%
+In the strict scientific sense we all feed on death -- even
+vegetarians.
+		-- Spock, "Wolf in the Fold", stardate 3615.4
+%
+There was a young man of Lahore
+Whose prick was one inch and no more.
+	It was all right for key-holes
+	And little girl's pee-holes,
+But not worth a damn with a whore.
+%
+You'll learn something about men and women -- the way they're supposed
+to be.  Caring for each other, being happy with each other, being good
+to each other.  That's what we call love.  You'll like that a lot.
+		-- Kirk, "The Apple", stardate 3715.6
+%
+Change is the essential process of all existence.
+		-- Spock, "Let That Be Your Last Battlefield", stardate 5730.2
+%
+There was a young man of Kildare
+Who was fucking a girl on the stair.
+	The bannister broke,
+	But he doubled his stroke
+And finished her off in mid-air.
+%
+... The things love can drive a man to -- the ecstasies, the
+the miseries, the broken rules, the desperate chances, the glorious
+failures and the glorious victories.
+		-- McCoy, "Requiem for Methuselah", stardate 5843.7
+%
+Many Myths are based on truth
+		-- Spock, "The Way to Eden",  stardate 5832.3
+%
+"It's hard to believe that something which is neither seen nor felt can
+do so much harm."
+
+"That's true.  But an idea can't be seen or felt.  And that's what kept
+the Troglytes in the mines all these centuries.  A mistaken idea."
+		-- Vanna and Kirk, "The Cloud Minders", stardate 5819.0
+%
+There was a young fellow named Case
+Who entered a cunt-lapping race.
+	He licked his way clean
+	Through Number thirteen,
+But then slipped and got pissed in the face.
+%
+Now, it we had this sort of thing:
+  yield -a     for yield to all traffic
+  yield -t     for yield to trucks
+  yield -f     for yield to people walking (yield foot)
+  yield -d t*  for yield on days starting with t
+
+...you'd have a lot of dead people at intersections, and traffic jams you
+wouldn't believe...
+	-- Discussion on the intuitiveness of commands
+%
+I develop for Linux for a living, I used to develop for DOS.
+Going from DOS to Linux is like trading a glider for an F117.
+	-- Lawrence Foard, entropy@world.std.com
+%
+A slick talking pirate named Bruce
+To steal code, had a plan to seduce
+	An Apple II+.
+	Now Bruce wears a truss
+And was jailed for computer abuse.
+%
+In the strict scientific sense we all feed on death -- even
+vegetarians.
+		-- Spock, "Wolf in the Fold", stardate 3615.4
+%
+Sometimes a feeling is all we humans have to go on.
+		-- Kirk, "A Taste of Armageddon", stardate 3193.9
+%
+Virtue is a relative term.
+		-- Spock, "Friday's Child", stardate 3499.1
+%
+Is not that the nature of men and women -- that the pleasure is in the
+learning of each other?
+		-- Natira, the High Priestess of Yonada, "For the World is
+		   Hollow and I Have Touched the Sky", stardate 5476.3.
+%
+I develop for Linux for a living, I used to develop for DOS.
+Going from DOS to Linux is like trading a glider for an F117.
+	-- Lawrence Foard, entropy@world.std.com
+%
+"No one talks peace unless he's ready to back it up with war."
+"He talks of peace if it is the only way to live."
+		-- Colonel Green and Surak of Vulcan, "The Savage Curtain",
+		   stardate 5906.5.
+%
+Romulan women are not like Vulcan females.  We are not dedicated to
+pure logic and the sterility of non-emotion.
+		-- Romulan Commander, "The Enterprise Incident",
+		   stardate 5027.3
+%
+...[Linux's] capacity to talk via any medium except smoke signals.
+	-- Dr. Greg Wettstein, Roger Maris Cancer Center
+%
+Emotions are alien to me.  I'm a scientist.
+		-- Spock, "This Side of Paradise", stardate 3417.3
+%
+Lots of people drink from the wrong bottle sometimes.
+		-- Edith Keeler, "The City on the Edge of Forever",
+		   stardate unknown
+%
+Do you know the one -- "All I ask is a tall ship, and a star to steer
+her by ..."  You could feel the wind at your back, about you ...  the
+sounds of the sea beneath you.  And even if you take away the wind and
+the water, it's still the same.  The ship is yours ... you can feel her
+... and the stars are still there.
+		-- Kirk, "The Ultimate Computer", stardate 4729.4
+%
+You are an excellent tactician, Captain.  You let your second in
+command attack while you sit and watch for weakness.
+		-- Khan Noonian Singh, "Space Seed", stardate 3141.9
+%
+There are no threads in a.b.p.erotica,  so there's no  gain in using a
+threaded news reader.
+	-- unknown source
+%
+We all know Linux is great... it does infinite loops in 5 seconds.
+	- Linus Torvalds about the superiority of Linux on the Amterdam Linux Symposium
+%
+[War] is instinctive.  But the instinct can be fought.  We're human
+beings with the blood of a million savage years on our hands!  But we
+can stop it.  We can admit that we're killers ... but we're not going
+to kill today.  That's all it takes!  Knowing that we're not going to
+kill today!
+		-- Kirk, "A Taste of Armageddon", stardate 3193.0
+%
+You'll learn something about men and women -- the way they're supposed
+to be.  Caring for each other, being happy with each other, being good
+to each other.  That's what we call love.  You'll like that a lot.
+		-- Kirk, "The Apple", stardate 3715.6
+%
+"Get back to your stations!"
+"We're beaming down to the planet, sir."
+		-- Kirk and Mr. Leslie, "This Side of Paradise",
+		   stardate 3417.3
+%
+After watching my newly-retired dad spend two weeks learning how to make a new
+folder, it became obvious that "intuitive" mostly means "what the writer or
+speaker of intuitive likes".
+	-- Bruce Ediger, bediger@teal.csn.org, on X the intuitiveness of a Mac interface
+%
+"Get back to your stations!"
+"We're beaming down to the planet, sir."
+		-- Kirk and Mr. Leslie, "This Side of Paradise",
+		   stardate 3417.3
+%
+Peace was the way.
+		-- Kirk, "The City on the Edge of Forever", stardate unknown
+%
+Men of peace usually are [brave].
+		-- Spock, "The Savage Curtain", stardate 5906.5
+%
+What you end up with, after running an operating system concept through
+these many marketing coffee filters, is something not unlike plain hot
+water.
+	-- Matt Welsh
+%
+Vulcans never bluff.
+		-- Spock, "The Doomsday Machine", stardate 4202.1
+%
+A distinguished professor from Swarthmore
+Got along with a sexy young sophomore.
+	As quick as a glance
+	He stripped off his pants,
+But he found that the sophomore'd got off more.
+%
+Oh, I've seen copies [of Linux Journal] around the terminal room at The Labs.
+	-- Dennis Ritchie
+%
+Fascinating, a totally parochial attitude.
+		-- Spock, "Metamorphosis", stardate 3219.8
+%
+"There's only one kind of woman ..."
+"Or man, for that matter.  You either believe in yourself or you don't."
+		-- Kirk and Harry Mudd, "Mudd's Women", stardate 1330.1
+%
+Intuition, however illogical, is recognized as a command prerogative.
+		-- Kirk, "Obsession", stardate 3620.7
+%
+[Doctors and Bartenders], We both get the same two kinds of customers
+-- the living and the dying.
+		-- Dr. Boyce, "The Menagerie" ("The Cage"), stardate unknown
+%
+In the strict scientific sense we all feed on death -- even
+vegetarians.
+		-- Spock, "Wolf in the Fold", stardate 3615.4
+%
+"Beauty is transitory."
+"Beauty survives."
+		-- Spock and Kirk, "That Which Survives", stardate unknown
+%
+There once was a girl so lovely,
+Who wanted to make love in the bubbly,
+	She strapped on her tanks,
+	And started her pranks,
+But the lobsters all thought she was ugly.
+%
+I object to intellect without discipline;  I object to power without
+constructive purpose.
+		-- Spock, "The Squire of Gothos", stardate 2124.5
+%
+LILO, you've got me on my knees!
+	-- David Black, dblack@pilot.njin.net, with apologies to Derek and the
+Dominos, and Werner Almsberger
+%
+There was a young fellow called Clyde
+Who fell in an outhouse and died.
+	He had a twin brother
+	Who fell in another
+So now they're interred side by side.
+%
+Vulcans never bluff.
+		-- Spock, "The Doomsday Machine", stardate 4202.1
+%
+Sometimes a man will tell his bartender things he'll never tell his doctor.
+		-- Dr. Phillip Boyce, "The Menagerie" ("The Cage"),
+		   stardate unknown.
+%
+In the case of a lady named Frost,
+Whose cunt's a good two feet acrost,
+	It's the best part of valor
+	To bugger the gal, or
+You're apt to fall in and get lost.
+%
+Killing is stupid; useless!
+		-- McCoy, "A Private Little War", stardate 4211.8
+%
+There was a young lady from Prentice
+Who had an affair with a dentist.
+	To make things easier
+	He used anesthesia,
+And diddled her, `non compos mentis'.
+%
+A bather whose clothing was strewed
+By breezes that left her quite nude,
+	Saw a man come along
+	And, unless I'm quite wrong,
+You expected this line to be lewd.
+%
+Now, it we had this sort of thing:
+  yield -a     for yield to all traffic
+  yield -t     for yield to trucks
+  yield -f     for yield to people walking (yield foot)
+  yield -d t*  for yield on days starting with t
+
+...you'd have a lot of dead people at intersections, and traffic jams you
+wouldn't believe...
+	-- Discussion on the intuitiveness of commands
+%
+Change is the essential process of all existence.
+		-- Spock, "Let That Be Your Last Battlefield", stardate 5730.2
+%
+A father doesn't destroy his children.
+		-- Lt. Carolyn Palamas, "Who Mourns for Adonais?",
+		   stardate 3468.1.
+%
+One of the things that hamper Linux's climb to world domination is the
+shortage of bad Computer Role Playing Games, or CRaPGs. No operating system
+can be considered respectable without one.
+	-- Brian O'Donnell, odonnllb@tcd.ie
+%
+It's a bird..
+It's a plane..
+No, it's KernelMan, faster than a speeding bullet, to your rescue.
+Doing new kernel versions in under 5 seconds flat..
+	-- Linus, in the announcement for 1.3.27
+%
+The only solution is ... a balance of power.  We arm our side with
+exactly that much more.  A balance of power -- the trickiest, most
+difficult, dirtiest game of them all.  But the only one that preserves
+both sides.
+		-- Kirk, "A Private Little War", stardate 4211.8
+%
+Oblivion together does not frighten me, beloved.
+		-- Thalassa (in Anne Mulhall's body), "Return to Tomorrow",
+		   stardate 4770.3.
+%
+Is truth not truth for all?
+		-- Natira, "For the World is Hollow and I have Touched
+		   the Sky", stardate 5476.4.
+%
+Many Myths are based on truth
+		-- Spock, "The Way to Eden",  stardate 5832.3
+%
+There was a young girl from New York
+Who plugged up her quim with a cork
+	A woodpecker or two
+	Made the grade, it is true,
+But it totally baffled the stork.
+%
+..you could spend *all day* customizing the title bar.  Believe me.  I
+speak from experience.
+	-- Matt Welsh
+%
+[War] is instinctive.  But the instinct can be fought.  We're human
+beings with the blood of a million savage years on our hands!  But we
+can stop it.  We can admit that we're killers ... but we're not going
+to kill today.  That's all it takes!  Knowing that we're not going to
+kill today!
+		-- Kirk, "A Taste of Armageddon", stardate 3193.0
+%
+Computers make excellent and efficient servants, but I have no wish to
+serve under them.  Captain, a starship also runs on loyalty to one
+man.  And nothing can replace it or him.
+		-- Spock, "The Ultimate Computer", stardate 4729.4
+%
+In short, at least give the penguin a fair viewing. If you still don't
+like it, that's ok: that's why I'm boss. I simply know better than you do.
+	-- Linus "what, me arrogant?" Torvalds, on c.o.l.advocacy
+%
+A slick talking pirate named Bruce
+To steal code, had a plan to seduce
+	An Apple II+.
+	Now Bruce wears a truss
+And was jailed for computer abuse.
+%
+"That unit is a woman."
+"A mass of conflicting impulses."
+		-- Spock and Nomad, "The Changeling", stardate 3541.9
+%
+You speak of courage.  Obviously you do not know the difference between
+courage and foolhardiness.  Always it is the brave ones who die, the
+soldiers.
+		-- Kor, the Klingon Commander, "Errand of Mercy",
+		   stardate 3201.7
+%
+Another Armenia, Belgium ... the weak innocents who always seem to be
+located on a natural invasion route.
+		-- Kirk, "Errand of Mercy", stardate 3198.4
+%
+"We have the right to survive!"
+"Not be killing others."
+		-- Deela and Kirk, "Wink of An Eye", stardate 5710.5
+%
+There was a young man from Dundee
+Who buggered an ape in a tree.
+	The results were quite horrid:
+	All ass and no forehead,
+Three balls and a purple goatee.
+%
+All your people must learn before you can reach for the stars.
+		-- Kirk, "The Gamesters of Triskelion", stardate 3259.2
+%
+Only a fool fights in a burning house.
+		-- Kank the Klingon, "Day of the Dove", stardate unknown
+%
+Q: Why shouldn't I simply delete the stuff I never use, it's just taking up 
+   space?
+A: This question is in the category of Famous Last Words..
+	-- From the Frequently Unasked Questions
+%
+You say you are lying.  But if everything you say is a lie, then you
+are telling the truth.  You cannot tell the truth because everything
+you say is a lie.  You lie, you tell the truth ... but you cannot, for
+you lie.
+		-- Norman the android, "I, Mudd", stardate 4513.3
+%
+Besides, I think Slackware sounds better than 'Microsoft,' don't you?
+	-- Patrick Volkerding
+%
+I have never understood the female capacity to avoid a direct answer to
+any question.
+		-- Spock, "This Side of Paradise", stardate 3417.3
+%
+One does not thank logic.
+		-- Sarek, "Journey to Babel", stardate 3842.4
+%
+A Vulcan can no sooner be disloyal than he can exist without
+breathing.
+		-- Kirk, "The Menagerie", stardate 3012.4
+%
+A young bride and groom of Australia
+Remarked as they joined genitalia :
+	"Though the system seems odd,
+	 We are thankful that God
+Developed the genus Mammalia."
+%
+Another dream that failed.  There's nothing sadder.
+		-- Kirk, "This side of Paradise", stardate 3417.3
+%
+A princess should not be afraid -- not with a brave knight to protect
+her.
+		-- McCoy, "Shore Leave", stardate 3025.3
+%
+There was a young monk in Siberia,
+Whose morals were very inferior,
+	He jumped on a nun
+	Which he shouldn't have done,
+And now she's a Mother Superior.
+%
+As for weirdness, the guy who's the tops
+Is a kinky old butcher named Pops.
+	Since he thinks it's effete
+	To be beating his meat,
+What he's into is licking his chops.
+%
+A Frenchman who lived in Alsace
+Had sex with a virgin named Grace.
+	When he popped her cherry,
+	She made things hairy
+By bleeding all over his face.
+%
+There was a young girl from New York
+Who plugged up her cunt with a cork.
+	A woodpecker or two
+	Made the grade it is true,
+But it totally baffled the stork.
+
+Till along came a man who presented
+A tool that was strangely indented.
+	With a dizzying twirl
+	He punctured that girl,
+And thus was the cork-screw invented.
+%
+A certain young person of Ghent,
+Uncertain if lady or gent,
+	Shows his organs at large
+	For a small handling charge
+To assist him in paying the rent.
+%
+There was a young lady whose cunt
+Could accomodate a small punt.
+	Her mother said, "Annie,
+	It matches your fanny,
+Which never was that of a runt."
+%
+Fascinating, a totally parochial attitude.
+		-- Spock, "Metamorphosis", stardate 3219.8
+%
+Insufficient facts always invite danger.
+		-- Spock, "Space Seed", stardate 3141.9
+%
+I have never understood the female capacity to avoid a direct answer to
+any question.
+		-- Spock, "This Side of Paradise", stardate 3417.3
+%
+Even more amazing was the realization that God has Internet access.  I
+wonder if He has a full newsfeed?
+	-- Matt Welsh
+%
+...and scantily clad females, of course.  Who cares if it's below zero
+outside.
+	-- Linus Torvalds
+%
+Romulan women are not like Vulcan females.  We are not dedicated to
+pure logic and the sterility of non-emotion.
+		-- Romulan Commander, "The Enterprise Incident",
+		   stardate 5027.3
+%
+It's now the GNU Emacs of all terminal emulators.
+	-- Linus Torvalds, regarding the fact that Linux started off as a terminal emulator
+%
+Linux is obsolete
+	-- Andrew Tanenbaum
+%
+I'm frequently appalled by the low regard you Earthmen have for life.
+		-- Spock, "The Galileo Seven", stardate 2822.3
+%
+You're dead, Jim.
+		-- McCoy, "The Tholian Web", stardate unknown
+%
+There's an oversexed lady named Whyte
+Who insists on a dozen a night.
+	A fellow named Cheddar
+	Had the brashness to wed her-
+His chance of survival is slight.
+%
+"Who is General Failure and why is he reading my hard disk?"
+Microsoft spel chekar vor sail, worgs grate !!
+	-- Felix von Leitner, leitner@inf.fu-berlin.de
+%
+The man on tops walks a lonely street; the "chain" of command is often
+a noose.
+%
+We're all sorry for the other guy when he loses his job to a machine.
+But when it comes to your job -- that's different.  And it always will
+be different.
+		-- McCoy, "The Ultimate Computer", stardate 4729.4
+%
+So in the future, one 'client' at a time or you'll be spending CPU time with 
+lots of little 'child processes'.
+	-- Kevin M. Bealer, commenting on the private life of a Linux nerd
+%
+DOS: n., A small annoying boot virus that causes random spontaneous system
+     crashes, usually just before saving a massive project.  Easily cured by
+     UNIX.  See also MS-DOS, IBM-DOS, DR-DOS.
+	-- David Vicker's .plan
+%
+There was a young girl from Hong Kong
+Who said, "You are utterly wrong
+	To say my vagina
+	Is the largest in China
+Just because of your mean little dong."
+%
+[War] is instinctive.  But the instinct can be fought.  We're human
+beings with the blood of a million savage years on our hands!  But we
+can stop it.  We can admit that we're killers ... but we're not going
+to kill today.  That's all it takes!  Knowing that we're not going to
+kill today!
+		-- Kirk, "A Taste of Armageddon", stardate 3193.0
+%
+lp1 on fire
+	-- One of the more obfuscated kernel messages
+%
+Those who hate and fight must stop themselves -- otherwise it is not
+stopped.
+		-- Spock, "Day of the Dove", stardate unknown
+%
+Emotions are alien to me.  I'm a scientist.
+		-- Spock, "This Side of Paradise", stardate 3417.3
+%
+There is an old custom among my people.  When a woman saves a man's
+life, he is grateful.
+		-- Nona, the Kanuto which woman, "A Private Little War",
+		   stardate 4211.8.
+%
+Once upon a time there was a DOS user who saw Unix, and saw that it was
+good.  After typing cp on his DOS machine at home, he downloaded GNU's
+unix tools ported to DOS and installed them.  He rm'd, cp'd, and mv'd
+happily for many days, and upon finding elvis, he vi'd and was happy.  After
+a long day at work (on a Unix box) he came home, started editing a file,
+and couldn't figure out why he couldn't suspend vi (w/ ctrl-z) to do
+a compile.
+	-- Erik Troan, ewt@tipper.oit.unc.edu
+%
+> Linux is not user-friendly. 
+It _is_ user-friendly.  It is not ignorant-friendly and idiot-friendly.
+	-- Seen somewhere on the net
+%
+War isn't a good life, but it's life.
+		-- Kirk, "A Private Little War", stardate 4211.8
+%
+One does not thank logic.
+		-- Sarek, "Journey to Babel", stardate 3842.4
+%
+"It's hard to believe that something which is neither seen nor felt can
+do so much harm."
+
+"That's true.  But an idea can't be seen or felt.  And that's what kept
+the Troglytes in the mines all these centuries.  A mistaken idea."
+		-- Vanna and Kirk, "The Cloud Minders", stardate 5819.0
+%
+When a child is taught ... its programmed with simple instructions --
+and at some point, if its mind develops properly, it exceeds the sum of
+what it was taught, thinks independently.
+		-- Dr. Richard Daystrom, "The Ultimate Computer",
+		   stardate 4731.3.
+%
+We fight only when there is no other choice.  We prefer the ways of
+peaceful contact.
+		-- Kirk, "Spectre of the Gun", stardate 4385.3
+%
+[Doctors and Bartenders], We both get the same two kinds of customers
+-- the living and the dying.
+		-- Dr. Boyce, "The Menagerie" ("The Cage"), stardate unknown
+%
+You are an excellent tactician, Captain.  You let your second in
+command attack while you sit and watch for weakness.
+		-- Khan Noonian Singh, "Space Seed", stardate 3141.9
+%
+Without followers, evil cannot spread.
+		-- Spock, "And The Children Shall Lead", stardate 5029.5
+%
+There comes to all races an ultimate crisis which you have yet to face
+.... One day our minds became so powerful we dared think of ourselves
+as gods.
+		-- Sargon, "Return to Tomorrow", stardate 4768.3
+%
+Fascinating is a word I use for the unexpected.
+		-- Spock, "The Squire of Gothos", stardate 2124.5
+%
+Never trust an operating system you don't have sources for. ;-)
+	-- Unknown source
+%
+History tends to exaggerate.
+		-- Col. Green, "The Savage Curtain", stardate 5906.4
+%
+Blast medicine anyway!  We've learned to tie into every organ in the
+human body but one.  The brain!  The brain is what life is all about.
+		-- McCoy, "The Menagerie", stardate 3012.4
+%
+Linux: The OS people choose without $200,000,000 of persuasion.
+	-- Mike Coleman
+%
+"That unit is a woman."
+"A mass of conflicting impulses."
+		-- Spock and Nomad, "The Changeling", stardate 3541.9
+%
+Another dream that failed.  There's nothing sadder.
+		-- Kirk, "This side of Paradise", stardate 3417.3
+%
+Never make any mistaeks.
+	-- Anonymous, in a mail discussion about to a kernel bug report
+%
+Extreme feminine beauty is always disturbing.
+		-- Spock, "The Cloud Minders", stardate 5818.4
+%
+Star Trek Lives!
+%
+Absolutely nothing should be concluded from these figures except that
+no conclusion can be drawn from them.
+	-- Joseph L. Brothers, Linux/PowerPC Project)
+%
+First study the enemy.  Seek weakness.
+		-- Romulan Commander, "Balance of Terror", stardate 1709.2
+%
+We have found all life forms in the galaxy are capable of superior
+development.
+		-- Kirk, "The Gamesters of Triskelion", stardate 3211.7
+%
+It is more rational to sacrifice one life than six.
+		-- Spock, "The Galileo Seven", stardate 2822.3
+%
+Leave bigotry in your quarters; there's no room for it on the bridge.
+		-- Kirk, "Balance of Terror", stardate 1709.2
+%
+Prepare for tomorrow -- get ready.
+		-- Edith Keeler, "The City On the Edge of Forever",
+		   stardate unknown
+%
+I'm a soldier, not a diplomat.  I can only tell the truth.
+		-- Kirk, "Errand of Mercy", stardate 3198.9
+%
+When you say "I wrote a program that crashed Windows", people just stare at
+you blankly and say "Hey, I got those with the system, *for free*".
+	-- Linus Torvalds
+%
+A young maiden from France was no prude,
+She decided to dive in the nude,
+	But her buddy, behind,
+	Went out of his mind,
+When he noticed where she was tatooed.
+%
+Men don't talk peace unless they're ready to back it up with war.
+		-- Col. Green, "The Savage Curtain", stardate 5906.4
+%
+Either one of us, by himself, is expendable.  Both of us are not.
+		-- Kirk, "The Devil in the Dark", stardate 3196.1
+%
+> Linux is not user-friendly. 
+It _is_ user-friendly.  It is not ignorant-friendly and idiot-friendly.
+	-- Seen somewhere on the net
+%
+Oh, I've seen copies [of Linux Journal] around the terminal room at The Labs.
+	-- Dennis Ritchie
+%
+The man on tops walks a lonely street; the "chain" of command is often
+a noose.
+%
+After a time, you may find that "having" is not so pleasing a thing,
+after all, as "wanting."  It is not logical, but it is often true.
+		-- Spock, "Amok Time", stardate 3372.7
+%
+There once was a fellow named Siegel
+Who attempted to bugger a beagle,
+	But the mettlesome bitch
+	Turned and said with a twitch,
+"It's fun, but you know it's illegal."
+%
+"That unit is a woman."
+"A mass of conflicting impulses."
+		-- Spock and Nomad, "The Changeling", stardate 3541.9
+%
+There was a young girl of Newcastle
+Whose charms were declared universal.
+	While one man in front
+	Wired into her cunt,
+Another was engaged at her arsehole.
+%
+...and scantily clad females, of course.  Who cares if it's below zero
+outside.
+	-- Linus Torvalds
+%
+An irate young lady named Booker
+Told her husband, "You beast, I'm no hooker!
+	If you want it queer ways,
+	Go to whores for your lays!"
+So he packed up his tool and forsook 'er.
+%
+Q: Why shouldn't I simply delete the stuff I never use, it's just taking up 
+   space?
+A: This question is in the category of Famous Last Words..
+	-- From the Frequently Unasked Questions
+%
+Oh, I've seen copies [of Linux Journal] around the terminal room at The Labs.
+	-- Dennis Ritchie
+%
+The man on tops walks a lonely street; the "chain" of command is often
+a noose.
+%
+There's no honorable way to kill, no gentle way to destroy.  There is
+nothing good in war.  Except its ending.
+		-- Abraham Lincoln, "The Savage Curtain", stardate 5906.5
+%
+I am pleased to see that we have differences.  May we together become
+greater than the sum of both of us.
+		-- Surak of Vulcan, "The Savage Curtain", stardate 5906.4
+%
+A thrice-married gal from L.A.
+Said, "My hymen's intact to this day,
+	'Cause my first (a shrink) talked of it,
+	The voyeur only gawked at it,
+And my most recent man's a gourmet."
+%
+A lad from far-off Transvaal
+Was lustful, but tactful withal.
+	He'd say, just for luck,
+	"Mam'selle, do you fuck?"
+But he'd bow till he almost would crawl.
+%
+The people of Gideon have always believed that life is sacred.  That
+the love of life is the greatest gift ... We are incapable of
+destroying or interfering with the creation of that which we love so
+deeply -- life in every form from fetus to developed being.
+		-- Hodin of Gideon, "The Mark of Gideon", stardate 5423.4
+%
+A green-thumbed young farmer from Leeds
+Once swallowed a package of seeds.
+	In a month, his ass
+	Was covered with grass
+And his balls were grown over with weeds.
+%
+It [being a Vulcan] means to adopt a philosophy, a way of life which is
+logical and beneficial.  We cannot disregard that philosophy merely for
+personal gain, no matter how important that gain might be.
+		-- Spock, "Journey to Babel", stardate 3842.4
+%
+/*
+ * [...] Note that 120 sec is defined in the protocol as the maximum
+ * possible RTT.  I guess we'll have to use something other than TCP
+ * to talk to the University of Mars.
+ * PAWS allows us longer timeouts and large windows, so once implemented
+ * ftp to mars will work nicely.
+ */
+	-- from /usr/src/linux/net/inet/tcp.c, concerning RTT [round trip time]
+%
+"We have the right to survive!"
+"Not be killing others."
+		-- Deela and Kirk, "Wink of An Eye", stardate 5710.5
+%
+Feel free to contact me (flames about my english and the useless of this
+driver will be redirected to /dev/null, oh no, it's full...).
+	-- Michael Beck, describing the PC-speaker sound device
+%
+...[Linux's] capacity to talk via any medium except smoke signals.
+	-- Dr. Greg Wettstein, Roger Maris Cancer Center
+%
+A pretty young lady named Vogel
+Once sat herself down on a molehill.
+	A curious mole
+	Nosed into her hole --
+Ms. Vogel's ok, but the mole's ill.
+%
+All language designers are arrogant. Goes with the territory...
+	-- Larry Wall
+%
+Extreme feminine beauty is always disturbing.
+		-- Spock, "The Cloud Minders", stardate 5818.4
+%
+There was a young monk in Siberia,
+Whose morals were very inferior,
+	He jumped on a nun
+	Which he shouldn't have done,
+And now she's a Mother Superior.
+%
+You speak of courage.  Obviously you do not know the difference between
+courage and foolhardiness.  Always it is the brave ones who die, the
+soldiers.
+		-- Kor, the Klingon Commander, "Errand of Mercy",
+		   stardate 3201.7
+%
+There was a young lady named Blount
+Who had a rectangular cunt.
+	She learned for diversion
+	Posterior perversion,
+Since no one could fit here in front.
+%
+There was a young lady of Ealing
+And her lover before her was kneeling.
+	Said she, "Dearest Jim,
+	Take your hands off my quim;
+I much prefer fucking to feeling."
+%
+It would be illogical to kill without reason
+		-- Spock, "Journey to Babel", stardate 3842.4
+%
+Lots of people drink from the wrong bottle sometimes.
+		-- Edith Keeler, "The City on the Edge of Forever",
+		   stardate unknown
+%
+A water pipe suited miss Hunt;
+She used it for many a bunt.
+	But the unlucky wench
+	Got it caught in her trench ---
+It took twenty-two men and a big Stillson wrench,
+To get the thing out of her cunt. 
+%
+On a normal ascii line, the only safe condition to detect is a 'BREAK'
+- everything else having been assigned functions by Gnu EMACS.
+	-- Tarl Neustaedter
+%
+The joys of love made her human and the agonies of love destroyed her.
+		-- Spock, "Requiem for Methuselah", stardate 5842.8
+%
+I did this 'cause Linux gives me a woody.  It doesn't generate revenue.
+	-- Dave '-ddt->` Taylor, announcing DOOM for Linux
+%
+You!  What PLANET is this!
+		-- McCoy, "The City on the Edge of Forever", stardate 3134.0
+%
+If the future navigation system [for interactive networked services on
+the NII] looks like something from Microsoft, it will never work.
+	-- Chairman of Walt Disney Television & Telecommunications
+%
+There was a young woman of Condover
+Whose husband had ceased to be fond of 'er.
+	Her pussy was juicy,
+	Her arse soft and goosey,
+But peroxide had now made a blonde of 'er.
+%
+There was a young woman, quite handsome,
+Who got stuck in a sleeping room transom.
+	When she offered much gold
+	For release, she was told
+That the view was worth more than the ransom.
+%
+Linux poses a real challenge for those with a taste for late-night
+hacking (and/or conversations with God).
+	-- Matt Welsh
+%
+No one can guarantee the actions of another.
+		-- Spock, "Day of the Dove", stardate unknown
+%
+The sight of death frightens them [Earthers].
+		-- Kras the Klingon, "Friday's Child", stardate 3497.2
+%
+When you say 'I wrote a program that crashed Windows', people just stare at
+you blankly and say 'Hey, I got those with the system, *for free*'.
+	-- Linus Torvalds
+%
+There was a young fellow named Harry,
+Had a joint that was long, huge and scary.
+	He grabbed him a virgin,
+	Who, without any urgin',
+Immediately spread like a fairy.
+%
+A woman should have compassion.
+		-- Kirk, "Catspaw", stardate 3018.2
+%
+"There's only one kind of woman ..."
+"Or man, for that matter.  You either believe in yourself or you don't."
+		-- Kirk and Harry Mudd, "Mudd's Women", stardate 1330.1
+%
+Excusing bad programming is a shooting offence, no matter _what_ the
+circumstances.
+	-- Linus Torvalds, to the linux-kernel list
+%
+Compassion -- that's the one things no machine ever had.  Maybe it's
+the one thing that keeps men ahead of them.
+		-- McCoy, "The Ultimate Computer", stardate 4731.3
+%
+"Can you imagine how life could be improved if we could do away with
+jealousy, greed, hate ..."
+
+"It can also be improved by eliminating love, tenderness, sentiment --
+the other side of the coin"
+		-- Dr. Roger Corby and Kirk, "What are Little Girls Made Of?",
+		   stardate 2712.4
+%
+Q: What's the big deal about rm, I have been deleting stuff for years?  And 
+   never lost anything.. oops!
+A: ...
+	-- From the Frequently Unasked Questions
+%
+If Bill Gates is the Devil then Linus Torvalds must be the Messiah.
+	-- Unknown source
+%
+We have phasers, I vote we blast 'em!
+		-- Bailey, "The Corbomite Maneuver", stardate 1514.2
+%
+There are certain things men must do to remain men.
+		-- Kirk, "The Ultimate Computer", stardate 4929.4
+%
+So in the future, one 'client' at a time or you'll be spending CPU time with 
+lots of little 'child processes'.
+	-- Kevin M. Bealer, commenting on the private life of a Linux nerd
+%
+"Logic and practical information do not seem to apply here."
+"You admit that?"
+"To deny the facts would be illogical, Doctor"
+		-- Spock and McCoy, "A Piece of the Action", stardate unknown
+%
+It's now the GNU Emacs of all terminal emulators.
+	-- Linus Torvalds, regarding the fact that Linux started off as a terminal emulator
+%
+A lad from far-off Transvaal
+Was lustful, but tactful withal.
+	He'd say, just for luck,
+	"Mam'selle, do you fuck?"
+But he'd bow till he almost would crawl.
+%
+Dijkstra probably hates me.
+	-- Linus Torvalds, in kernel/sched.c
+%
+The joys of love made her human and the agonies of love destroyed her.
+		-- Spock, "Requiem for Methuselah", stardate 5842.8
+%
+DOS: n., A small annoying boot virus that causes random spontaneous system
+     crashes, usually just before saving a massive project.  Easily cured by
+     UNIX.  See also MS-DOS, IBM-DOS, DR-DOS.
+	-- David Vicker's .plan
+%
+Only a fool fights in a burning house.
+		-- Kank the Klingon, "Day of the Dove", stardate unknown
+%
+All the female apes ran from King Kong
+For his dong was unspeakably long.
+	But a friendly giraffe
+	Quaffed his yard and a half,
+And ecstatically burst into song.
+%
+There once was a fellow named Bob
+Who in sexual ways was a snob.
+	One day he was swimmin'
+	With twelve naked women
+And deserted them all for a gob.
+%
+Knowledge, sir, should be free to all!
+		-- Harry Mudd, "I, Mudd", stardate 4513.3
+%
+Knowledge, sir, should be free to all!
+		-- Harry Mudd, "I, Mudd", stardate 4513.3
+%
+I'm a soldier, not a diplomat.  I can only tell the truth.
+		-- Kirk, "Errand of Mercy", stardate 3198.9
+%
+An exotic young lady named Suki
+Once danced in a troupe of kabuki
+	When asked for a fuck
+	She said, "Solly, no luck--
+See here: looky looky, no nuki "
+%
+Vini, vidi, Linux!
+	-- Unknown source
+%
+Note that if I can get you to "su and say" something just by asking,
+you have a very serious security problem on your system and you should
+look into it.
+	-- Paul Vixie, vixie-cron 3.0.1 installation notes
+%
+History tends to exaggerate.
+		-- Col. Green, "The Savage Curtain", stardate 5906.4
+%
+Are Linux users lemmings collectively jumping off of the cliff of
+reliable, well-engineered commercial software?
+	-- Matt Welsh
+%
+There once was a monk of Camyre
+Who was seized with a carnal desire
+	And the primary cause
+	Was the abbess's drawers
+Which were hung up to dry by the fire.
+%
+Actual war is a very messy business.  Very, very messy business.
+		-- Kirk, "A Taste of Armageddon", stardate 3193.0
+%
+An impish young fellow named James
+Had a passion for idiot games.
+	He lighted the hair
+	Of his lady's affair
+And laughed as she pissed through the flames.
+%
+Compassion -- that's the one things no machine ever had.  Maybe it's
+the one thing that keeps men ahead of them.
+		-- McCoy, "The Ultimate Computer", stardate 4731.3
+%
+Star Trek Lives!
+%
+There was a young girl of Aberystwyth
+Who took grain to the mill to get grist with.
+	The miller's sun, Jack,
+	Laid her flat on her back,
+And united the organs they pissed with.
+%
+An inquisitive virgin named Dora
+Asked the man who started to bore 'er :
+	"Do you mean birds and bees
+	Go through antics like these,
+To suppy us our fauna and flora?"
+%
+"What terrible way to die."
+"There are no good ways."
+		-- Sulu and Kirk, "That Which Survives", stardate unknown
+%
+/*
+ * Oops. The kernel tried to access some bad page. We'll have to
+ * terminate things with extreme prejudice.
+*/
+die_if_kernel("Oops", regs, error_code);
+	-- From linux/arch/i386/mm/fault.c
+%
+There was a young girl of LLewellyn
+Whose breasts were as big as a melon.
+	They were big it is true,
+	But her cunt was big too,
+Like a bifocal, full-color, aerial view
+Of Cape Horn and the Straits of Magellan.
+%
+An eager young hacker named Gus
+Once buggered a VAX Unibus.
+	The hardware went bad,
+	But not the young lad
+(Except for the toupee and truss).
+%
+War isn't a good life, but it's life.
+		-- Kirk, "A Private Little War", stardate 4211.8
+%
+N: Phil Lewis
+E: beans@bucket.ualr.edu
+D: Promised to send money if I would put his name in the source tree.
+S: PO Box 371
+S: North Little Rock, Arkansas 72115
+S: US
+	-- /usr/src/linux/CREDITS
+%
+A romantic attraction has clung
+To a chap of whom damsels have sung:
+	"'Tis the Scourge from the East,
+	That lascivious beast
+Who was known as Attila the Hung!"
+%
+Linux: the choice of a GNU generation
+	-- ksh@cis.ufl.edu put this on Tshirts in '93
+%
+> Is there any hope for me? Am I just thick? Does anyone remember the
+> Rubiks Cube, it was easier!
+I found that the Rubiks cube and Linux are alike. Looks real confusing
+until you read the right book. :-)
+	-- seen on c.o.l.misc, about the "Linux Learning Curve"
+%
+Whoa...I did a 'zcat /vmlinuz > /dev/audio' and I think I heard God...
+	-- mikecd on #Linux
+%
+We apologize for the inconvenience, but we'd still like yout to test out
+this kernel. 
+	-- Linus Torvalds, announcing another kernel patch
+%
+Q: What's the big deal about rm, I have been deleting stuff for years?  And 
+   never lost anything.. oops!
+A: ...
+	-- From the Frequently Unasked Questions
+%
+There was a young lady of Fez
+Who was known to the public as "Jez."
+	Jezebel was her name,
+	Sucking cocks was the game
+She excelled at (so everyone says).
+%
+The linuX Files -- The Source is Out There.
+	-- Sent in by Craig S. Bell, goat@aracnet.com
+%
+Genius doesn't work on an assembly line basis.  You can't simply say,
+"Today I will be brilliant."
+		-- Kirk, "The Ultimate Computer", stardate 4731.3
+%
+The face of war has never changed.  Surely it is more logical to heal
+than to kill.
+		-- Surak of Vulcan, "The Savage Curtain", stardate 5906.5
+%
+If some day we are defeated, well, war has its fortunes, good and bad.
+		-- Commander Kor, "Errand of Mercy", stardate 3201.7
+%
+Vulcans do not approve of violence.
+		-- Spock, "Journey to Babel", stardate 3842.4
+%
+A lady was seized with intent
+To revise her existence misspent.
+	So she climbed up the dome
+	Of St. Peter's in Rome,
+Where she stayed through the following Lent.
+		-- Edward Gorey
+%
+As usual, this being a 1.3.x release, I haven't even compiled this
+kernel yet.  So if it works, you should be doubly impressed.
+	-- Linus Torvalds, announcing kernel 1.3.3
+%
+quit   When the quit statement is read, the  bc  processor
+       is  terminated, regardless of where the quit state-
+       ment is found.  For example, "if  (0  ==  1)  quit"
+       will cause bc to terminate.
+	-- seen in the manpage for "bc". Note the "if" statement's logic
+%
+> I'm an idiot..  At least this [bug] took about 5 minutes to find..
+Surely, Linus is talking about the kind of idiocy that others aspire to :-).
+	-- Bruce Perens in response to Linus Torvalds's
+%
+There was a young lady named Maud,
+A terrible society fraud:
+	In company, I'm told,
+	She was distant and cold,
+But if you got her alone, Oh God!
+%
+There was a young poet named Dan,
+Whose poetry never would scan.
+	When told this was so,
+	He said, "Yes, I know.
+It's because I try to put every single
+syllable into the last line that I possibly,
+possibly can."
+%
+On my planet, to rest is to rest -- to cease using energy.  To me, it
+is quite illogical to run up and down on green grass, using energy,
+instead of saving it.
+		-- Spock, "Shore Leave", stardate 3025.2
+%
+It is necessary to have purpose.
+		-- Alice #1, "I, Mudd", stardate 4513.3
+%
+We come to bury DOS, not to praise it.
+	-- Paul Vojta, vojta@math.berkeley.edu
+%
+There was a young lady of Norway
+Who hung by her toes in a doorway.
+	She said to her beau
+	"Just look at me Joe
+I think I've discovered one more way."
+%
+Once upon a time there was a DOS user who saw Unix, and saw that it was
+good.  After typing cp on his DOS machine at home, he downloaded GNU's
+unix tools ported to DOS and installed them.  He rm'd, cp'd, and mv'd
+happily for many days, and upon finding elvis, he vi'd and was happy.  After
+a long day at work (on a Unix box) he came home, started editing a file,
+and couldn't figure out why he couldn't suspend vi (w/ ctrl-z) to do
+a compile.
+	-- Erik Troan, ewt@tipper.oit.unc.edu
+%
+Vini, vidi, Linux!
+	-- Unknown source
+%
+No one wants war.
+		-- Kirk, "Errand of Mercy", stardate 3201.7
+%
+You're dead, Jim.
+		-- McCoy, "The Tholian Web", stardate unknown
+%
+The heart is not a logical organ.
+		-- Dr. Janet Wallace, "The Deadly Years", stardate 3479.4
+%
+It would be illogical to kill without reason
+		-- Spock, "Journey to Babel", stardate 3842.4
+%
+"Get back to your stations!"
+"We're beaming down to the planet, sir."
+		-- Kirk and Mr. Leslie, "This Side of Paradise",
+		   stardate 3417.3
+%
+There once was a man named Parridge
+With peculiar views on marriage.
+	He sucked off his brother,
+	Fucked his own mother,
+And gobbled his sister's miscarriage.
+%
+Knowledge, sir, should be free to all!
+		-- Harry Mudd, "I, Mudd", stardate 4513.3
+%
+One does not thank logic.
+		-- Sarek, "Journey to Babel", stardate 3842.4
+%
+You humans have that emotional need to express gratitude.  "You're
+welcome," I believe, is the correct response.
+		-- Spock, "Bread and Circuses", stardate 4041.2
+%
+Feel free to contact me (flames about my english and the useless of this
+driver will be redirected to /dev/null, oh no, it's full...).
+	-- Michael Beck, describing the PC-speaker sound device
+%
+Our missions are peaceful -- not for conquest.  When we do battle, it
+is only because we have no choice.
+		-- Kirk, "The Squire of Gothos", stardate 2124.5
+%
+Totally illogical, there was no chance.
+		-- Spock, "The Galileo Seven", stardate 2822.3
+%
+"Beauty is transitory."
+"Beauty survives."
+		-- Spock and Kirk, "That Which Survives", stardate unknown
+%
+I realize that command does have its fascination, even under
+circumstances such as these, but I neither enjoy the idea of command
+nor am I frightened of it.  It simply exists, and I will do whatever
+logically needs to be done.
+		-- Spock, "The Galileo Seven", stardate 2812.7
+%
+It's now the GNU Emacs of all terminal emulators.
+	-- Linus Torvalds, regarding the fact that Linux started off as a terminal emulator
+%
+Sometimes a feeling is all we humans have to go on.
+		-- Kirk, "A Taste of Armageddon", stardate 3193.9
+%
+You humans have that emotional need to express gratitude.  "You're
+welcome," I believe, is the correct response.
+		-- Spock, "Bread and Circuses", stardate 4041.2
+%
+Live long and prosper.
+		-- Spock, "Amok Time", stardate 3372.7
+%
+Feel free to contact me (flames about my english and the useless of this
+driver will be redirected to /dev/null, oh no, it's full...).
+	-- Michael Beck, describing the PC-speaker sound device
+%
+Our way is peace.
+		-- Septimus, the Son Worshiper, "Bread and Circuses",
+		   stardate 4040.7.
+%
+We are using Linux daily to UP our productivity - so UP yours!
+	-- Adapted from Pat Paulsen by Joe Sloan
+%
+War isn't a good life, but it's life.
+		-- Kirk, "A Private Little War", stardate 4211.8
+%
+Time is fluid ... like a river with currents, eddies, backwash.
+		-- Spock, "The City on the Edge of Forever", stardate 3134.0
+%
+Windows without the X is like making love without a partner.
+Sex, Drugs & Linux Rules
+win-nt from the people who invented edlin.
+Apples  have  meant  trouble  since  eden.
+Linux, the way to get rid of boot viruses
+	-- MaDsen Wikholm, mwikholm@at8.abo.fi
+%
+There was a young bride, a Canuck,
+Told her husband, "Let's do more than suck.
+	You say that I, maybe,
+	Can have my first baby--
+Let's give up this Frenchin' and fuck!"
+%
+There comes to all races an ultimate crisis which you have yet to face
+.... One day our minds became so powerful we dared think of ourselves
+as gods.
+		-- Sargon, "Return to Tomorrow", stardate 4768.3
+%
+..you could spend *all day* customizing the title bar.  Believe me.  I
+speak from experience.
+	-- Matt Welsh
+%
+Vulcans believe peace should not depend on force.
+		-- Amanda, "Journey to Babel", stardate 3842.3
+%
+A computer called Illiac4
+Had a rather tough bug in its core.
+	It chewed up its cards
+	And spewed yards and yards
+Of illegible tape on the floor.
+%
+Pain is a thing of the mind.  The mind can be controlled.
+		-- Spock, "Operation -- Annihilate!" stardate 3287.2
+%
+There's a charming young lady named Beaulieu
+Who's often been screwed by yours truly,
+	But now--it's appallin'--
+	My balls always fall in!
+I fear that I've fucked her unduly.
+%
+Do you know about being with somebody?  Wanting to be?  If I had the
+whole universe, I'd give it to you, Janice.  When I see you, I feel
+like I'm hungry all over.  Do you know how that feels?
+		-- Charlie Evans, "Charlie X", stardate 1535.8
+%
+Time is fluid ... like a river with currents, eddies, backwash.
+		-- Spock, "The City on the Edge of Forever", stardate 3134.0
+%
+Men of peace usually are [brave].
+		-- Spock, "The Savage Curtain", stardate 5906.5
+%
+The man on tops walks a lonely street; the "chain" of command is often
+a noose.
+%
+One of the things that hamper Linux's climb to world domination is the
+shortage of bad Computer Role Playing Games, or CRaPGs. No operating system
+can be considered respectable without one.
+	-- Brian O'Donnell, odonnllb@tcd.ie
+%
+To his bride said economist Fife :
+"The semen you'll launch as my wife,
+	We will salvage and freeze
+	To resemble goat's cheese,
+And slice for hors d'oeuvres with a knife."
+%
+A bather whose clothing was strewed
+By breezes that left her quite nude,
+	Saw a man come along
+	And, unless I am wrong,
+You expected this line to be lewd.
+%
+Landru! Guide us!
+		-- A Beta 3-oid, "The Return of the Archons", stardate 3157.4
+%
+Landru! Guide us!
+		-- A Beta 3-oid, "The Return of the Archons", stardate 3157.4
+%
+Punishment becomes ineffective after a certain point.  Men become
+insensitive.
+		-- Eneg, "Patterns of Force", stardate 2534.7
+%
+Seriously, the way I did this was by using a special /sbin/loader binary
+with debugging hooks that I made ("dd" is your friend: binary editors
+are for wimps).
+	-- Linus Torvalds, in an article on a dnserver
+%
+The only solution is ... a balance of power.  We arm our side with
+exactly that much more.  A balance of power -- the trickiest, most
+difficult, dirtiest game of them all.  But the only one that preserves
+both sides.
+		-- Kirk, "A Private Little War", stardate 4211.8
+%
+Never trust an operating system you don't have sources for. ;-)
+	-- Unknown source
+%
+Behind every great man, there is a woman -- urging him on.
+		-- Harry Mudd, "I, Mudd", stardate 4513.3
+%
+There was a young man of Coblenz
+Whose ballocks were simply immense:
+	It took forty-four draymen,
+	A priest and three laymen
+To carry them thither and thence.
+%
+There was a young squaw of Wohunt
+Who possessed a collapsible cunt.
+	It had many odd uses,
+	Produced no papooses,
+And fitted both giant and runt.
+%
+We have found all life forms in the galaxy are capable of superior
+development.
+		-- Kirk, "The Gamesters of Triskelion", stardate 3211.7
+%
+Insufficient facts always invite danger.
+		-- Spock, "Space Seed", stardate 3141.9
+%
+Genius doesn't work on an assembly line basis.  You can't simply say,
+"Today I will be brilliant."
+		-- Kirk, "The Ultimate Computer", stardate 4731.3
+%
+But what can you do with it?
+	-- ubiquitous cry from Linux-user partner
+%
+There was a gay parson of Tooting
+Whose roe he was frequently shooting,
+	Till he married a lass
+	With a face like my arse,
+And a cunt you could put a top-boot in.
+%
+Oh, that sound of male ego.  You travel halfway across the galaxy and
+it's still the same song.
+		-- Eve McHuron, "Mudd's Women", stardate 1330.1
+%
+All your people must learn before you can reach for the stars.
+		-- Kirk, "The Gamesters of Triskelion", stardate 3259.2
+%
+A beat schizophrenic said, "Me?
+I am not I, I'm a tree."
+	But another, more sane,
+	Shouted, "I'm a Great Dane!"
+And covered his pants leg with pee.
+%
+There was a young maiden from Osset
+Whose quim was nine inches across it.
+	Said a young man named Tong,
+	With tool nine inches long,
+"I'll put bugger-in if I loss it."
+%
+As the breeches-buoy swing towards the rocks,
+Its occupant cried, "Save my socks!
+	I could not bear the loss,
+	For with scarlet silk floss
+My mama has embroidered their clocks."
+		-- Edward Gorey
+%
+Youth doesn't excuse everything.
+		-- Dr. Janice Lester (in Kirk's body), "Turnabout Intruder",
+		   stardate 5928.5.
+%
+There was a young fellow named Feeney
+Whose girl was a terrible meany.
+	The hatch of her snatch
+	Had a catch that would latch
+- She could only be screwed by Houdini.
+%
+We do not colonize.  We conquer.  We rule.  There is no other way for
+us.
+		-- Rojan, "By Any Other Name", stardate 4657.5
+%
+...[Linux's] capacity to talk via any medium except smoke signals.
+	-- Dr. Greg Wettstein, Roger Maris Cancer Center
+%
+"I think they're going to take all this money that we spend now on war
+and death --"
+"And make them spend it on life."
+		-- Edith Keeler and Kirk, "The City on the Edge of Forever",
+		   stardate unknown.
+%
+There was a young girl from Peru,
+Who had nothing whatever to do.
+	So she sat on the stairs,
+	And counted cunt hairs,
+Four thousand, three hundred and two.
+%
+To live is always desirable.
+		-- Eleen the Capellan, "Friday's Child", stardate 3498.9
+%
+There is a multi-legged creature crawling on your shoulder.
+		-- Spock, "A Taste of Armageddon", stardate 3193.9
+%
+There once was a fencer named Fisk,
+Whose speed was incredibly brisk.
+	So fast was his action,
+	The Fitzgerald contraction,
+Foreshortended his foil to a disk.
+%
+Go not unto the Usenet for advice, for you will be told both yea and nay (and
+quite a few things that just have nothing at all to do with the question).
+	-- seen in a .sig somewhere
+%
+Men of peace usually are [brave].
+		-- Spock, "The Savage Curtain", stardate 5906.5
+%
+There was a young man named McNamiter
+With a tool of prodigious diameter.
+	But it wasn't the size
+	Gave the girls a surprise,
+But his rythm -- iambic pentameter.
+%
+Respect is a rational process
+		-- McCoy, "The Galileo Seven", stardate 2822.3
+%
+Oh, that sound of male ego.  You travel halfway across the galaxy and
+it's still the same song.
+		-- Eve McHuron, "Mudd's Women", stardate 1330.1
+%
+There's another way to survive.  Mutual trust -- and help.
+		-- Kirk, "Day of the Dove", stardate unknown
+%
+Another dream that failed.  There's nothing sadder.
+		-- Kirk, "This side of Paradise", stardate 3417.3
+%
+Q: What's the big deal about rm, I have been deleting stuff for years?  And 
+   never lost anything.. oops!
+A: ...
+	-- From the Frequently Unasked Questions
+%
+Without followers, evil cannot spread.
+		-- Spock, "And The Children Shall Lead", stardate 5029.5
+%
+Personally, I think my choice in the mostest-superlative-computer wars has to
+be the HP-48 series of calculators.  They'll run almost anything.  And if they
+can't, while I'll just plug a Linux box into the serial port and load up the
+HP-48 VT-100 emulator.
+	-- Jeff Dege, jdege@winternet.com
+%
+Convention organizer to Linus Torvalds: "You might like to come with us 
+to some licensed[1] place, and have some pizza."
+
+Linus: "Oh, I did not know that you needed a license to eat pizza".
+
+[1] Licenced - refers in Australia to a restaurant which has government 
+licence to sell liquor.
+	-- Linus at a talk at the Melbourne University
+%
+There was a young fellow from Parma
+Who was solemnly screwing his charmer.
+	Said the damsel demure,
+	"You'll excuse me, I'm sure,
+But I must say you fuck like a farmer."
+%
+All language designers are arrogant. Goes with the territory...
+	-- Larry Wall
+%
+There's nothing disgusting about it [the Companion].  It's just another
+life form, that's all.  You get used to those things.
+		-- McCoy, "Metamorphosis", stardate 3219.8
+%
+I realize that command does have its fascination, even under
+circumstances such as these, but I neither enjoy the idea of command
+nor am I frightened of it.  It simply exists, and I will do whatever
+logically needs to be done.
+		-- Spock, "The Galileo Seven", stardate 2812.7
+%
+We are using Linux daily to UP our productivity - so UP yours!
+	-- Adapted from Pat Paulsen by Joe Sloan
+%
+> Is there any hope for me? Am I just thick? Does anyone remember the
+> Rubiks Cube, it was easier!
+I found that the Rubiks cube and Linux are alike. Looks real confusing
+until you read the right book. :-)
+	-- seen on c.o.l.misc, about the "Linux Learning Curve"
+%
+Emotions are alien to me.  I'm a scientist.
+		-- Spock, "This Side of Paradise", stardate 3417.3
+%
+What kind of love is that?  Not to be loved; never to have shown love.
+		-- Commissioner Nancy Hedford, "Metamorphosis",
+		   stardate 3219.8
+%
+Most legends have their basis in facts.
+		-- Kirk, "And The Children Shall Lead", stardate 5029.5
+%
+Death, when unnecessary, is a tragic thing.
+		-- Flint, "Requiem for Methuselah", stardate 5843.7
+%
+A fisherman off of Cape Cod
+Said, "I'll bugger that tuna, by God!"
+	But the high-minded fish
+	Resented his wish,
+And nimbly swam off with his rod.
+%
+Our missions are peaceful -- not for conquest.  When we do battle, it
+is only because we have no choice.
+		-- Kirk, "The Squire of Gothos", stardate 2124.5
+%
+Emotions are alien to me.  I'm a scientist.
+		-- Spock, "This Side of Paradise", stardate 3417.3
+%
+... The prejudices people feel about each other disappear when then get
+to know each other.
+		-- Kirk, "Elaan of Troyius", stardate 4372.5
+%
+Only a fool fights in a burning house.
+		-- Kank the Klingon, "Day of the Dove", stardate unknown
+%
+But it's real.  And if it's real it can be affected ...  we may not be
+able to break it, but, I'll bet you credits to Navy Beans we can put a
+dent in it.
+		-- deSalle, "Catspaw", stardate 3018.2
+%
+Insufficient facts always invite danger.
+		-- Spock, "Space Seed", stardate 3141.9
+%
+We are using Linux daily to UP our productivity - so UP yours!
+	-- Adapted from Pat Paulsen by Joe Sloan
+%
+It is more rational to sacrifice one life than six.
+		-- Spock, "The Galileo Seven", stardate 2822.3
+%
+This is a logical analogy too... anyone who's been around, knows the world is 
+run by paenguins.  Always a paenguin behind the curtain, really getting things 
+done.  And paenguins in politics--who can deny it?
+	-- Kevin M. Bealer, commenting on the penguin Linux logo
+%
+There was once a sad Maitre d'hotel
+Who said, "They can all go to hell!
+	What they do to my wife--
+	Why it ruins my life;
+And the worst is, they all do it well.
+%
+[War] is instinctive.  But the instinct can be fought.  We're human
+beings with the blood of a million savage years on our hands!  But we
+can stop it.  We can admit that we're killers ... but we're not going
+to kill today.  That's all it takes!  Knowing that we're not going to
+kill today!
+		-- Kirk, "A Taste of Armageddon", stardate 3193.0
+%
+There was a young fellow named Morgan
+Who possessed an unusual organ:
+	The end of his dong,
+	Which was nine inches long,
+Was tipped with the head of a gorgon.
+%
+A worn-out young husband named Lehr
+Her daily his wife's plaintive prayer:
+	"Slip on a sheath, quick,
+	Then slip your big dick
+Between these lips covered with hair."
+%
+A habit obscene and unsavory,
+Holds a CS professor in slavery.
+	With maniacal howls,
+	He deflowers young owls,
+That he keeps in an underground aviary.
+%
+In most countries selling harmful things like drugs is punishable.
+Then howcome people can sell Microsoft software and go unpunished?
+	-- Hasse Skrifvars, hasku@rost.abo.fi, 
+%
+There once was a freshman named Lin,
+Whose tool was as thin as a pin,
+	A virgin named Joan
+	From a bible belt home,
+Said "This won't be much of a sin."
+%
+There is a multi-legged creature crawling on your shoulder.
+		-- Spock, "A Taste of Armageddon", stardate 3193.9
+%
+All your people must learn before you can reach for the stars.
+		-- Kirk, "The Gamesters of Triskelion", stardate 3259.2
+%
+You Earth people glorified organized violence for forty centuries.  But
+you imprison those who employ it privately.
+		-- Spock, "Dagger of the Mind", stardate 2715.1
+%
+"Linux was made by foreign terrorists to take money from true US companies
+like Microsoft." - Some AOL'er.
+"To this end we dedicate ourselves..." -Don
+	-- From the sig of "Don", don@cs.byu.edu
+%
+> You know you are "there" when you are known by your first name, and
+> are recognized.
+> Lemmie see, there is Madonna, and Linus, and ..... help me out here!
+Bill ? ;-)
+	-- From some postings on comp.os.linux.misc
+%
+"What happened to the crewman?"
+
+"The M-5 computer needed a new power source, the crewman merely got in
+the way."
+		-- Kirk and Dr. Richard Daystrom, "The Ultimate Computer",
+		   stardate 4731.3.
+%
+...Unix, MS-DOS, and Windows NT (also known as the Good, the Bad, and
+the Ugly).
+	-- Matt Welsh
+%
+A couple was fishing near Clombe
+When the maid began looking quite glum,
+	And said, "Bother the fish!
+	I'd rather coish!"
+Which they did -- which was why they had come.
+%
+There was a young lady of Bude
+Who walked down the street in the nude.
+	A bobby said, "Whattum
+	Magnificent bottom!"
+And slapped it as hard as he could.
+%
+Every living thing wants to survive.
+		-- Spock, "The Ultimate Computer", stardate 4731.3
+%
+> > Other than the fact Linux has a cool name, could someone explain why I
+> > should use Linux over BSD?
+>
+> No.  That's it.  The cool name, that is.  We worked very hard on
+> creating a name that would appeal to the majority of people, and it
+> certainly paid off: thousands of people are using linux just to be able
+> to say "OS/2? Hah.  I've got Linux.  What a cool name".  386BSD made the
+> mistake of putting a lot of numbers and weird abbreviations into the
+> name, and is scaring away a lot of people just because it sounds too
+> technical.
+	-- Linus Torvalds' follow-up to a question about Linux
+%
+Dijkstra probably hates me.
+	-- Linus Torvalds, in kernel/sched.c
+%
+I am pleased to see that we have differences.  May we together become
+greater than the sum of both of us.
+		-- Surak of Vulcan, "The Savage Curtain", stardate 5906.4
+%
+I'm a soldier, not a diplomat.  I can only tell the truth.
+		-- Kirk, "Errand of Mercy", stardate 3198.9
+%
+There are always alternatives.
+		-- Spock, "The Galileo Seven", stardate 2822.3
+%
+By the way, I can hardly feel sorry for you... All last night I had to listen 
+to her tears, so great they were redirected to a stream.  What?  Of _course_ 
+you didn't know.  You and your little group no longer have any permissions 
+around here.  She changed her .lock files, too.
+	-- Kevin M. Bealer, commenting on the private life of a Linux nerd
+%
+You say you are lying.  But if everything you say is a lie, then you
+are telling the truth.  You cannot tell the truth because everything
+you say is a lie.  You lie, you tell the truth ... but you cannot, for
+you lie.
+		-- Norman the android, "I, Mudd", stardate 4513.3
+%
+Emotions are alien to me.  I'm a scientist.
+		-- Spock, "This Side of Paradise", stardate 3417.3
+%
+----==-- _                     / /  \
+---==---(_)__  __ ____  __    / / /\ \
+--==---/ / _ \/ // /\ \/ /   / /_/\ \ \
+-=====/_/_//_/\_,_/ /_/\_\  /______\ \ \
+A proud member of TeamLinux \_________\/
+	-- CHaley (HAC), haley@unm.edu, ch008cth@pi.lanl.gov)
+%
+To his bride, said the sharp eyed detective,
+"Can it be that my eyesight's defective?
+	Is your east tit the least bit
+	The best of your west tit,
+Or is it a trick of perspective?"
+%
+Death, when unnecessary, is a tragic thing.
+		-- Flint, "Requiem for Methuselah", stardate 5843.7
+%
+Conquest is easy. Control is not.
+		-- Kirk, "Mirror, Mirror", stardate unknown
+%
+... bacteriological warfare ... hard to believe we were once foolish
+enough to play around with that.
+		-- McCoy, "The Omega Glory", stardate unknown
+%
+There was a young girl named O'Malley
+Who wanted to dance in the ballet.
+	She got roars of applause
+	When she kicked off her drawers,
+But her hair and her bush didn't tally.
+%
+We come to bury DOS, not to praise it.
+	-- Paul Vojta, vojta@math.berkeley.edu
+%
+If some day we are defeated, well, war has its fortunes, good and bad.
+		-- Commander Kor, "Errand of Mercy", stardate 3201.7
+%
+Youth doesn't excuse everything.
+		-- Dr. Janice Lester (in Kirk's body), "Turnabout Intruder",
+		   stardate 5928.5.
+%
+Microsoft Corp., concerned by the growing popularity of the free 32-bit
+operating system for Intel systems, Linux, has employed a number of top
+programmers from the underground world of virus development.  Bill Gates stated
+yesterday: "World domination, fast -- it's either us or Linus".  Mr. Torvalds
+was unavailable for comment ...
+	-- Robert Manners, rjm@swift.eng.ox.ac.uk, in comp.os.linux.setup
+%
+It [being a Vulcan] means to adopt a philosophy, a way of life which is
+logical and beneficial.  We cannot disregard that philosophy merely for
+personal gain, no matter how important that gain might be.
+		-- Spock, "Journey to Babel", stardate 3842.4
+%
+Oh, and this is another kernel in that great and venerable "BugFree(tm)"
+series of kernels.  So be not afraid of bugs, but go out in the streets
+and deliver this message of joy to the masses.
+	-- Linus, in the announcement for 1.3.27
+%
+Never make any mistaeks.
+	-- Anonymous, in a mail discussion about to a kernel bug report
+%
+War isn't a good life, but it's life.
+		-- Kirk, "A Private Little War", stardate 4211.8
+%
+There was a young fellow name Tucker
+Who, instructing a novice cock-sucker,
+	Said, "Don't bow out your lips
+	Like an elephant's hips,
+The boys like it best when they pucker."
+%
+Intel engineering seem to have misheard Intel marketing strategy.  The
+phrase was "Divide and conquer" not "Divide and cock up"
+	-- Alan Cox, iialan@www.linux.org.uk
+%
+Actual war is a very messy business.  Very, very messy business.
+		-- Kirk, "A Taste of Armageddon", stardate 3193.0
+%
+There once was a young man from Yuma,
+Who told an elephant joke to a puma.
+	Now his dry bleached bones lie,
+	Under hot Asian skies,
+'Cause the puma had no sense of huma.
+%
+We have found all life forms in the galaxy are capable of superior
+development.
+		-- Kirk, "The Gamesters of Triskelion", stardate 3211.7
+%
+The sooner our happiness together begins, the longer it will last.
+		-- Miramanee, "The Paradise Syndrome", stardate 4842.6
+%
+If you want to travel around the world and be invited to speak at a lot
+of different places, just write a Unix operating system.
+	-- Linus Torvalds
+%
+> You know you are "there" when you are known by your first name, and
+> are recognized.
+> Lemmie see, there is Madonna, and Linus, and ..... help me out here!
+Bill ? ;-)
+	-- From some postings on comp.os.linux.misc
+%
+On a normal ascii line, the only safe condition to detect is a 'BREAK'
+- everything else having been assigned functions by Gnu EMACS.
+	-- Tarl Neustaedter
+%
+No problem is insoluble.
+		-- Dr. Janet Wallace, "The Deadly Years", stardate 3479.4
+%
+No one may kill a man.  Not for any purpose.  It cannot be condoned.
+		-- Kirk, "Spock's Brain", stardate 5431.6
+%
+There is a multi-legged creature crawling on your shoulder.
+		-- Spock, "A Taste of Armageddon", stardate 3193.9
+%
+On the Internet, no one knows you're using Windows NT
+	-- Submitted by Ramiro Estrugo, restrugo@fateware.com
+%
+"The glory of creation is in its infinite diversity."
+"And in the way our differences combine to create meaning and beauty."
+		-- Dr. Miranda Jones and Spock, "Is There in Truth No Beauty?",
+		   stardate 5630.8
+%
+The game, anoraks.2.0.0.tgz, will be available from sunsite until somebody
+responsible notices it and deletes it, and shortly from
+ftp.mee.tcd.ie/pub/Brian, though they don't know that yet.
+	-- Brian O'Donnell, odonnllb@tcd.ie
+%
+Go not unto the Usenet for advice, for you will be told both yea and nay (and
+quite a few things that just have nothing at all to do with the question).
+	-- seen in a .sig somewhere
+%
+Many Myths are based on truth
+		-- Spock, "The Way to Eden",  stardate 5832.3
+%
+A talented fuckstress, Miss Chisholm,
+Was renowned for her fine paroxysm.
+	While the man detumesced
+	She still spent on with zest,
+Her rapture sheer anachronism.
+%
+> I'm an idiot..  At least this [bug] took about 5 minutes to find..
+Disquieting ...
+	-- Gonzalo Tornaria in response to Linus Torvalds's
+%
+Oh, and this is another kernel in that great and venerable "BugFree(tm)"
+series of kernels.  So be not afraid of bugs, but go out in the streets
+and deliver this message of joy to the masses.
+	-- Linus, in the announcement for 1.3.27
+%
+You Women's Lib gals won't agree,
+But dependent on men you must be:
+	You'll need a him
+	With a rod firm and trim,
+To puggle your water-drains free!
+%
+"It's hard to believe that something which is neither seen nor felt can
+do so much harm."
+
+"That's true.  But an idea can't be seen or felt.  And that's what kept
+the Troglytes in the mines all these centuries.  A mistaken idea."
+		-- Vanna and Kirk, "The Cloud Minders", stardate 5819.0
+%
+"The combination of a number of things to make existence worthwhile."
+"Yes, the philosophy of 'none,' meaning 'all.'"
+		-- Spock and Lincoln, "The Savage Curtain", stardate 5906.4
+%
+Never make any mistaeks.
+	-- Anonymous, in a mail discussion about to a kernel bug report
+%
+There once was a girl named Louise
+Who cunt hair hung down to her knees
+	The crabs in her twat
+	Tied the hairs in a knot
+And constructed a flying trapeze
+%
+Women professionals do tend to over-compensate.
+		-- Dr. Elizabeth Dehner, "Where No Man Has Gone Before",
+		   stardate 1312.9.
+%
+Another Armenia, Belgium ... the weak innocents who always seem to be
+located on a natural invasion route.
+		-- Kirk, "Errand of Mercy", stardate 3198.4
+%
+There was a young lady named Schneider
+Who often kept trysts with a spider.
+	She found a strange bliss,
+	In the hiss of her piss,
+As it strained through the cobwebs inside her.
+%
+It would be illogical to kill without reason
+		-- Spock, "Journey to Babel", stardate 3842.4
+%
+It is undignified for a woman to play servant to a man who is not
+hers.
+		-- Spock, "Amok Time", stardate 3372.7
+%
+There was an old man who said, "Tush!
+My balls always hang in the brush,
+	And I fumble about,
+	Half in and half out,
+With a pecker as limber as mush."
+%
+Are Linux users lemmings collectively jumping off of the cliff of
+reliable, well-engineered commercial software?
+	-- Matt Welsh
+%
+> I've hacked the Xaw3d library to give you a Win95 like interface and it
+> is named Xaw95. You can replace your Xaw3d library.
+Oh God, this is so disgusting!
+	-- seen on c.o.l.development.apps, about the "Win95 look-alike"
+%
+There was an old fellow named Art
+Who awoke with a horrible start,
+	For down by his rump
+	Was a generous lump
+Of what should have been just a fart.
+%
+There's no honorable way to kill, no gentle way to destroy.  There is
+nothing good in war.  Except its ending.
+		-- Abraham Lincoln, "The Savage Curtain", stardate 5906.5
+%
+Peace was the way.
+		-- Kirk, "The City on the Edge of Forever", stardate unknown
+%
+> If you don't need X then little VT-100 terminals are available for real 
+> cheap.  Should be able to find decent ones used for around $40 each.
+> For that price, they're a must for the kitchen, den, bathrooms, etc.. :)
+You're right. Can you explain this to my wife? 
+	-- Seen on c.o.l.development.system, on the subject of extra terminals
+%
+There was a young girl from Seattle,
+Whose hobby was sucking off cattle.
+	But a bull from the South
+	Shot a wad in her mouth
+That made both her ovaries rattle.
+%
+Worlds may change, galaxies disintegrate, but a woman always remains a
+woman.
+		-- Kirk, "The Conscience of the King", stardate 2818.9
+%
+A pretty young maiden from France
+Decided she'd "just take a chance."
+	She let herself go
+	For an hour or so,
+And now all her sisters are aunts.
+%
+Without facts, the decision cannot be made logically.  You must rely on
+your human intuition.
+		-- Spock, "Assignment: Earth", stardate unknown
+%
+MSDOS didn't get as bad as it is overnight -- it took over ten years
+of careful development.
+	-- dmeggins@aix1.uottawa.ca
+%
+Those who hate and fight must stop themselves -- otherwise it is not
+stopped.
+		-- Spock, "Day of the Dove", stardate unknown
+%
+I mean, well, if it were not for Linux I might be roaming the streets looking
+for drugs or prostitutes or something.  Hannu and Linus have my highest
+admiration (apple polishing mode off).
+	-- Phil Lewis, plewis@nyx.nyx.net
+%
+Vulcans never bluff.
+		-- Spock, "The Doomsday Machine", stardate 4202.1
+%
+The joys of love made her human and the agonies of love destroyed her.
+		-- Spock, "Requiem for Methuselah", stardate 5842.8
+%
+There is an old custom among my people.  When a woman saves a man's
+life, he is grateful.
+		-- Nona, the Kanuto which woman, "A Private Little War",
+		   stardate 4211.8.
+%
+There was a young girl of Coxsaxie
+Whose skirt was more mini than maxi.
+	She was fucked at the show
+	In the twenty-third row,
+And once more going home in the taxi.
+%
+You are an excellent tactician, Captain.  You let your second in
+command attack while you sit and watch for weakness.
+		-- Khan Noonian Singh, "Space Seed", stardate 3141.9
+%
+If Bill Gates is the Devil then Linus Torvalds must be the Messiah.
+	-- Unknown source
+%
+There was a young lady from Wheeling
+Who had a peculiar feeling.
+	She laid on her back
+	And tickled her crack
+And pissed all over the ceiling.
+%
+Military secrets are the most fleeting of all.
+		-- Spock, "The Enterprise Incident", stardate 5027.4
+%
+One does not thank logic.
+		-- Sarek, "Journey to Babel", stardate 3842.4
+%
+Conquest is easy. Control is not.
+		-- Kirk, "Mirror, Mirror", stardate unknown
+%
+I forgot to mention an important fact in the 1.3.67 announcement. In order to 
+get a fully working kernel, you have to follow the steps below:
+ - Walk around your computer widdershins 3 times, chanting "Linus is
+   overworked, and he makes lousy patches, but we love him anyway". Get
+   your spuouse to do this too for extra effect.  Children are optional.
+ - Apply the patch included in this mail
+ - Call your system "Super-67", and don't forget to unapply the patch
+   before you later applying the official 1.3.68 patch.
+ - reboot
+	-- Linus Torvalds, announcing another kernel patch
+%
+Another Armenia, Belgium ... the weak innocents who always seem to be
+located on a natural invasion route.
+		-- Kirk, "Errand of Mercy", stardate 3198.4
+%
+Prepare for tomorrow -- get ready.
+		-- Edith Keeler, "The City On the Edge of Forever",
+		   stardate unknown
+%
+Is not that the nature of men and women -- that the pleasure is in the
+learning of each other?
+		-- Natira, the High Priestess of Yonada, "For the World is
+		   Hollow and I Have Touched the Sky", stardate 5476.3.
+%
+We have found all life forms in the galaxy are capable of superior
+development.
+		-- Kirk, "The Gamesters of Triskelion", stardate 3211.7
+%
+After a time, you may find that "having" is not so pleasing a thing,
+after all, as "wanting."  It is not logical, but it is often true.
+		-- Spock, "Amok Time", stardate 3372.7
+%
+A princess who lived near a bog
+Met a prince in the form of a frog.
+	Now she and her prince
+	Are the parents of quints,
+Four boys and one fine polliwog.
+%
+A little suffering is good for the soul.
+		-- Kirk, "The Corbomite Maneuver", stardate 1514.0
+%
+By the way, I can hardly feel sorry for you... All last night I had to listen 
+to her tears, so great they were redirected to a stream.  What?  Of _course_ 
+you didn't know.  You and your little group no longer have any permissions 
+around here.  She changed her .lock files, too.
+	-- Kevin M. Bealer, commenting on the private life of a Linux nerd
+%
+Sometimes a man will tell his bartender things he'll never tell his doctor.
+		-- Dr. Phillip Boyce, "The Menagerie" ("The Cage"),
+		   stardate unknown.
+%
+Computers make excellent and efficient servants, but I have no wish to
+serve under them.  Captain, a starship also runs on loyalty to one
+man.  And nothing can replace it or him.
+		-- Spock, "The Ultimate Computer", stardate 4729.4
+%
+The new Linux anthem will be "He's an idiot, but he's ok", as performed by
+Monthy Python.  You'd better start practicing.
+	-- Linus Torvalds, announcing another kernel patch
+%
+There was an old girl of Kilkenny
+Whose usual charge was a penny.
+	For half of that sum
+	You could finger her bum--
+A source of amusement to many.
+%
+There was a young physicist named Fisk
+Whose lovemaking was rather brisk.
+	So quick was his action,
+	The Lorentz Contraction
+Shortened his rod to a disc !!
+%
+Vulcans do not approve of violence.
+		-- Spock, "Journey to Babel", stardate 3842.4
+%
+The sight of death frightens them [Earthers].
+		-- Kras the Klingon, "Friday's Child", stardate 3497.2
+%
+There was a young fellow named Pell
+Who didn't like cunt very well.
+	He would finger or fuck one,
+	But never would suck one--
+He just couldn't get used to the smell.
+%
+We're all sorry for the other guy when he loses his job to a machine.
+But when it comes to your job -- that's different.  And it always will
+be different.
+		-- McCoy, "The Ultimate Computer", stardate 4729.4
+%
+There was a young blade from South Greece
+Whose bush did so greatly increase
+	That before he could shack
+	He must hunt needle in stack.
+'Twas as bad as being obese.
+%
+I'm telling you that the kernel is stable not because it's a kernel,
+but because I refuse to listen to arguments like this.
+	-- Linus Torvalds
+%
+There's a way out of any cage.
+		-- Captain Christopher Pike, "The Menagerie" ("The Cage"),
+		   stardate unknown.
+%
+...and scantily clad females, of course.  Who cares if it's below zero
+outside.
+	-- Linus Torvalds
+%
+There once was a fiesty young terrier
+Who liked to bite girls on the derriere.
+	He'd yip and he'd yap,
+	Then leap up and snap;
+And the fairer the derriere the merrier.
+%
+"No one talks peace unless he's ready to back it up with war."
+"He talks of peace if it is the only way to live."
+		-- Colonel Green and Surak of Vulcan, "The Savage Curtain",
+		   stardate 5906.5.
+%
+So in the future, one 'client' at a time or you'll be spending CPU time with 
+lots of little 'child processes'.
+	-- Kevin M. Bealer, commenting on the private life of a Linux nerd
+%
+When you say 'I wrote a program that crashed Windows', people just stare at
+you blankly and say 'Hey, I got those with the system, *for free*'.
+	-- Linus Torvalds
+%
+Eh, that's it, I guess.  No 300 million dollar unveiling event for this
+kernel, I'm afraid, but you're still supposed to think of this as the
+"happening of the century" (at least until the next kernel comes along).
+Oh, and this is another kernel in that great and venerable "BugFree(tm)"
+series of kernels. So be not afraid of bugs, but go out in the streets
+and deliver this message of joy to the masses.
+	-- Linus Torvalds, on releasing 1.3.27
+%
+"No one talks peace unless he's ready to back it up with war."
+"He talks of peace if it is the only way to live."
+		-- Colonel Green and Surak of Vulcan, "The Savage Curtain",
+		   stardate 5906.5.
+%
+The memory management on the PowerPC can be used to frighten small children.
+	-- Linus Torvalds
+%
+What kind of love is that?  Not to be loved; never to have shown love.
+		-- Commissioner Nancy Hedford, "Metamorphosis",
+		   stardate 3219.8
+%
+There was a young fellow named Fletcher,
+Was reputed an infamous lecher.
+	When he'd take on a whore
+	She'd need a rebore,
+And they'd carry him out on a stretcher.
+%
+We use Linux for all our mission-critical applications.  Having the source code
+means that we are not held hostage by anyone's support department.
+	-- Russell Nelson, President of Crynwr Software
+%
+The games have always strengthened us.  Death becomes a familiar
+pattern.  We don't fear it as you do.
+		-- Proconsul Marcus Claudius, "Bread and Circuses",
+		   stardate 4041.2
+%
+Wait!  You have not been prepared!
+		-- Mr. Atoz, "Tomorrow is Yesterday", stardate 3113.2
+%
+There once was a man named Parridge
+With peculiar views on marriage.
+	He sucked off his brother,
+	Fucked his own mother,
+And gobbled his sister's miscarriage.
+%
+There was a young lady in Reno,
+Who lost all her dough playing Keno.
+	But she lay on her back,
+	And opened her crack,
+So now she owns the Casino!
+%
+There was a young woman of Croft
+Who played with herself in a loft,
+	Having reasoned that candles
+	Could never cause scandals,
+Besides which they did not go soft.
+
+Said another young woman of Croft,
+Amusing herself in the loft,
+	"A salami or wurst
+	Is what I'd choose first --
+With bologna you know you've been boffed."
+%
+"I think they're going to take all this money that we spend now on war
+and death --"
+"And make them spend it on life."
+		-- Edith Keeler and Kirk, "The City on the Edge of Forever",
+		   stardate unknown.
+%
+We do not colonize.  We conquer.  We rule.  There is no other way for
+us.
+		-- Rojan, "By Any Other Name", stardate 4657.5
+%
+You go slow, be gentle.  It's no one-way street -- you know how you
+feel and that's all.  It's how the girl feels too.  Don't press.  If
+the girl feels anything for you at all, you'll know.
+		-- Kirk, "Charlie X", stardate 1535.8
+%
+Our missions are peaceful -- not for conquest.  When we do battle, it
+is only because we have no choice.
+		-- Kirk, "The Squire of Gothos", stardate 2124.5
+%
+War is never imperative.
+		-- McCoy, "Balance of Terror", stardate 1709.2
+%
+First study the enemy.  Seek weakness.
+		-- Romulan Commander, "Balance of Terror", stardate 1709.2
+%
+The joys of love made her human and the agonies of love destroyed her.
+		-- Spock, "Requiem for Methuselah", stardate 5842.8
+%
+I develop for Linux for a living, I used to develop for DOS.
+Going from DOS to Linux is like trading a glider for an F117.
+	-- Lawrence Foard, entropy@world.std.com
+%
+Only a fool fights in a burning house.
+		-- Kank the Klingon, "Day of the Dove", stardate unknown
+%
+Humans do claim a great deal for that particular emotion (love).
+		-- Spock, "The Lights of Zetar", stardate 5725.6
+%
+There was once a mechanic named Bench
+Whose best tool was a sturdy gut-wrench.
+	With this vibrant device
+	He could reach, in a trice,
+The innermost parts of a wench.
+%
+Another dream that failed.  There's nothing sadder.
+		-- Kirk, "This side of Paradise", stardate 3417.3
+%
+One of the advantages of being a captain is being able to ask for
+advice without necessarily having to take it.
+		-- Kirk, "Dagger of the Mind", stardate 2715.2
+%
+An incautious young woman named Venn
+Was seen with the wrong sort of men;
+	She vanished one day,
+	But the following May
+Her legs were retrieved from a fen.
+		-- Edward Gorey
+%
+We are MicroSoft.  You will be assimilated.  Resistance is futile.
+	-- Attributed to B.G., Gill Bates
+%
+Men don't talk peace unless they're ready to back it up with war.
+		-- Col. Green, "The Savage Curtain", stardate 5906.4
+%
+    if (argc > 1 && strcmp(argv[1], "-advice") == 0) {
+	printf("Don't Panic!\n");
+	exit(42);
+    }
+	-- Arnold Robbins in the LJ of February '95, describing RCS
+%
+... bacteriological warfare ... hard to believe we were once foolish
+enough to play around with that.
+		-- McCoy, "The Omega Glory", stardate unknown
+%
+Youth doesn't excuse everything.
+		-- Dr. Janice Lester (in Kirk's body), "Turnabout Intruder",
+		   stardate 5928.5.
+%
+The good thing about standards is that there are so many to choose from.
+	-- Andrew S. Tanenbaum
+%
+/*
+ * [...] Note that 120 sec is defined in the protocol as the maximum
+ * possible RTT.  I guess we'll have to use something other than TCP
+ * to talk to the University of Mars.
+ * PAWS allows us longer timeouts and large windows, so once implemented
+ * ftp to mars will work nicely.
+ */
+	-- from /usr/src/linux/net/inet/tcp.c, concerning RTT [round trip time]
+%
+There was a young lady in Reno,
+Who lost all her dough playing Keno.
+	But she lay on her back,
+	And opened her crack,
+So now she owns the Casino!
+%
+And the next time you consider complaining that running Lucid Emacs
+19.05 via NFS from a remote Linux machine in Paraguay doesn't seem to
+get the background colors right, you'll know who to thank.
+	-- Matt Welsh
+%
+To his bride said the keen-eyed detective,
+"Can it be that my eyesight's defective?
+	Has the east tit the least bit
+	The best of the west tit,
+Or is it the faulty perspective?"
+%
+I am pleased to see that we have differences.  May we together become
+greater than the sum of both of us.
+		-- Surak of Vulcan, "The Savage Curtain", stardate 5906.4
+%
+Do you know about being with somebody?  Wanting to be?  If I had the
+whole universe, I'd give it to you, Janice.  When I see you, I feel
+like I'm hungry all over.  Do you know how that feels?
+		-- Charlie Evans, "Charlie X", stardate 1535.8
+%
+There was a young woman, quite handsome,
+Who got stuck in a sleeping room transom.
+	When she offered much gold
+	For release, she was told
+That the view was worth more than the ransom.
+%
+A woman should have compassion.
+		-- Kirk, "Catspaw", stardate 3018.2
+%
+Oh, that sound of male ego.  You travel halfway across the galaxy and
+it's still the same song.
+		-- Eve McHuron, "Mudd's Women", stardate 1330.1
+%
+Linux is addictive, I'm hooked!
+	-- MaDsen Wikholm's .sig
+%
+A scream from the crypt of St. Giles
+Resounded for miles upon miles.
+	Said the friar, "Good gracious,
+	The brother Ignatious
+Forgeteth the abbot hath piles."
+%
+MSDOS didn't get as bad as it is overnight -- it took over ten years
+of careful development.
+	-- dmeggins@aix1.uottawa.ca
+%
+How do you power off this machine?
+	-- Linus, when upgrading linux.cs.helsinki.fi, and after using the machine for several months
+%
+There was a young girl of Batonger
+who diddled herself with a conger,
+	When asked how it feels
+	To be pleasured by eels
+She said, "Just like a man, only longer.
+%
+I once witnessed a long-winded, month-long flamewar over the use of
+mice vs. trackballs... It was very silly.
+	-- Matt Welsh
+%
+"What happened to the crewman?"
+
+"The M-5 computer needed a new power source, the crewman merely got in
+the way."
+		-- Kirk and Dr. Richard Daystrom, "The Ultimate Computer",
+		   stardate 4731.3.
+%
+When you say 'I wrote a program that crashed Windows', people just stare at
+you blankly and say 'Hey, I got those with the system, *for free*'.
+	-- Linus Torvalds
+%
+Vini, vidi, Linux!
+	-- Unknown source
+%
+Men don't talk peace unless they're ready to back it up with war.
+		-- Col. Green, "The Savage Curtain", stardate 5906.4
+%
+There's no honorable way to kill, no gentle way to destroy.  There is
+nothing good in war.  Except its ending.
+		-- Abraham Lincoln, "The Savage Curtain", stardate 5906.5
+%
+Seriously, the way I did this was by using a special /sbin/loader binary
+with debugging hooks that I made ("dd" is your friend: binary editors
+are for wimps).
+	-- Linus Torvalds, in an article on a dnserver
+%
+We're all sorry for the other guy when he loses his job to a machine.
+But when it comes to your job -- that's different.  And it always will
+be different.
+		-- McCoy, "The Ultimate Computer", stardate 4729.4
+%
+It would seem that evil retreats when forcibly confronted
+		-- Yarnek of Excalbia, "The Savage Curtain", stardate 5906.5
+%
+Computers make excellent and efficient servants, but I have no wish to
+serve under them.  Captain, a starship also runs on loyalty to one
+man.  And nothing can replace it or him.
+		-- Spock, "The Ultimate Computer", stardate 4729.4
+%
+... The things love can drive a man to -- the ecstasies, the
+the miseries, the broken rules, the desperate chances, the glorious
+failures and the glorious victories.
+		-- McCoy, "Requiem for Methuselah", stardate 5843.7
+%
+A dreary young bank clerk named Fennis
+Wished to foster an aura of menace.
+	To make people afraid
+	He wore gloves of grey suede
+And white footgear intended for tennis.
+		-- Edward Gorey, "Amphigorey"
+%
+I thought my people would grow tired of killing.  But you were right,
+they see it is easier than trading.  And it has its pleasures.  I feel
+it myself.  Like the hunt, but with richer rewards.
+		-- Apella, "A Private Little War", stardate 4211.8
+%
+A worried young man from Stamboul
+Discovered red spots on his tool.
+	Said the doctor, a cynic,
+	"Get out of my clinic
+Just wipe off the lipstick, you fool."
+%
+There's nothing disgusting about it [the Companion].  It's just another
+life form, that's all.  You get used to those things.
+		-- McCoy, "Metamorphosis", stardate 3219.8
+%
+There was a young girl from Decatur
+Who was raped by an alligator.
+	But no one quite knew
+	How she relished that screw,
+For after he screwed her, he ate her.
+%
+As tourists inspected the apse
+An ominous series of raps
+	Came from under the altar,
+	Which caused some to falter
+And others to shriek and collapse.
+		-- Edward Gorey
+%
+There is a multi-legged creature crawling on your shoulder.
+		-- Spock, "A Taste of Armageddon", stardate 3193.9
+%
+Blast medicine anyway!  We've learned to tie into every organ in the
+human body but one.  The brain!  The brain is what life is all about.
+		-- McCoy, "The Menagerie", stardate 3012.4
+%
+Computers make excellent and efficient servants, but I have no wish to
+serve under them.  Captain, a starship also runs on loyalty to one
+man.  And nothing can replace it or him.
+		-- Spock, "The Ultimate Computer", stardate 4729.4
+%
+There was a young lady named Flo
+Whose lover had pulled out too slow.
+	So they tried it all night,
+	Till he got it just right...
+Well, practice makes pregnant, you know.
+%
+There is an order of things in this universe.
+		-- Apollo, "Who Mourns for Adonais?" stardate 3468.1
+%
+What you end up with, after running an operating system concept through
+these many marketing coffee filters, is something not unlike plain hot
+water.
+	-- Matt Welsh
+%
+'Mounting' is used for three things: climbing on a horse, linking in a
+hard disk unit in data systems, and, well, mounting during sex.
+	-- Christa Keil
+%
+Computers make excellent and efficient servants, but I have no wish to
+serve under them.  Captain, a starship also runs on loyalty to one
+man.  And nothing can replace it or him.
+		-- Spock, "The Ultimate Computer", stardate 4729.4
+%
+Anyone who thinks UNIX is intuitive should be forced to write 5000 lines of 
+code using nothing but vi or emacs.  AAAAACK!
+	-- Discussion on the intuitiveness of commands, especially Emacs
+%
+When dreams become more important than reality, you give up travel,
+building, creating; you even forget how to repair the machines left
+behind by your ancestors.  You just sit living and reliving other lives
+left behind in the thought records.
+		-- Vina, "The Menagerie" ("The Cage"), stardate unknown
+%
+The only solution is ... a balance of power.  We arm our side with
+exactly that much more.  A balance of power -- the trickiest, most
+difficult, dirtiest game of them all.  But the only one that preserves
+both sides.
+		-- Kirk, "A Private Little War", stardate 4211.8
+%
+There was a young man of Ostend
+Who let a girl play with his end.
+	She took hold of Rover,
+	And felt it all over,
+And it did what she didn't intend.
+%
+A couple was fishing near Clombe
+When the maid began looking quite glum,
+	And said, "Bother the fish!
+	I'd rather coish!"
+Which they did -- which was why they had come.
+%
+There is a multi-legged creature crawling on your shoulder.
+		-- Spock, "A Taste of Armageddon", stardate 3193.9
+%
+A young systems programmer of Sprotic
+Found his software intensely erotic.
+	In jealous distress
+	He wiped his OS.
+It's possible that he's a psychotic.
+%
+Intel engineering seem to have misheard Intel marketing strategy.  The
+phrase was "Divide and conquer" not "Divide and cock up"
+	-- Alan Cox, iialan@www.linux.org.uk
+%
+There once was a fag of Khartoom
+Who spent the night in a Lesbians room.
+	They argued all night,
+	Over who had the right,
+To do what, and with which, and to whom.
+%
+There was a young lady from Hyde
+Who ate a green apple and died.
+	While her lover lamented
+	The apple fermented
+And made cider inside her inside.
+%
+Too much of anything, even love, isn't necessarily a good thing.
+		-- Kirk, "The Trouble with Tribbles", stardate 4525.6
+%
+There once was a fellow named Sweeney
+Who spilled gin all over his weenie.
+	Not being uncouth,
+	He added vermouth
+And slipped his amour a martini.
+%
+There was a young man named Knute
+Who had warts all over his root.
+	He put acid on these
+	And now when he pees,
+He fingers the thing like a flute.
+%
+All language designers are arrogant. Goes with the territory...
+	-- Larry Wall
+%
+There are two types of Linux developers - those who can spell, and
+those who can't.  There is a constant pitched battle between the two.
+	-- From one of the post-1.1.54 kernel update messages posted to c.o.l.a
+%
+There was a young girl of Rangoon
+Who was blocked by the Man in the Moon.
+	"Well, it has been great fun,"
+	She remarked when he'd done,
+"But I'm sorry you came quite so soon."
+%
+    if (argc > 1 && strcmp(argv[1], "-advice") == 0) {
+	printf("Don't Panic!\n");
+	exit(42);
+    }
+	-- Arnold Robbins in the LJ of February '95, describing RCS
+%
+Violence in reality is quite different from theory.
+		-- Spock, "The Cloud Minders", stardate 5818.4
+%
+The games have always strengthened us.  Death becomes a familiar
+pattern.  We don't fear it as you do.
+		-- Proconsul Marcus Claudius, "Bread and Circuses",
+		   stardate 4041.2
+%
+Killing is wrong.
+		-- Losira, "That Which Survives", stardate unknown
+%
+We fight only when there is no other choice.  We prefer the ways of
+peaceful contact.
+		-- Kirk, "Spectre of the Gun", stardate 4385.3
+%
+Sic transit discus mundi
+	-- From the System Administrator's Guide, by Lars Wirzenius
+%
+You can't evaluate a man by logic alone.
+		-- McCoy, "I, Mudd", stardate 4513.3
+%
+To his bride, said the sharp eyed detective,
+"Can it be that my eyesight's defective?
+	Is your east tit the least bit
+	The best of your west tit,
+Or is it a trick of perspective?"
+%
+Knowledge, sir, should be free to all!
+		-- Harry Mudd, "I, Mudd", stardate 4513.3
+%
+Insufficient facts always invite danger.
+		-- Spock, "Space Seed", stardate 3141.9
+%
+Prepare for tomorrow -- get ready.
+		-- Edith Keeler, "The City On the Edge of Forever",
+		   stardate unknown
+%
+The new Linux anthem will be "He's an idiot, but he's ok", as performed by
+Monthy Python.  You'd better start practicing.
+	-- Linus Torvalds, announcing another kernel patch
+%
+Sigh.  I like to think it's just the Linux people who want to be on
+the "leading edge" so bad they walk right off the precipice.
+	-- Craig E. Groeschel
+%
+    if (argc > 1 && strcmp(argv[1], "-advice") == 0) {
+	printf("Don't Panic!\n");
+	exit(42);
+    }
+	-- Arnold Robbins in the LJ of February '95, describing RCS
+%
+A team playing baseball in Dallas
+Called te umpire blind out of malice.
+	While this worthy had fits
+	The team made eight hits
+And a girl in the bleachers named Alice.
+%
+We Klingons believe as you do -- the sick should die.  Only the strong
+should live.
+		-- Kras, "Friday's Child", stardate 3497.2
+%
+The sight of death frightens them [Earthers].
+		-- Kras the Klingon, "Friday's Child", stardate 3497.2
+%
+I'm a soldier, not a diplomat.  I can only tell the truth.
+		-- Kirk, "Errand of Mercy", stardate 3198.9
+%
+You are an excellent tactician, Captain.  You let your second in
+command attack while you sit and watch for weakness.
+		-- Khan Noonian Singh, "Space Seed", stardate 3141.9
+%
+Never make any mistaeks.
+	-- Anonymous, in a mail discussion about to a kernel bug report
+%
+> Is there any hope for me? Am I just thick? Does anyone remember the
+> Rubiks Cube, it was easier!
+I found that the Rubiks cube and Linux are alike. Looks real confusing
+until you read the right book. :-)
+	-- seen on c.o.l.misc, about the "Linux Learning Curve"
+%
+Death, when unnecessary, is a tragic thing.
+		-- Flint, "Requiem for Methuselah", stardate 5843.7
+%
+Many Myths are based on truth
+		-- Spock, "The Way to Eden",  stardate 5832.3
+%
+Schshschshchsch.
+		-- The Gorn, "Arena", stardate 3046.2
+%
+The people of Gideon have always believed that life is sacred.  That
+the love of life is the greatest gift ... We are incapable of
+destroying or interfering with the creation of that which we love so
+deeply -- life in every form from fetus to developed being.
+		-- Hodin of Gideon, "The Mark of Gideon", stardate 5423.4
+%
+I've already got a female to worry about.  Her name is the Enterprise.
+		-- Kirk, "The Corbomite Maneuver", stardate 1514.0
+%
+"Evil does seek to maintain power by suppressing the truth."
+"Or by misleading the innocent."
+		-- Spock and McCoy, "And The Children Shall Lead",
+		   stardate 5029.5.
+%
+A new dramatist of the absurd
+Has a voice that will shortly be heard.
+	I learn from my spies
+	He's about to devise
+An unprintable three-letter word.
+%
+To his clubfooted child said Lord Stipple,
+As he poured his post-prandial tipple,
+	"Your mother's behaviour
+	Gave pain to Our Saviour,
+And that's why He made you a cripple."
+		-- Edward Gorey
+%
+There's nothing disgusting about it [the Companion].  It's just another
+life form, that's all.  You get used to those things.
+		-- McCoy, "Metamorphosis", stardate 3219.8
+%
+How do you power off this machine?
+	-- Linus, when upgrading linux.cs.helsinki.fi, and after using the machine for several months
+%
+There was a young man from Jodhpur
+Who found he could easily cure
+	His dread diabetes
+	By eating a foetus
+Served up in a sauce of manure.
+%
+Either one of us, by himself, is expendable.  Both of us are not.
+		-- Kirk, "The Devil in the Dark", stardate 3196.1
+%
+Murder is contrary to the laws of man and God.
+		-- M-5 Computer, "The Ultimate Computer", stardate 4731.3
+%
+> I've hacked the Xaw3d library to give you a Win95 like interface and it
+> is named Xaw95. You can replace your Xaw3d library.
+Oh God, this is so disgusting!
+	-- seen on c.o.l.development.apps, about the "Win95 look-alike"
+%
+Death, when unnecessary, is a tragic thing.
+		-- Flint, "Requiem for Methuselah", stardate 5843.7
+%
+There was a young girl named Saphire
+Who succumbed to her lovers desire.
+	She said, "It's a sin,
+	But now that it's in,
+Could you shove it a few inches higher?"
+%
+A team playing baseball in Dallas
+Called te umpire blind out of malice.
+	While this worthy had fits
+	The team made eight hits
+And a girl in the bleachers named Alice.
+%
+(I tried to get some documentation out of Digital on this, but as far as
+I can tell even _they_ don't have it ;-)
+	-- Linus Torvalds, in an article on a dnserver
+%
+It is a human characteristic to love little animals, especially if
+they're attractive in some way.
+		-- McCoy, "The Trouble with Tribbles", stardate 4525.6
+%
+Wait!  You have not been prepared!
+		-- Mr. Atoz, "Tomorrow is Yesterday", stardate 3113.2
+%
+There was a young lady named Banker,
+Who slept while the ship lay at anchor,
+	She woke in dismay,
+	When she heard the mate say,
+"Now hoist up the topsheet and spanker."
+%
+Sigh.  I like to think it's just the Linux people who want to be on
+the "leading edge" so bad they walk right off the precipice.
+	-- Craig E. Groeschel
+%
+There was a young fellow named Bliss
+Whose sex life was strangely amiss,
+	For even with Venus
+	His recalcitrant penis
+Would never do better than t
+			   h
+			   i
+			   s
+			   .
+%
+There once was a girl from Spokane,
+Went to bed with a one-legged man.
+	She said, "I know you--
+	You've really got two!
+Why didn't you say so when we began?"
+%
+"That unit is a woman."
+"A mass of conflicting impulses."
+		-- Spock and Nomad, "The Changeling", stardate 3541.9
+%
+There's no honorable way to kill, no gentle way to destroy.  There is
+nothing good in war.  Except its ending.
+		-- Abraham Lincoln, "The Savage Curtain", stardate 5906.5
+%
+Where there's no emotion, there's no motive for violence.
+		-- Spock, "Dagger of the Mind", stardate 2715.1
+%
+It is necessary to have purpose.
+		-- Alice #1, "I, Mudd", stardate 4513.3
+%
+...you might as well skip the Xmas celebration completely, and instead
+sit in front of your linux computer playing with the all-new-and-improved 
+linux kernel version.
+	-- Linus Torvalds
+%
+<SomeLamer> what's the difference between chattr and chmod?
+<SomeGuru> SomeLamer: man chattr > 1; man chmod > 2; diff -u 1 2 | less
+	-- Seen on #linux on irc
+%
+There was a young lady named Bower
+Who dwelt in an Ivory Tower.
+	But a poet from Perth
+	Laid her flat on the earth,
+And proceeded with penis to plough her.
+%
+There is an old custom among my people.  When a woman saves a man's
+life, he is grateful.
+		-- Nona, the Kanuto which woman, "A Private Little War",
+		   stardate 4211.8.
+%
+"What terrible way to die."
+"There are no good ways."
+		-- Sulu and Kirk, "That Which Survives", stardate unknown
+%
+There was a young trollop at Yale,
+Who had verses tattooed on her tail,
+	And on her behind,
+	For the sake of the blind,
+A duplicate version in Braille.
+%
+I've already got a female to worry about.  Her name is the Enterprise.
+		-- Kirk, "The Corbomite Maneuver", stardate 1514.0
+%
+Totally illogical, there was no chance.
+		-- Spock, "The Galileo Seven", stardate 2822.3
+%
+The sight of death frightens them [Earthers].
+		-- Kras the Klingon, "Friday's Child", stardate 3497.2
+%
+There comes to all races an ultimate crisis which you have yet to face
+.... One day our minds became so powerful we dared think of ourselves
+as gods.
+		-- Sargon, "Return to Tomorrow", stardate 4768.3
+%
+There once was a husky young Viking
+Whose sexual prowess was striking.
+	Every time he got hot
+	He would scour the twat
+Of some girl that might be to his liking.
+%
+You can't evaluate a man by logic alone.
+		-- McCoy, "I, Mudd", stardate 4513.3
+%
+There was a young man from Maine
+Whose prick was as strong as a crane;
+	It was almost as long,
+	So he strolled with his dong
+Extended in sunshine and rain.
+%
+> Is there any hope for me? Am I just thick? Does anyone remember the
+> Rubiks Cube, it was easier!
+I found that the Rubiks cube and Linux are alike. Looks real confusing
+until you read the right book. :-)
+	-- seen on c.o.l.misc, about the "Linux Learning Curve"
+%
+The most important design issue... is the fact that Linux is supposed to 
+be fun...
+	-- Linus Torvalds at the First Dutch International Symposium on Linux
+%
+If a man had a child who'd gone anti-social, killed perhaps, he'd still
+tend to protect that child.
+		-- McCoy, "The Ultimate Computer", stardate 4731.3
+%
+Only a fool fights in a burning house.
+		-- Kank the Klingon, "Day of the Dove", stardate unknown
+%
+As usual, this being a 1.3.x release, I haven't even compiled this
+kernel yet.  So if it works, you should be doubly impressed.
+	-- Linus Torvalds, announcing kernel 1.3.3
+%
+Four thousand throats may be cut in one night by a running man.
+		-- Klingon Soldier, "Day of the Dove", stardate unknown
+%
+There is a multi-legged creature crawling on your shoulder.
+		-- Spock, "A Taste of Armageddon", stardate 3193.9
+%
+There is an old custom among my people.  When a woman saves a man's
+life, he is grateful.
+		-- Nona, the Kanuto which woman, "A Private Little War",
+		   stardate 4211.8.
+%
+Shoot me again.
+Just proving that the quickest way to solve the problem is to post a
+whine to the newsgroups: within moments the solution presents itself to
+me, and meanwhile my ass is hanging out on the Net... *sigh*... 
+	-- Dave Phillips, dlphilp@bright.net, about problem solving via news
+%
+Four thousand throats may be cut in one night by a running man.
+		-- Klingon Soldier, "Day of the Dove", stardate unknown
+%
+"The release of emotion is what keeps us health.  Emotionally healthy."
+
+"That may be, Doctor.  However, I have noted that the healthy release
+of emotion is frequently unhealthy for those closest to you."
+		-- McCoy and Spock, "Plato's Stepchildren", stardate 5784.3
+%
+..you could spend *all day* customizing the title bar.  Believe me.  I
+speak from experience.
+	-- Matt Welsh
+%
+"I think they're going to take all this money that we spend now on war
+and death --"
+"And make them spend it on life."
+		-- Edith Keeler and Kirk, "The City on the Edge of Forever",
+		   stardate unknown.
+%
+You are an excellent tactician, Captain.  You let your second in
+command attack while you sit and watch for weakness.
+		-- Khan Noonian Singh, "Space Seed", stardate 3141.9
+%
+A father doesn't destroy his children.
+		-- Lt. Carolyn Palamas, "Who Mourns for Adonais?",
+		   stardate 3468.1.
+%
+It is more rational to sacrifice one life than six.
+		-- Spock, "The Galileo Seven", stardate 2822.3
+%
+We apologize for the inconvenience, but we'd still like yout to test out
+this kernel. 
+	-- Linus Torvalds, announcing another kernel patch
+%
+We should start referring to processes which run in the background by their 
+correct technical name... paenguins.
+	-- Kevin M. Bealer, commenting on the penguin Linux logo
+%
+I don't know why, but first C programs tend to look a lot worse than
+first programs in any other language (maybe except for fortran, but then
+I suspect all fortran programs look like `firsts')
+	-- Olaf Kirch
+%
+Sigh.  I like to think it's just the Linux people who want to be on
+the "leading edge" so bad they walk right off the precipice.
+	-- Craig E. Groeschel
+%
+There once were two women from Birmingham.
+And this is the story concerning 'em.
+	They lifted the frock
+	And fondled the cock
+Of the bishop as he was confirming 'em.
+%
+There's a rather odd couple in Herts
+Who are cousins (or so each asserts);
+	Their sex is in doubt
+	For they're never without
+Their moustaches and long, trailing skirts.
+		-- Edward Gorey
+%
+It is necessary to have purpose.
+		-- Alice #1, "I, Mudd", stardate 4513.3
+%
+There were three young ladies of Birmingham,
+And this is the scandal concerning 'em.
+	They lifted the frock
+	And tickled the cock
+Of the Bishop engaged in confirming 'em.
+
+Now, the Bishop was nobody's fool,
+He'd been to a good public school,
+	So he took down their britches
+	And buggered those bitches
+With his ten-inch episcopal tool.
+
+Then up spoke a lady from Kew,
+And said, as the Bishop withdrew,
+	"The vicar is quicker
+	And thicker and slicker,
+And longer and stronger than you."
+		-- Abuses of the Clergy
+%
+I'm a soldier, not a diplomat.  I can only tell the truth.
+		-- Kirk, "Errand of Mercy", stardate 3198.9
+%
+A little suffering is good for the soul.
+		-- Kirk, "The Corbomite Maneuver", stardate 1514.0
+%
+War is never imperative.
+		-- McCoy, "Balance of Terror", stardate 1709.2
+%
+Linux: The OS people choose without $200,000,000 of persuasion.
+	-- Mike Coleman
+%
+Vulcans never bluff.
+		-- Spock, "The Doomsday Machine", stardate 4202.1
+%
+A young woman got married at Chester,
+Her mother she kissed her and blessed her.
+	Says she, "You're in luck,
+	He's a stunning good fuck,
+For I've had him myself down in Leicester."
+%
+Totally illogical, there was no chance.
+		-- Spock, "The Galileo Seven", stardate 2822.3
+%
+You go slow, be gentle.  It's no one-way street -- you know how you
+feel and that's all.  It's how the girl feels too.  Don't press.  If
+the girl feels anything for you at all, you'll know.
+		-- Kirk, "Charlie X", stardate 1535.8
+%
+We have phasers, I vote we blast 'em!
+		-- Bailey, "The Corbomite Maneuver", stardate 1514.2
+%
+When a child is taught ... its programmed with simple instructions --
+and at some point, if its mind develops properly, it exceeds the sum of
+what it was taught, thinks independently.
+		-- Dr. Richard Daystrom, "The Ultimate Computer",
+		   stardate 4731.3.
+%
+Worlds may change, galaxies disintegrate, but a woman always remains a
+woman.
+		-- Kirk, "The Conscience of the King", stardate 2818.9
+%
+Superior ability breeds superior ambition.
+		-- Spock, "Space Seed", stardate 3141.9
+%
+Personally, I think my choice in the mostest-superlative-computer wars has to
+be the HP-48 series of calculators.  They'll run almost anything.  And if they
+can't, while I'll just plug a Linux box into the serial port and load up the
+HP-48 VT-100 emulator.
+	-- Jeff Dege, jdege@winternet.com
+%
+"The release of emotion is what keeps us health.  Emotionally healthy."
+
+"That may be, Doctor.  However, I have noted that the healthy release
+of emotion is frequently unhealthy for those closest to you."
+		-- McCoy and Spock, "Plato's Stepchildren", stardate 5784.3
+%
+"The combination of a number of things to make existence worthwhile."
+"Yes, the philosophy of 'none,' meaning 'all.'"
+		-- Spock and Lincoln, "The Savage Curtain", stardate 5906.4
+%
+> The day people think linux would be better served by somebody else (FSF
+> being the natural alternative), I'll "abdicate".  I don't think that
+> it's something people have to worry about right now - I don't see it
+> happening in the near future.  I enjoy doing linux, even though it does
+> mean some work, and I haven't gotten any complaints (some almost timid
+> reminders about a patch I have forgotten or ignored, but nothing
+> negative so far).
+>
+> Don't take the above to mean that I'll stop the day somebody complains:
+> I'm thick-skinned (Lasu, who is reading this over my shoulder commented
+> that "thick-HEADED is closer to the truth") enough to take some abuse.
+> If I weren't, I'd have stopped developing linux the day ast ridiculed me
+> on c.o.minix.  What I mean is just that while linux has been my baby so
+> far, I don't want to stand in the way if people want to make something
+> better of it (*).
+>
+>                 Linus
+>
+> (*) Hey, maybe I could apply for a saint-hood from the Pope.  Does
+> somebody know what his email-address is? I'm so nice it makes you puke.
+	-- Taken from Linus's reply to someone worried about the future of Linux
+%
+Suffocating together ... would create heroic camaraderie.
+		-- Khan Noonian Singh, "Space Seed", stardate 3142.8
+%
+It is a human characteristic to love little animals, especially if
+they're attractive in some way.
+		-- McCoy, "The Trouble with Tribbles", stardate 4525.6
+%
+Worlds are conquered, galaxies destroyed -- but a woman is always a
+woman.
+		-- Kirk, "Conscience of the King", stardate unknown
+%
+"Life and death are seldom logical."
+"But attaining a desired goal always is."
+		-- McCoy and Spock, "The Galileo Seven", stardate 2821.7
+%
+A graduate student named Zac
+Was said to be great in the sack.
+	An inch of his boner 
+	Put girls in a coma
+And two gave them epileptic attacks.
+%
+There was a young man from Maine
+Whose prick was as strong as a crane;
+	It was almost as long,
+	So he strolled with his dong
+Extended in sunshine and rain.
+%
+Seriously, the way I did this was by using a special /sbin/loader binary
+with debugging hooks that I made ("dd" is your friend: binary editors
+are for wimps).
+	-- Linus Torvalds, in an article on a dnserver
+%
+"Who is General Failure and why is he reading my hard disk?"
+Microsoft spel chekar vor sail, worgs grate !!
+	-- Felix von Leitner, leitner@inf.fu-berlin.de
+%
+Punishment becomes ineffective after a certain point.  Men become
+insensitive.
+		-- Eneg, "Patterns of Force", stardate 2534.7
+%
+If I can have honesty, it's easier to overlook mistakes.
+		-- Kirk, "Space Seed", stardate 3141.9
+%
+There was a young maiden from Osset
+Whose quim was nine inches across it.
+	Said a young man named Tong,
+	With tool nine inches long,
+"I'll put bugger-in if I loss it."
+%
+It is more rational to sacrifice one life than six.
+		-- Spock, "The Galileo Seven", stardate 2822.3
+%
+There was a young woman from Bude,
+Who went for a swim in the nude,
+	But a man in a punt,
+	Grabbed at her elbow,
+And said "Hey, lady, you can't swim here, it's private property."
+%
+A hidebound young virgin named Carrie
+Would say, when the fellows got hairy :
+	"Keep your prick in your pants
+	Till the end of this dance--"
+Which is why Carrie still has her cherry.
+%
+A cautious young fellow named Lodge
+Had seatbelts installed in his Dodge.
+	When his date was strapped in,
+	He committed a sin,
+Without even leaving his grodge.
+%
+Military secrets are the most fleeting of all.
+		-- Spock, "The Enterprise Incident", stardate 5027.4
+%
+Superior ability breeds superior ambition.
+		-- Spock, "Space Seed", stardate 3141.9
+%
+Pain is a thing of the mind.  The mind can be controlled.
+		-- Spock, "Operation -- Annihilate!" stardate 3287.2
+%
+Another Armenia, Belgium ... the weak innocents who always seem to be
+located on a natural invasion route.
+		-- Kirk, "Errand of Mercy", stardate 3198.4
+%
+Women professionals do tend to over-compensate.
+		-- Dr. Elizabeth Dehner, "Where No Man Has Gone Before",
+		   stardate 1312.9.
+%
+/*
+ * [...] Note that 120 sec is defined in the protocol as the maximum
+ * possible RTT.  I guess we'll have to use something other than TCP
+ * to talk to the University of Mars.
+ * PAWS allows us longer timeouts and large windows, so once implemented
+ * ftp to mars will work nicely.
+ */
+	-- from /usr/src/linux/net/inet/tcp.c, concerning RTT [round trip time]
+%
+'Mounting' is used for three things: climbing on a horse, linking in a
+hard disk unit in data systems, and, well, mounting during sex.
+	-- Christa Keil
+%
+There once was a man named Lodge,
+who had seatbelts installed in his Dodge.
+	When his date was strapped in,
+	He committed a sin,
+without ever leaving the garage.
+%
+So in the future, one 'client' at a time or you'll be spending CPU time with 
+lots of little 'child processes'.
+	-- Kevin M. Bealer, commenting on the private life of a Linux nerd
+%
+The games have always strengthened us.  Death becomes a familiar
+pattern.  We don't fear it as you do.
+		-- Proconsul Marcus Claudius, "Bread and Circuses",
+		   stardate 4041.2
+%
+A water pipe suited miss Hunt;
+She used it for many a bunt.
+	But the unlucky wench
+	Got it caught in her trench ---
+It took twenty-two men and a big Stillson wrench,
+To get the thing out of her cunt.
+%
+But it's real.  And if it's real it can be affected ...  we may not be
+able to break it, but, I'll bet you credits to Navy Beans we can put a
+dent in it.
+		-- deSalle, "Catspaw", stardate 3018.2
+%
+Linux!  Guerrilla UNIX Development     Venimus, Vidimus, Dolavimus.
+	-- Mark A. Horton KA4YBR, mah@ka4ybr.com
+%
+It is more rational to sacrifice one life than six.
+		-- Spock, "The Galileo Seven", stardate 2822.3
+%
+Vulcans do not approve of violence.
+		-- Spock, "Journey to Babel", stardate 3842.4
+%
+In short, at least give the penguin a fair viewing. If you still don't
+like it, that's ok: that's why I'm boss. I simply know better than you do.
+	-- Linus "what, me arrogant?" Torvalds, on c.o.l.advocacy
+%
+On my planet, to rest is to rest -- to cease using energy.  To me, it
+is quite illogical to run up and down on green grass, using energy,
+instead of saving it.
+		-- Spock, "Shore Leave", stardate 3025.2
+%
+A beetling young woman named Pridgets
+Had a violent abhorrence of midgets;
+	Off the end of a wharf
+	She once pushed a dwarf
+Whose truncation reduced her to fidgets.
+		-- Edward Gorey
+%
+How should I know if it works?  That's what beta testers are for.  I
+only coded it.
+	-- Attributed to Linus Torvalds, somewhere in a posting
+%
+Death, when unnecessary, is a tragic thing.
+		-- Flint, "Requiem for Methuselah", stardate 5843.7
+%
+Star Trek Lives!
+%
+People disagree with me.  I just ignore them.
+	-- Linus Torvalds, regarding the use of C++ for the Linux kernel
+%
+A maiden who wrote of big cities
+Some songs full of love, fun and pities,
+	Sold her stuff at the shop
+	Of a musical wop
+Who played with her soft little titties.
+%
+Extreme feminine beauty is always disturbing.
+		-- Spock, "The Cloud Minders", stardate 5818.4
+%
+In short, at least give the penguin a fair viewing. If you still don't
+like it, that's ok: that's why I'm boss. I simply know better than you do.
+	-- Linus "what, me arrogant?" Torvalds, on c.o.l.advocacy
+%
+A certain young person of Ghent,
+Uncertain if lady or gent,
+	Shows his organs at large
+	For a small handling charge
+To assist him in paying the rent.
+%
+You!  What PLANET is this!
+		-- McCoy, "The City on the Edge of Forever", stardate 3134.0
+%
+There's nothing disgusting about it [the Companion].  It's just another
+life form, that's all.  You get used to those things.
+		-- McCoy, "Metamorphosis", stardate 3219.8
+%
+Even historians fail to learn from history -- they repeat the same
+mistakes.
+		-- John Gill, "Patterns of Force", stardate 2534.7
+%
+Linus?  Whose that?
+	-- clueless newbie on #Linux
+%
+A mathematician named Klein
+Thought the Mobius band was divine.
+	Said he, "If you glue
+	The edges of two,
+You'll get a weird bottle like mine!
+%
+The sooner our happiness together begins, the longer it will last.
+		-- Miramanee, "The Paradise Syndrome", stardate 4842.6
+%
+There is a multi-legged creature crawling on your shoulder.
+		-- Spock, "A Taste of Armageddon", stardate 3193.9
+%
+Men will always be men -- no matter where they are.
+		-- Harry Mudd, "Mudd's Women", stardate 1329.8
+%
+Death.  Destruction.  Disease.  Horror.  That's what war is all about.
+That's what makes it a thing to be avoided.
+		-- Kirk, "A Taste of Armageddon", stardate 3193.0
+%
+Another war ... must it always be so?  How many comrades have we lost
+in this way? ...  Obedience.  Duty.  Death, and more death ...
+		-- Romulan Commander, "Balance of Terror", stardate 1709.2
+%
+It is necessary to have purpose.
+		-- Alice #1, "I, Mudd", stardate 4513.3
+%
+Time is fluid ... like a river with currents, eddies, backwash.
+		-- Spock, "The City on the Edge of Forever", stardate 3134.0
+%
+I thought my people would grow tired of killing.  But you were right,
+they see it is easier than trading.  And it has its pleasures.  I feel
+it myself.  Like the hunt, but with richer rewards.
+		-- Apella, "A Private Little War", stardate 4211.8
+%
+We have found all life forms in the galaxy are capable of superior
+development.
+		-- Kirk, "The Gamesters of Triskelion", stardate 3211.7
+%
+Note that if I can get you to "su and say" something just by asking,
+you have a very serious security problem on your system and you should
+look into it.
+	-- Paul Vixie, vixie-cron 3.0.1 installation notes
+%
+.. I used to get in more fights with SCO than I did my girlfriend, but 
+now, thanks to Linux, she has more than happily accepted her place back at 
+number one antagonist in my life.. 
+	-- Jason Stiefel, krypto@s30.nmex.com
+%
+> > Other than the fact Linux has a cool name, could someone explain why I
+> > should use Linux over BSD?
+>
+> No.  That's it.  The cool name, that is.  We worked very hard on
+> creating a name that would appeal to the majority of people, and it
+> certainly paid off: thousands of people are using linux just to be able
+> to say "OS/2? Hah.  I've got Linux.  What a cool name".  386BSD made the
+> mistake of putting a lot of numbers and weird abbreviations into the
+> name, and is scaring away a lot of people just because it sounds too
+> technical.
+	-- Linus Torvalds' follow-up to a question about Linux
+%
+Audience: What will become of Linux when the Hurd is ready?
+Eric Youngdale: Err... is Richard Stallman here?
+	-- From the Linux conference in spring '95, Berlin
+%
+Death.  Destruction.  Disease.  Horror.  That's what war is all about.
+That's what makes it a thing to be avoided.
+		-- Kirk, "A Taste of Armageddon", stardate 3193.0
+%
+> What does ELF stand for (in respect to Linux?)
+ELF is the first rock group that Ronnie James Dio performed with back in 
+the early 1970's.  In constrast, a.out is a misspelling	 of the French word 
+for the month of August.  What the two have in common is beyond me, but 
+Linux users seem to use the two words together.
+	-- seen on c.o.l.misc
+%
+A sweetheart named Teresa Arden
+Went down on her beau in the garden.
+	He said, "Good lord, Tess,
+	Don't swallow that mess "
+And she replied, "Ulp, beg your pardon?"
+%
+Insults are effective only where emotion is present.
+		-- Spock, "Who Mourns for Adonais?"  stardate 3468.1
+%
+There was a young lady named Banker,
+Who slept while the ship lay at anchor,
+	She woke in dismay,
+	When she heard the mate say,
+"Now hoist up the topsheet and spanker."
+%
+There was a young curate whose brain
+Was deranged from the use of cocaine;
+	He lured a small child
+	To a copse dark and wild,
+Where he beat it to death with his cane.
+		-- Edward Gorey
+%
+We are MicroSoft.  You will be assimilated.  Resistance is futile.
+	-- Attributed to B.G., Gill Bates
+%
+Fascinating is a word I use for the unexpected.
+		-- Spock, "The Squire of Gothos", stardate 2124.5
+%
+The idea of male and female are universal constants.
+		-- Kirk, "Metamorphosis", stardate 3219.8
+%
+Microsoft is not the answer.
+Microsoft is the question.
+NO (or Linux) is the answer.
+	-- Taken from a .signature from someone from the UK, source unknown
+%
+There are certain things men must do to remain men.
+		-- Kirk, "The Ultimate Computer", stardate 4929.4
+%
+We are MicroSoft.  You will be assimilated.  Resistance is futile.
+	-- Attributed to B.G., Gill Bates
+%
+There was a young man of Cape Horn
+Who wished he had never been born,
+	And he wouldn't have been
+	If his father had seen
+That the end of the rubber was torn.
+%
+The joys of love made her human and the agonies of love destroyed her.
+		-- Spock, "Requiem for Methuselah", stardate 5842.8
+%
+Peace was the way.
+		-- Kirk, "The City on the Edge of Forever", stardate unknown
+%
+A princess should not be afraid -- not with a brave knight to protect
+her.
+		-- McCoy, "Shore Leave", stardate 3025.3
+%
+There is an order of things in this universe.
+		-- Apollo, "Who Mourns for Adonais?" stardate 3468.1
+%
+Most legends have their basis in facts.
+		-- Kirk, "And The Children Shall Lead", stardate 5029.5
+%
+You are an excellent tactician, Captain.  You let your second in
+command attack while you sit and watch for weakness.
+		-- Khan Noonian Singh, "Space Seed", stardate 3141.9
+%
+There was a young lady from Bright,
+Whose speed was much faster than light.
+	She went out one day
+	In a relative way
+And returned on the previous night.
+%
+Compassion -- that's the one things no machine ever had.  Maybe it's
+the one thing that keeps men ahead of them.
+		-- McCoy, "The Ultimate Computer", stardate 4731.3
+%
+You'll learn something about men and women -- the way they're supposed
+to be.  Caring for each other, being happy with each other, being good
+to each other.  That's what we call love.  You'll like that a lot.
+		-- Kirk, "The Apple", stardate 3715.6
+%
+To his bride said the keen-eyed detective,
+"Can it be that my eyesight's defective?
+	Has the east tit the least bit
+	The best of the west tit,
+Or is it the faulty perspective?"
+%
+The heart is not a logical organ.
+		-- Dr. Janet Wallace, "The Deadly Years", stardate 3479.4
+%
+Insufficient facts always invite danger.
+		-- Spock, "Space Seed", stardate 3141.9
+%
+Time is fluid ... like a river with currents, eddies, backwash.
+		-- Spock, "The City on the Edge of Forever", stardate 3134.0
+%
+I am pleased to see that we have differences.  May we together become
+greater than the sum of both of us.
+		-- Surak of Vulcan, "The Savage Curtain", stardate 5906.4
+%
+A dreary young bank clerk named Fennis
+Wished to foster an aura of menace;
+	To make people afraid
+	He wore gloves of grey suede
+And white footgear intended for tennis.
+		-- Edward Gorey
+%
+Totally illogical, there was no chance.
+		-- Spock, "The Galileo Seven", stardate 2822.3
+%
+Problem solving under Linux has never been the circus that it is under
+AIX.
+	-- Pete Ehlke in comp.unix.aix
+%
+There was a young monk from Tibet
+And this is the damnedest one yet
+	His cock was so long
+	And incredibly strong
+That he buggered six Greeks en brochette.
+%
+I object to intellect without discipline;  I object to power without
+constructive purpose.
+		-- Spock, "The Squire of Gothos", stardate 2124.5
+%
+    if (argc > 1 && strcmp(argv[1], "-advice") == 0) {
+	printf("Don't Panic!\n");
+	exit(42);
+    }
+	-- Arnold Robbins in the LJ of February '95, describing RCS
+%
+Vulcans believe peace should not depend on force.
+		-- Amanda, "Journey to Babel", stardate 3842.3
+%
+Totally illogical, there was no chance.
+		-- Spock, "The Galileo Seven", stardate 2822.3
+%
+There's no honorable way to kill, no gentle way to destroy.  There is
+nothing good in war.  Except its ending.
+		-- Abraham Lincoln, "The Savage Curtain", stardate 5906.5
+%
+At a dance, a girl from Connecticut
+Showed an absolute absence of etiquette
+	Letting all comers press
+	Through the skirt of her dress
+And wiping the mess with her petticoat.
+%
+Time is fluid ... like a river with currents, eddies, backwash.
+		-- Spock, "The City on the Edge of Forever", stardate 3134.0
+%
+> I'm an idiot..  At least this [bug] took about 5 minutes to find..
+Surely, Linus is talking about the kind of idiocy that others aspire to :-).
+	-- Bruce Perens in response to Linus Torvalds's
+%
+A madam who ran a bordello
+Put come in her pineapple jello,
+	For the rich, sexy taste
+	And not wanting to waste
+That greasy kid stuff from a fellow.
+%
+Schshschshchsch.
+		-- The Gorn, "Arena", stardate 3046.2
+%
+> What does ELF stand for (in respect to Linux?)
+ELF is the first rock group that Ronnie James Dio performed with back in 
+the early 1970's.  In constrast, a.out is a misspelling	 of the French word 
+for the month of August.  What the two have in common is beyond me, but 
+Linux users seem to use the two words together.
+	-- seen on c.o.l.misc
+%
+Now, it we had this sort of thing:
+  yield -a     for yield to all traffic
+  yield -t     for yield to trucks
+  yield -f     for yield to people walking (yield foot)
+  yield -d t*  for yield on days starting with t
+
+...you'd have a lot of dead people at intersections, and traffic jams you
+wouldn't believe...
+	-- Discussion on the intuitiveness of commands
+%
+A wide-bottomed girl named Trasket
+Had a hole as big as a basket.
+	A spot, as a bride,
+	In it now, you could hide,
+And include with your luggage your mascot.
+%
+> What does ELF stand for (in respect to Linux?)
+ELF is the first rock group that Ronnie James Dio performed with back in 
+the early 1970's.  In constrast, a.out is a misspelling	 of the French word 
+for the month of August.  What the two have in common is beyond me, but 
+Linux users seem to use the two words together.
+	-- seen on c.o.l.misc
+%
+Not one hundred percent efficient, of course ... but nothing ever is.
+		-- Kirk, "Metamorphosis", stardate 3219.8
+%
+Be warned that typing \fBkillall \fIname\fP may not have the desired
+effect on non-Linux systems, especially when done by a privileged user.
+	-- From the killall manual page
+%
+The face of war has never changed.  Surely it is more logical to heal
+than to kill.
+		-- Surak of Vulcan, "The Savage Curtain", stardate 5906.5
+%
+"Evil does seek to maintain power by suppressing the truth."
+"Or by misleading the innocent."
+		-- Spock and McCoy, "And The Children Shall Lead",
+		   stardate 5029.5.
+%
+I am pleased to see that we have differences.  May we together become
+greater than the sum of both of us.
+		-- Surak of Vulcan, "The Savage Curtain", stardate 5906.4
+%
+Violence in reality is quite different from theory.
+		-- Spock, "The Cloud Minders", stardate 5818.4
+%
+Note that if I can get you to "su and say" something just by asking,
+you have a very serious security problem on your system and you should
+look into it.
+	-- Paul Vixie, vixie-cron 3.0.1 installation notes
+%
+A Vulcan can no sooner be disloyal than he can exist without
+breathing.
+		-- Kirk, "The Menagerie", stardate 3012.4
+%
+Pain is a thing of the mind.  The mind can be controlled.
+		-- Spock, "Operation -- Annihilate!" stardate 3287.2
+%
+And then there's the story that's fraught
+With disaster -- of balls that got caught,
+	When a chap took a crap
+	In the woods, and a trap
+Underneath... Oh, I can't bear the thought!
+%
+A lady from Kalamazoo
+Once found she had nothing to do,
+	So she sat on the stairs
+	And she counted her hairs:
+4,302.
+%
+With his penis in turgid erection,
+And aimed at woman's mid-section,
+	Man looks most uncouth
+	In that Moment of Truth,
+But she sheathes it with loving affection.
+%
+There are certain things men must do to remain men.
+		-- Kirk, "The Ultimate Computer", stardate 4929.4
+%
+I develop for Linux for a living, I used to develop for DOS.
+Going from DOS to Linux is like trading a glider for an F117.
+	-- Lawrence Foard, entropy@world.std.com
+%
+I am pleased to see that we have differences.  May we together become
+greater than the sum of both of us.
+		-- Surak of Vulcan, "The Savage Curtain", stardate 5906.4
+%
+...very few phenomena can pull someone out of Deep Hack Mode, with two
+noted exceptions: being struck by lightning, or worse, your *computer*
+being struck by lightning.
+	-- Matt Welsh
+%
+...and scantily clad females, of course.  Who cares if it's below zero
+outside.
+	-- Linus Torvalds
+%
+There once was a man from Sydney
+Who could put it up to her kidney.
+	But the man from Quebec
+	Put it up to her neck;
+He had a big one, now didn't he?
+%
+Behind every great man, there is a woman -- urging him on.
+		-- Harry Mudd, "I, Mudd", stardate 4513.3
+%
+And earnest young woman in Thrace
+Said, "Darling, that's not the right place!"
+	So he gave her a thwack,
+	And did on her back,
+What he couldn't have done face to face.
+%
+There was a young bride of Antigua
+Whose husband said, "Dear me, how big you are!"
+	Said the girl, "What damn'd rot!
+	Why, you've only felt my twot,
+My legs and my arse and my figua!"
+%
+You humans have that emotional need to express gratitude.  "You're
+welcome," I believe, is the correct response.
+		-- Spock, "Bread and Circuses", stardate 4041.2
+%
+Some people have told me they don't think a fat penguin really embodies the 
+grace of Linux, which just tells me they have never seen a angry penguin 
+charging at them in excess of 100mph.  They'd be a lot more careful about what 
+they say if they had. 
+	-- Linus Torvalds, announcing Linux v2.0
+%
+I still maintain the point that designing a monolithic kernel in 1991 is a
+fundamental error.  Be thankful you are not my student.  You would not get a
+high grade for such a design :-)
+	-- Andrew Tanenbaum to Linus Torvalds
+%
+Star Trek Lives!
+%
+> I get the following error messages at bootup, could anyone tell me 
+> what they mean?
+> fcntl_setlk() called by process 51 (lpd) with broken flock() emulation
+They mean that you have not read the documentation when upgrading the
+kernel.
+	-- seen on c.o.l.misc
+%
+"... being a Linux user is sort of like living in a house inhabited
+by a large family of carpenters and architects. Every morning when
+you wake up, the house is a little different. Maybe there is a new
+turret, or some walls have moved. Or perhaps someone has temporarily
+removed the floor under your bed." - Unix for Dummies, 2nd Edition
+	-- found in the .sig of Rob Riggs, rriggs@tesser.com
+%
+'Mounten' wird für drei Dinge benutzt: 'Aufsitzen' auf Pferde, 'einklinken'
+von Festplatten in Dateisysteme, und, nun, 'besteigen' beim Sex.
+	-- Christa Keil
+%
+Too much of anything, even love, isn't necessarily a good thing.
+		-- Kirk, "The Trouble with Tribbles", stardate 4525.6
+%
+Avoid the Gates of Hell.  Use Linux
+	-- unknown source
+%
+There are certain things men must do to remain men.
+		-- Kirk, "The Ultimate Computer", stardate 4929.4
+%
+Worlds may change, galaxies disintegrate, but a woman always remains a
+woman.
+		-- Kirk, "The Conscience of the King", stardate 2818.9
+%
+They had come in the fugue to the stretto
+When a dark, bearded man from a ghetto
+	Slipped forward and grabbed
+	Her tresses and stabbed
+Her to death with a rusty stiletto. 
+		-- Edward Gorey
+%
+There once was a pretty young Mrs.
+Whose tearful but short story thrs.
+	Her mind lost its grasp -
+	Now she thinks she's an asp
+And just sits in the corner and hrs.
+%
+Humans do claim a great deal for that particular emotion (love).
+		-- Spock, "The Lights of Zetar", stardate 5725.6
+%
+Waving away a cloud of smoke, I look up, and am blinded by a bright, white
+light.  It's God. No, not Richard Stallman, or Linus Torvalds, but God. In
+a booming voice, He says: "THIS IS A SIGN. USE LINUX, THE FREE UNIX SYSTEM
+FOR THE 386.
+	-- Matt Welsh
+%
+Four thousand throats may be cut in one night by a running man.
+		-- Klingon Soldier, "Day of the Dove", stardate unknown
+%
+In most countries selling harmful things like drugs is punishable.
+Then howcome people can sell Microsoft software and go unpunished?
+	-- Hasse Skrifvars, hasku@rost.abo.fi, 
+%
+We all know Linux is great... it does infinite loops in 5 seconds.
+	- Linus Torvalds about the superiority of Linux on the Amterdam Linux Symposium
+%
+Madness has no purpose.  Or reason.  But it may have a goal.
+		-- Spock, "The Alternative Factor", stardate 3088.7
+%
+There's nothing disgusting about it [the Companion].  It's just another
+life form, that's all.  You get used to those things.
+		-- McCoy, "Metamorphosis", stardate 3219.8
+%
+It would seem that evil retreats when forcibly confronted
+		-- Yarnek of Excalbia, "The Savage Curtain", stardate 5906.5
+%
+> I'm an idiot..  At least this [bug] took about 5 minutes to find..
+Surely, Linus is talking about the kind of idiocy that others aspire to :-).
+	-- Bruce Perens in response to Linus Torvalds's
+%
+There once was a spaceman named Spock
+Who had a huge Vulcanized cock.
+	A girl from Missouri
+	Whose name was Uhura
+Just fainted away from the shock.
+%

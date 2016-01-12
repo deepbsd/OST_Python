@@ -1,0 +1,73 @@
+Hi David,
+
+You're off to a great start here. I have to turn this back, however, because
+the project specifications require the function take only 2 arguments. It's
+currently set up to take 3. How do you get around the conundrum of letting the
+main app know where to put the shelve? The answer lies in separation of
+duties.
+
+You don't want do actual file operations in the test suite.  Think of this as
+a circus with the main routine playing the juggler and the test routine
+serving as the stage crew.  setUp() can sweep the stage, give it a fresh coat
+of paint, create directories, etc.  Then, as the performer takes center ring,
+the tests can throw bowling pins to juggler.   All of the performance (file
+opening, closing, etc.) should take place in the center ring, blissfully
+agnostic about whatever's happening back stage.
+
+In fact, the test suite doesn't even have to know the name of the shelve file.
+Much better to keep it agnostic, or else you are setting yourself up for a
+maintenance nightmare in the future.
+
+You have an excellent range of tests.  These tests look more difficult than
+necessary to write and easy to make mistakes with.  If you cast them in this
+form:
+
+def test_somthing(self):
+    name, score, exp = ("Bree", 50, 50)
+    observed = high_score(name, score)
+    self.assertEqual(observed, exp, "I'm looking for: " + str(exp) + " but got:  " + str(observed))
+
+
+... you're automatically populating the test and the error message with the
+data.  Not so important for one test but what about the second?  
+
+In this format, it's easy to recycle code:
+
+def test_somthing_else(self):
+    name, score, exp = ("Bree", 40, 50)
+    #recycled code
+    self.assertEqual(observed, exp, "I'm looking for: " + str(exp) + " but got:  " + str(observed)) 
+
+.... and it's not too tough to extend it to run any number of tests with very
+little typing/debugging:
+
+
+def test_a_bunch(self):
+    name_score_exp = [('Bree', 50, 50),  #new score
+                      ('Bree', 60, 60),  #higher score
+		      ('Bree', -10, 60), #lower score
+	              ('Fred', 0, 0) #new score for new player
+                      ]
+
+ for name, score, exp in name_score_exp:
+     self.assertEqual(observed, exp, "I'm looking for: " + str(exp) + " but got:  " + str(observed)) 
+
+Also, you should strive for keeping everything is local as possible. Unless
+you can make an affirmative case for putting a variable where it is global to
+the module, or even as a class instance level ("self.") object, don't do it.
+If you can define everything that you need (here, for instance, the test
+scores in names) right in the test methods, you eliminate the possibility that
+they could be inadvertently changed from within another method or from
+elsewhere in your application. Another advantage: everything you need to
+understand test is available at a glance - no scrolling back and forth between
+the method in setUp().
+
+This is looking really good.
+
+Best,
+
+-Pat
+
+
+
+

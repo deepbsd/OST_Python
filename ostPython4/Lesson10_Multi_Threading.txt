@@ -1,0 +1,101 @@
+Lesson 10:  Multi-Threading
+
+
+Project:
+
+Filename(s):  multi_thread1.py
+
+
+Write a program that determines whether changing the current directory using
+os.chdir in one thread changes the current directory for:
+
+* a thread that already existed before the call to os.chdir.
+* a thread that is created after the call to os.chdir.
+
+State your conclusions, based on experiment, in your comments.
+
+
+=================
+MENTOR FEEDBACK:
+=================
+
+Open Project Handed In
+
+Overall Comments:
+Hi David,
+
+Right, there's only one current working directory per process.  Threads all share the same global 
+setting for  current working directory and when one thread changes it, it changes for all.  This is 
+not to say different threads cannot keep writing in different directories, just that they will always 
+be "on the same page" regarding which directory is so-called "current".  In other words, os.chdir(), even 
+if run in just one thread, changes the  environment for all threads.
+
+Here are a couple interesting articles in case you want to explore this topic a bit more.
+
+http://stackoverflow.com/questions/3781483/how-where-is-the-working-directory-of-a-program-stored
+http://www.justskins.com/forums/working-directory-in-thread-42304.html
+
+I ran into exactly this potential issue when preparing my OSCON paper. I had dozens of runs of the 
+AI models to run, and they were set up to run in a multithreaded environment. To keep the work organized, 
+I had to be very disciplined about the directory structure that the different models wrote their output to. 
+Had I not known this and had I played with the current directory while spawning threads, I would've had a 
+complete mess on my hands.
+
+Good work on this project.
+
+-Pat
+Grade:
+
+Great
+
+
+##################
+
+=============
+Quiz 1:
+=============
+
+Q1: What happens if you make a second call to a Thread's start() method?
+
+"RuntimeError: threads can only be started once" is raised
+
+Q2: Which function from the threading module do you use to access the current number of threads?
+
+threading.active_count()
+
+Q3: What method would you call to wait for a thread t to terminate?
+
+t.join()
+
+This will ensure that thread t terminates before further threads are started.
+
+
+======= Mentor Feedback on Q3:
+
+Mentor Comments:
+Here's a little history on the use of the term "join", as applied to multi-processing:
+
+"... here's the etymology and the intuition behind it, which should help you remember its meaning more easily.
+
+The idea is that execution "forks" into multiple processes of which one is the master, the rest workers (or "slaves"). 
+When the workers are done, they "join" the master so that serial execution may be resumed.
+
+The join method causes the master process to wait for a worker to join it. The method might better have been called 
+"wait", since that's the actual behavior it causes in the master (and that's what it's called in POSIX, although 
+POSIX threads call it "join" as well). The joining only occurs as an effect of the threads cooperating properly, 
+it's not something the master does.
+
+The names "fork" and "join" have been used with this meaning in multiprocessing since 1963."
+
+http://stackoverflow.com/questions/25391025/what-exactly-is-python-multiprocessing-modules-join-method-doing
+
+
+
+Overall Comments:
+Terrific work, David.
+
+-Pat
+Grade:
+
+Great
+

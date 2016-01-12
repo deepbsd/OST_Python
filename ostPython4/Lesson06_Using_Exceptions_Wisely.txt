@@ -1,0 +1,59 @@
+Lesson 6:   Using Exceptions Wisely
+
+
+Project:
+
+
+
+Filename(s):  subdictclass.py  test_subdictclass.py
+
+
+
+Write a subclass of the standard dict class. Its __init__() method should take
+one argument, which will be used as a default value when a non-existent key is
+accessed (it should also call the standard dict's __init__() with no
+arguments). Its __getitem__() method should attempt to use the standard
+dict.__getitem__(), but any KeyError exceptions should be handled by returning
+the default value passed to __init__() on creation. Write a small test program
+for your object.
+
+
+
+
+=============================
+Quiz 1:
+=============================
+
+
+Q1: Which class is at the root of the exception inheritance hierarchy?
+
+BaseException
+
+Q2: Which class (or subclasses thereof) should you subclass in defining your own exceptions?
+
+Exception or one of its existing subclasses
+
+
+Q3: What might stop an "except ArithmeticError" exception handler from being triggered by a ZeroDivisionError exception?
+
+If you have a 'except ArithmeticError' located ahead of an 'except
+ZeroDivisionError' statement, you'll keep triggering ArithmeticError's, since
+ZeroDivisionError is a subclass of ArithmeticError.  Every ZeroDivisionError
+*is* an ArithmeticError.  To avoid seeing the ArithmeticError every time you
+trigger the ZeroDivisionError, trap the ZeroDivisionError ahead of the
+ArithmeticError exception handler:
+
+change to something like:
+
+try:
+  answer = numerator/denominator
+  print(answer)
+except ZeroDivisionError:
+  print('oops!  you divided by zero!')
+except ArithmeticError:
+  print('okay, you triggered some other ArithmeticError!')
+
+
+
+
+

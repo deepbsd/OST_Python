@@ -1,0 +1,10 @@
+Here is a sample file full of text.
+
+Here's another line.  This should show up 
+in a Text Widget for tk().  I'm not sure 
+what the hell I am doing, but I am told that
+is a natural feeling for this point in time.
+
+Anyway, that's probably enough text for now!\
+
+Dave_Out()

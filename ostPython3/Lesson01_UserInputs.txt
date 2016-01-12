@@ -1,0 +1,125 @@
+
+Lesson1 Quiz 1
+
+Q1: Why should you not cut and paste the code when working in O'Reilly School
+of Technology courses?
+
+It gives one "a feel" for the programming task...  For me, I notice that I
+want to "own" the code more if I type it myself.  I am more likely to
+experiment and play around with the code if I type it myself; I am more likely
+to get curious about code that I type.
+
+==== Teacher feedback:
+
+Good answer.
+
+interacting with the interpreter is the gym for this course.  
+
+type something and anticipate what will happen before hitting Enter.  
+As you bring your observations into alignment with your expectations, 
+you'll be thinking more and more like the Python interpreter 
+
+= fluency in Python.
+
+
+
+Q2: What is a working set?
+
+Apparently a working set is a visual aid in helping the user organize his work
+without dealing directly with the underlying filesystem structure.  It seems
+to be a more flexible and convenient way of dealing with work files than by
+dealing with what may be an unfamiliar filesystem.
+
+============= Teacher Feedback:
+
+Mentor Comments:
+right.  You can import same Python module into multiple projects without duplicating 
+it on disk (in the file store -- whatever hardware, maybe flash these days (not a disk at all))
+
+
+Q3: What module and variable name contains command-line arguments?
+
+sys.argv
+
+For example, sys.argv[1] would contain the first command line argument,
+sys.argv[2] the second, and so forth.  sys.argv[0] contains the command
+itself.
+
+
+Q4: How often should you write tests for your code?
+
+If I understand Agile programming, the answer is always.
+
+========= Teacher Feedback:
+
+Mentor Comments:
+TDD is not always followed religiously, very true, but has been extremely influential.  You
+can impress companies with your skills if you show how you create test code right along
+with your development code.  That's a hallmark of a professional coder these days.  TDD /Agile
+has been very influential.  Plus in some companies the testing code is all that's between a
+working code pile and utter chaos.  It's a way to prevent code from getting into the system.
+If it breaks tests, it's not ready to be committed.  If you don't have tests.... uh oh....
+
+Overall Comments:
+Good work.  See comments.
+
+-Kirby
+
+==============
+PROJECT
+==============
+
+Lesson1 Project
+
+Create a Python3_Homework01 project and assign it to your Python3_Homework
+working set. In the Python3_Homework01/src folder, create a program named
+adder.py; in it, create a function that takes two objects and adds them
+together only if they are both of the integer type. Raise a TypeError
+otherwise. Then, create a test_adder.py file that tests the correctness of
+this function.
+
+When they are working to your satisfaction, submit adder.py and test_adder.py.
+
+
+============
+My Comment on 
+Submission:
+=============
+
+Your Comment:
+Thanks for the input on the assertRaises.  I don't remember seeing that syntax before, and that
+is a much better way of doing it.  I was looking at the help(unittest) docs, and I guess I missed
+the simpler syntax you pointed out there.  Is that in the lessons somewhere that I'm just 
+forgetting?
+
+Thanks!
+Dave
+
+
+
+===================
+Feedback from Kirby
+===================
+
+We introduce assertRaises syntax but this is the project where we usually nail it.
+
+Another way to write the function:
+
+def adder(x, y):
+    if not isinstance(x, int) or not isinstance(y, int):
+        raise TypeError("only ints for args")
+    return x + y
+
+Testing the function with two floats or a float and an int is especially useful because
+the types would normally add just fine where string and int never add without 
+type conversion.
+
+Excellent work.
+
+-Kirby
+Grade:
+
+Great
+
+
+

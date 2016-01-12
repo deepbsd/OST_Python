@@ -1,0 +1,90 @@
+#!/usr/bin/env python3
+#
+#
+#       wiretimes.py
+#
+#    Lesson 8: Consuming and 
+#     Creating Binary Data
+#
+#     by David S. Jackson
+#          5/7/2015
+#   
+#  OST Python3: The Python Environment
+#     for Kirby Urner, Instructor
+#
+'''
+Program to read a wireshark.bin file using the struct module. 
+The binary data file follows the pcap library file format, but
+we do not use libpcap here.  We're just getting practice with
+the struct module.
+
+There's lots more data in the fileshark file, but we're just 
+reading the packet headers and slurping the timestamp info with
+microseconds attached.  Then we're printing that timestamp info
+for each packet.  We're leaving the rest of the info alone.
+'''
+
+
+import struct  
+from datetime import datetime, timedelta
+
+
+
+data_dict = {}   # this is for the packet hdr info *after* struct
+filename = r"wireshark.bin"  # for my home Linux box...
+#filename = r"v:\workspace\Python3_Homework08\src\wireshark.bin"
+shark_data = open(filename, "rb")  # this is raw binary data *before* 
+                                   # struct does its thing
+
+
+PKTHDR = (                      # Thanks O'Reilly for this format!
+        ('ts_sec', 4, '<L'),    # timestamp seconds
+        ('ts_usec', 4, '<L'),   # timestamp microseconds
+        ('incl_len', 4, '<L'),  # octets of pkts saved in file
+        ('orig_len', 4, '<L'))  # actual length of packet
+
+
+def read_pkt():
+    """
+    Once past the file header start slurping the packet headers.  Slurps
+    will come in tuples, I need to remind myself of this...
+    """
+    for name, length, fmt in PKTHDR:
+        bindata = shark_data.read(length)
+        data_dict[name] = struct.unpack(fmt, bindata)
+    
+    # it's a tuple, with [1] empty...
+    timestamp = datetime.fromtimestamp(data_dict['ts_sec'][0])
+    microsec_delta = timedelta(microseconds=data_dict['ts_usec'][0])
+    fixed_timestamp = timestamp + microsec_delta
+
+    return fixed_timestamp
+
+def read_all():
+    """
+    This is the method that calls the nitty gritty method above.  This is
+    where the while loop is.  Get past the file header and read the packet
+    headers
+    """
+    shark_data.seek(24)  # get past file header.  
+    while True:
+        print(read_pkt())
+        # seek from the last location of the pointer
+        shark_data.seek(data_dict['incl_len'][0], 1)
+
+def end():
+    shark_data.close()
+
+
+if __name__ == "__main__":
+    # Without trapping the exception, program ends with a struct error
+    # when it hits end of file. This 'try' gives the user a nice little 
+    # 'end of file' notification
+    try:
+        read_all()
+    except struct.error:
+        print('End of File')
+
+    end()
+
+

@@ -1,0 +1,261 @@
+Lesson 13:  Email Search and Display
+
+Project:
+
+Filename(s): EmailJoker.py testEmailJoker.py emailSettings.py database.py
+
+Write a program that imports the following names from a "settings" module:
+RECIPIENTS   a list of (name, email-address) tuples
+STARTTIME    datetime.datetime object for first message
+DAYCOUNT    number of daily message generations
+
+The program should produce a message of the format:
+Date: {{date}}
+From: <a href="mailto:website@example.com">website@example.com</a>
+To: {{recipient}}
+Message-Id: <NNNNNN>
+
+This is a test message.
+
+Your program should save these messages in the messages table.
+
+Use test-driven development, and state the purpose of each test in the suite
+in docstrings that will eventually document your program.
+
+Time your program for DAYCOUNTS of 1, 10, 50, 100, and 500 and plot the
+results (on a sheet of paper). How reliable are the timings?
+
+Think of it like this: You are soon to go on vacation, at STARTTIME, for
+DAYCOUNT days, and you want your co-workers (RECIPIENTS) to continue getting
+your famous Joke of the Day (JOTD).
+
+Your strategy is to store up the emails ahead of time, predated with the date
+they're to be sent. So if you leave on vacation on Jan 3, 2013, the first set
+of emails might be dated Jan 4 (each recipient gets one), then Jan 5 and so
+on, for DAYCOUNT days.
+
+A good test that you have the right number is DAYCOUNT * len(RECIPIENTS)
+should equal SELECT COUNT(*) FROM jotd_emails; that is, the total number of
+days you're on vacation times the number of receivers, should equal the total
+number of records in the table generated. Of course, this will only be true if
+your To: line is only to a single recipient, and not all of them separated by
+commas.
+
+Storing the right date for each email will likely involve using a timedelta to
+increment a datetime by one day at a time for DAYCOUNT days.
+
+Regarding timing, it's enough to count under your breath and give a sense in
+your remarks about how you think time might be a function of DAYCOUNT. If you
+have your email generating and storing function where you might conveniently
+go:
+    start = time.time()
+    call_function(args)
+    end = time.time()
+    interval = end - start
+    print("Time to complete: ", end)
+
+Then you could also give some hard numbers as to the relative times the
+program took as a function of changing DAYCOUNT. The purpose of this
+requirement is to look ahead to future projects where timing / profiling is a
+core focus.
+
+
+*******  Feedback on First Attempt  ***************
+Hi DAvid,
+
+This is looking really good so far.  Terrific first draft.
+
+
+Part of the requirement of this project is to come up with a reasonable
+approximation of how long this takes to run, under different scenarios of the
+duration of your vacation. The idea is that the time it takes to run is a
+reasonable approximation for the resources required. Naturally there's going
+to be some "fixed overhead" associated with executing the script, connecting
+to the database, etc. Then there's going to be some "marginal cost" associated
+with each database transaction. So the requirement is to figure out whether
+the total time to run is driven mostly by the fixed cost or the marginal cost. 
+
+Here are some typical statistics (your results will vary, of course):
+
+Day count | Max -var (%) | Average time | Max +var (%)
+----------+--------------+--------------+-------------
+        1 |      100.000 |      0.00780 | 105.128
+       10 |       29.224 |      0.04380 | 7.306
+       50 |        8.559 |      0.22200 | 6.306
+      100 |        3.412 |      0.46900 | 13.220
+      500 |        1.387 |      2.94790 | 2.887
+
+If you'd like, you could just put your
+findings into the comments section.
+
+-Pat
+
+*********** Feedback on Second Attempt *******************
+
+Hi David,
+
+Your code is outstanding and your project runs like a Swiss watch. You have successfully 
+managed to slay all the database dragons we could throw at you :-)
+
+All that's missing is a little bit of analysis about the relationship between the number 
+of times the app hits the database and the total resources required to run it (using the 
+time required is a proxy). The idea is to figure out the relationship between the fixed in 
+marginal costs - it takes something in the way of resources to get things set up, established 
+connection with the database, etc., then it takes additional resources for every transaction. 
+If the total amount of time required a linear function of the number of transactions? An 
+exponential function? Are they so quick that it doesn't matter? You get the idea.
+
+My guess is that it shouldn't take more than fifteen or twenty minutes to come up with enough analysis.
+
+-Pat
+Grade:
+
+Try Again
+
+***************  Third Attempt:
+
+Your Comment:
+Ah!  Here's where I can write!   I kept on thinking there was someplace on the page rather than
+ the pop up where I could write.
+
+Okay, I already included an analysis in an email, more thorough than I can do here, but here goes.
+
+The time spent as DAYCOUNT rises dramatically.  The difference between fixed overhead (email generation
+only) and variable overhead (DB commits of emails generated) is huge.  Especially as DAYCOUNT 
+rises.  Ironically, as the DAYCOUNT rises and the DB commits cause the time to drag on for the program 
+to complete, the average time per email actually decreases on my home box here.  With only 
+1 DAYCOUNT the average time per 10 emails was 0.0137 sec.  However, with 5000 DB commits, the 
+average time per email was 0.0126 sec.  The lowest average per email time was at the 50 DAYCOUNT:
+it was 0.0094 sec per email.  My conclusion is that at a certain point the inefficiencies of database commits
+begin to accumulate and drag down the overall time as well as the individual times of each
+operation.  Looking just at the average time per email, that curve would start somewhat high, drop
+to a low at the 10-50 range, and then start creeping back up toward the average at DAYCOUNT 1.
+
+From a practical standpoint, larger DB commit operations require proportionally larger services, because 
+problems of scale cause inefficiencies to appear that normally would remain hidden during shorter
+and smaller operations.
+
+Dave
+Items Handed In
+Open Project Handed In
+
+Overall Comments:
+Hi David,
+
+This is really good, and quite thorough. I no longer feel the need to drop a cherry bomb in a cantaloupe :-)
+
+This project passes, as you do from Python 2.
+
+Congratulations on your performance in this class and on your strong finish. You rock! It is been a real 
+pleasure and a great honor to have served as your mentor. You show high skills and tremendous promise, and 
+I expect you will put this information to great use as your career progresses even further.
+
+Best Regards,
+
+- Pat
+
+-Pat
+Grade:
+
+Great
+
+
+
+
+
+
+############################## QUIZ 1
+
+Q1: What abbreviation is used for the specification of how a particular
+function should be called?
+
+API or Application Programmer Interface.
+
+Q2: Write a SQL statement to determine how many rows exist in table message
+with a msgMessageId column value of "1234567890."
+
+select count(*) from message where msgMessageId=1234567890;
+
+
+============ Mentor Comments:
+
+Likely a string field even though it uses digits.
+
+SELECT COUNT(*) FROM message WHERE msgMEssageId= "1234567890";
+
+It's quite common for primary keys to be strings with lots of digits, but maybe 
+some alpha too.  Phone numbers, social security numbers, credit card numbers 
+-- are often stored as strings.
+
+
+Q3: How do you establish a relationship between two tables in a relational
+database?
+
+You can use some kind of join statement, such as with the animal and feed
+tables previously:
+
+select * from animal join food where animal.id=food.anid;
+
+This will show every animal who is being fed who is on both the animal and
+food tables.
+
+======= Mentor Feedback on Q3:
+
+Right.  if you wanted to create a structural relationship, you might use code something like:
+
+CREATE TABLE ( ... FOREIGN KEY (anid) REFERENCES animal(id), ...)
+
+===========  Mentor Feedback on Quiz 1:
+
+Overall Comments:
+Terrific work here, David.
+
+-Pat
+Grade:
+
+Great
+
+
+
+#################################  QUIZ 2  ############################
+
+Q1: What type of MySQL column should be used to store Python datetime.datetime
+values?
+
+Here is the statement from TBLDEF:
+
+msgDate DATETIME,
+
+
+Q2: What SQL statement should you use to ensure that table tbl does not exist?
+In other words, if it does exist, your statement will make sure it goes away.
+
+Oh, God.  This statement has caused me a world of heartburn:
+
+DROP TABLE IF EXISTS message;     # table name is 'message'
+
+(ps. I will never forget this statement for as long as I live...)
+
+=========== Mentor Feedback:
+
+LOL.  I've read that the  strongest, most indelible memories are those associated  
+with deep emotions ;-)
+
+
+Q3: What name is used in the bind() call to describe a double-click on the
+left mouse button (for a right-handed user)?
+
+object.bind("<Double-Button-1>", self.function_call)
+
+
+==================  Overall Feedback on Quiz 2:
+
+Overall Comments:
+Thanks for the great laugh. This being said I really am sorry about all of problems.
+
+-Pat
+Grade:
+
+Great
+
+

@@ -1,0 +1,79 @@
+ David,
+
+ Thanks for your 2nd draft.
+
+ To tell you the truth, I still find the tests you're running to be hopelessly
+ tangled and confusing. Instead of investing the time to figure them out, I
+ just wrote my own. One of the strengths of the unittest framework is that
+ it's pretty easy for teammates to drop in their own test method or classes.
+ Anyway, here's what I used:
+
+class TestModule(unittest.TestCase):
+       
+    def setUp(self):
+        self.home = os.getcwd()
+        self.testdir = tempfile.mkdtemp()
+        os.chdir(self.testdir)
+
+
+    def test_working(self):
+        #os.mkdir('bogus.bogus')
+        for file in ["test1.doc", "test2.doc", "long.file.ext.tz", "no_ext", "joe.zip"]:
+            f = open(file, 'w').close()  
+        expected = {".doc":2, ".tz":1, "":1, ".zip":1}  # dict of expected extensions
+        observed = FileTypeLister.listFiles(os.getcwd())
+        self.assertEqual(observed, expected, "uh oh, problem")
+
+
+
+Note it's simplicity and approachability.  This test passed - that is until I
+uncommented creation of a new subdirectory. The likely cause: file system
+inspection routines typically can't tell a difference between a file and a
+directory. To do this you would want to use something like os.path.isfile().
+
+Could you please have another look?
+
+- Pat
+
+
+
+
+###############################
+###############################
+
+David,
+
+This is a really good 1st attempt. You have most of the working pieces here.
+However there are a couple of things I would like you to have another look at:
+
+-The tests you create should be as human readable as possible. I can see in
+setUp() that you've written a ton of files. However I can't tell what they are
+by simple inspection. As a human consumer of these tests I don't really know
+what the heck is supposed to happen.
+
+-To the extent possible, you want to keep all your variables as "local" as
+possible. Here, there is no need to define the file list as a
+module/instance/class variable.
+
+Sometimes you really do need good to find something more globally. For
+instance, when you "remember" the name of the original directory, you want
+that to be available to your tearDown() method. This is an appropriate use of
+"globalization" because you have a real, affirmative need to do so.
+
+Another advantage of keeping things local is that it's a lot easier to read.
+All the stuff your test method needs is geographically accessible. With the
+program. This small it doesn't really matter a lot, but what if you had a
+large project with several pages of test methods?  Yikes!
+
+-Unless you are doing stress testing on a system, you don't really learn a lot
+about how your program functions by doing the same thing over and over again.
+Better to provide a variety of situations (as you of done with a rich
+selection of extensions) than by sheer volume (as you have done with providing
+a dozen base filenames). Here you might try a couple filenames with no
+extensions, strangely.named.files.txt, etc. - in directories with and without
+subdirectories.
+
+Could you have another look, please?
+
+-Pat
+

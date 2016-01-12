@@ -1,0 +1,190 @@
+
+
+Project for Lesson 6:  Archives
+
+Filename(s): zip_archive.py test_ziparchive.py
+
+The zipfile example in the lesson text stores the full path of the files that
+it saves to the zipfile. Normally, however, zipfiles contain only a relative
+pathname (you will see that when the names are listed after the zipfile is
+created, the "v:\\" has been removed).
+
+Create a project named Archives_Homework and add it to the Python2_Homework
+working set. In this project, write a function that takes a directory path and
+creates an archive of the directory only. For example, if the same path were
+used as in the example ("v:\\workspace\\Archives\\src\\archive_me"), the
+zipfile would contain "archive_me\\groucho" "archive_me\\harpo" and
+"archive_me\\chico."
+
+Note that zipfile.namelist() always uses forward slashes in what it returns, a
+fact you will need to accommodate when comparing observed and expected.
+
+The base directory ("archive_me" in the example above) is the final element of
+the input, and all paths recorded in the zipfile should start with the base
+directory.
+
+If the directory contains subdirectories, the subdirectory names and any files
+in the subdirectories should not be included. (Hint: You can use isfile() to
+determine if a filename represents a regular file and not a directory.)
+
+=======================
+Mentor Project Feedback 
+=======================
+
+Overall Comments:
+Hi David,
+
+This looks really good. Good job in finding a way to use the truncated form of the path in the 
+stored form of the file names.
+
+A couple of things to keep in mind on the topic of Windows versus POSIX path names:
+
+-If you can find a way to always work in the current directory, you can obviate the need 
+to care. You can always use os.chdir() for navigation purposes. 
+
+-In general terms, the os library provides reliable middleware between your app and the 
+operating system. At any given time, it knows what it is running on and will make the 
+appropriate adjustments if you asked to. For instance, if you invoke os.path.join(), 
+it will automatically pick the right "flavor" of path separators.
+
+-It's a good idea to strive to avoid the use of hard pathnames because it really limits 
+the portability of your app. Sometimes, it's unavoidable however. In these cases, you can 
+always tap into os.path.sep to grab the right separator.
+
+-Whenever you're going to do something to the file system, it's a really good idea to do so 
+in a temporary directory. This has lots of advantages, to include the fact that you (by 
+definition) have permission to read, write, and execute whatever you want to there. Also, 
+you won't have any possibility to have file system name conflicts or even the remotest 
+prospect of overwriting something on your client's machine. I can see by all the stuff 
+that's commented out that you had to do a lot of manual shifting in order to get things 
+working both on your local dev environment and on the OST system. This all could have been 
+avoided by the use of a temporary directory.
+
+Overall, you've done a terrific job on this. Congratulations.
+
+-Pat
+Grade:
+
+Great
+
+
+
+
+
+######################
+##   Quiz 1
+######################
+
+Q1:  If t is a tarfile object, what method would you call to add file f to the
+archive?
+
+t.add(f)
+
+=========== Mentor Comments on Q1:
+
+Mentor Comments:
+tar comes from Tape Archive.  You have probably seen those pictures of old computers,
+mainfames, that spooled huge tapes on tape drives.  This API comes from those.  Obviously
+it takes a relatively long time to find and mount a tape and sequential access (vs. random)
+means if what you want is towards the end....  Like VHS tape and cassette tape, the 
+computer tape devices have become relatively rare as better options have become less
+expensive.
+
+Q2:  What second argument to tarfile.open() specifies writing the archive to
+disk with Gzip compression?
+
+tf = tarfile.open(archive_name_compressed, "w:gz")
+
+Q3: What zipfile method returns the names of all files in the archive?
+
+tf.list()
+
+============ Mentor Comments on Q3:
+
+This question is actually asking about a zipfile method.
+
+============== Overall Comments on First Attempt on QUIZ 1:
+
+Overall Comments:
+This is really close, David, but you might read Q3 a bit more carefully. No tar there :-)
+
+-Pat
+Grade:
+
+Try Again
+
+########## Second Attempt on Q3:
+
+
+What zipfile method returns the names of all files in the archive?
+
+Your Answer:
+zf.namelist()
+
+
+Oops!  Brain fart!  :-)
+Mentor Comments:
+Details... Minor details ;-)
+
+
+############  Overall Comments after 2nd Attempt:
+
+Overall Comments:
+Looks good now, David.
+
+-Pat
+Grade:
+
+Great
+
+
+
+#######################
+#######################
+##   Quiz 2
+#######################
+
+Q1: Given a file path p, write an expression that evaluates to the file name
+and extension only.
+
+import os
+
+os.path.basename(p)
+
+Q2: How can you cause a ten-second delay in the execution of your program?
+
+import time
+
+time.sleep(10)
+
+======  Mentor Feedback:
+
+...or you could always use a Microsoft product ;-)
+
+
+Q3: If lst is a list of filenames sorted with the newest files first, how
+would you write an expression to change the order of the list so that the
+oldest files come first?
+
+lst.reverse()
+
+========  Mentor Feedback:
+
+Correct.
+
+A big mistake would be:
+
+lst = lst.reverse()  # returns None, kills list by rebinding its name (likely 
+its *only* name) to the None object.
+
+#########  OVERALL COMMENTS:
+
+Good going on this one, David.
+
+-Pat
+Grade:
+
+Great
+
+
+

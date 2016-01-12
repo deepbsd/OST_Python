@@ -1,0 +1,100 @@
+Lesson 5: Optimizing Your Code
+
+
+Project:
+
+
+Filename(s):  groffle.py  groffle1.py  test_groffle.py
+
+
+Take the following function and using timings (and profiling if necessary to
+determine where the program is spending its time), reduce its execution time
+as much as you can.
+
+You should be able to get it down to less than one third of what it is now.
+
+Test both functions in the same file (the original and your faster version) to
+compare their respective execution times.
+
+Also confirm that they give the same answer.
+
+groffle.py:
+""" 
+Program for optimization. Python 4, Lesson 5. 
+
+Calculates the groffle speed of a knurl widget 
+of average density given by user input. 
+""" 
+
+from math import log 
+from timeit import Timer 
+
+def groffle_slow(mass, density): 
+    total = 0.0 
+    for i in range(10000): 
+        masslog = log(mass * density) 
+        total += masslog/(i+1)
+
+    return total
+
+mass = 2.5 
+density = 12.0 
+
+timer = Timer("total = groffle_slow(mass, density)", 
+ "from __main__ import groffle_slow, mass, density") 
+print("time:", timer.timeit(number=1000)) 
+
+#####################
+Feedback from Instructor:
+########################
+
+Hi David,
+
+This is a really good start - you have achieved a solid 40% reduction in the
+amount of time required.
+
+Next steps:
+
+- See if you can't reduce the time required to less than a third of the slow
+   version;
+
+- Include some tests (unit tests are equivalent) that will analytically
+  determine whether the velocity calculations are identical and whether the
+  requisite speed reduction has been made. Much better to do so than to
+  require your clients/collaborators to have to "eyeball" output - especially
+  if the complexity of your projects grows.
+
+Good work so far!
+
+-Pat
+
+######################################
+
+
+Quiz 1:
+
+Q1: Which two modules can be used to record profiling information from a
+Python program? Which is preferred?
+
+cProfile and profile (cProfile is faster but not always available).  
+Also, pstats helps you read profiling data when you output that data into a
+datafile...
+
+
+Q3: What are the three different restrictions you can use to filter statistics
+output?
+
+
+From the text:
+'Those restrictions can take one of three forms as additional arguments to
+print_stats():
+  * An integer will limit the output to the given number of lines.
+  * A floating-point number between 0 and 1 will restrict the output to the
+    given proportion of entries.
+  * A regular expression will limit the output to those entries whose 
+    filename:lineno(function) fields contain the given regular expression.'
+
+
+Q4: What module would you use to time snippets of code?
+
+timeit

@@ -1,0 +1,127 @@
+Lesson 15: Exception Handling
+
+Project:
+
+Objective:
+
+This project tests more of your understanding of exception handling.
+
+    Create a new Python source file named divider.py.
+    Create a while loop, request an integer value from the user, and bind the value as an integer to a variable.
+    Then divide the value of 10 by your new integer and print the results.
+    Use a try statement followed by a series of except statements to catch ValueError and ZeroDivisionError. When those errors are caught, print response statements to the user informing them of their mistake.
+
+Below is an example of possible output from running the program.
+
+Dividing 10 by an integer
+Provide an integer: Steve
+Your input must be an integer
+Provide an integer: 4
+2.5
+Provide an integer: 3
+3.33333333333
+Provide an integer: 2
+5.0
+Provide an integer: 1
+10.0
+Provide an integer: 0
+Your input must not be zero (0)
+Provide an integer:
+
+
+
+============================
+Notes from me on submission:
+============================
+
+This topic looks pretty powerful.  Just glanced at the "try" section in the Python Pocket Reference by Lutz.  
+
+I'm not sure how I would use the "raise" function though...  I guess that will come.
+
+
+=============================
+Feedback from Pat
+=============================
+
+Overall Comments:
+
+Hi David
+
+This looks terrific. Full marks.   Have no fear, "raise" will come. Given your breathless anticipation, and just in time for New Year's, here's a gift - your own Exception:
+
+class DavidException (Exception):
+    print("Yea! An exception dedicated to David Jackson")
+	
+for i in range(3):
+    print('printing', i)
+    if i >1:
+        raise DavidException
+
+For consideration in future projects ... it's always good to give the user a smooth way out (typing 'exit', perhaps), especially in a try:/except: block. 
+
+FYI, when a user inputs cntl-d a EOFError is generated.  A cntl-c generates a KeyboardInterrupt Exception.  If your try:/except: block handles both of these too "smoothly", your user can get really stuck.
+
+-Pat
+
+
+=======
+QUIZ 1
+=======
+
+Question #1:
+
+What is the difference between a syntax error and an exception?
+
+
+Answer #1:
+A syntax error is one where the code doesn't make sense to the interpreter.
+
+An exception is an error where the syntax is correct, but there is some other sort of error, such as dividing by zero, or an index number out of range.
+
+Comments:
+A syntax error is caused by code that is malformed for the given language. In other words, a syntax error is caused by not following the language's rules. For example, in Python, strings need to be surrounded by quotes. If you place one quote, the interpreter will notice the string rules are not being followed and raise a syntax error.
+
+>>> "string"
+'string'
+>>> "string
+File "<stdin>", line 1
+    "string
+         ^
+SyntaxError: EOL while scanning string literal
+
+
+An exception is an error caused by a syntactically correct program that encounters a disruption to its flow. For example, when trying to access a dictionary by a non-existing key, or when a program expects one type of value (say integer) and receives another (such as string).
+Question #2:
+
+How can you deal with exceptions in your code?
+
+How can you re-raise an exception?
+
+
+Answer #2:
+By using the "try" statement with "exception" suites for each type of exception you anticipate.
+
+
+You can "re-raise" an exception to outer handlers by using the "raise" command.
+
+try:
+    result = 10/int(var1)
+except ZeroDivisionError:
+    print("Can't divide by zero")
+except :
+    raise
+
+in this case, if var1 equals 0, the exception is handled by this suite. If there's some other exception, such as a TypeError or ValueError, the exception will be raised to the next level up higher in the program. If no handler can be found to handle this exception higher in the program, the program will terminate with whatever kind of error this exception is.
+
+Comments:
+Terrific answer.
+
+Overall Comments:
+
+Nice job on a perfect quiz, David.
+
+-Pat
+
+
+
+GRADE: Great

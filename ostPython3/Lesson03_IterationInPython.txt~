@@ -1,0 +1,151 @@
+Python3 Lesson 3:  Iteration in Python
+======================================
+
+QUIZ 1:
+
+Q1:  What is the difference between an iterator and an iterable?
+
+
+"In the broadest possible terms":
+
+iterable: "something you can iterate over"
+
+iterator:  a python object that the "interpreter uses to do the iteration"
+
+
+Q2:  What is a generator function and what is its advantage?
+
+A generator function is a specific kind of iterator function that uses a
+'yield' statement, such that it can generate sequences on an "as-needed" basis
+rather than all at once or not at all. The code that "consumes" the created
+values can now be entirely separate from the code that "produces" the created
+values.   This alleviates the need to create a structure in memory to hold all
+the output from the iterator.  This ability preserves memory by removing the
+need to populate such a structure with a large sequence.  Instead, if I
+understand correctly, you can call the generator to deliver the value "just in
+time."  On a large sequence, this could be a large boost in performance by
+sparing available memory resources.
+
+
+Q3:  Internally, what type of exception does old-style Iteration throw?
+1.AttributeError
+2.IndexError
+3.StopIteration
+4.None of the above
+
+2. IndexError
+
+
+Q4: Internally, what type of exception does new-style Iteration throw?
+1.AttributeError
+2.IndexError
+3.StopIteration
+4.None of the above
+
+
+3. StopIteration
+
+
+QUIZ 2:
+
+Q1: With a single line of code, create a memory-efficient iterator from which
+a for loop could obtain a million numbers. What is the technique called?
+
+gen1 = (x for x in range(1000000))
+
+using a "generator expression"
+
+
+Q2:  What is the difference between list comprehension and a generator
+expression?
+
+The difference between the syntaxes: list comprehensions use brackets and
+generator expressions use parentheses.
+
+Further, a list comprehension simply produces a list, while a generator
+expression produces an iterable object that can be used to generate a list on
+demand.
+
+
+Q3:  What is the tool used in the correct answer to question 1 above?
+1.list comprehension
+2.tuple
+3.generator expression
+4.list generator
+5.None of the above
+
+Not sure what the difference that is being asked here between 'tool' and
+'technique'.  I think the 'technique' is a generator expression, as per
+number 1, but perhaps the 'tool' is a list comprehension, so I'll go with
+3. list comprehension.  
+
+Apparently, generator expressions were developed to take advantage of the new
+style iteration with list comprehension-like syntax.  As with standard
+generators, creating objects one by one "on demand" is more efficient and can
+reduce memory requirements.
+
+
+=====================
+
+Lesson 3 Project:
+----------------
+
+Create a Python3_Homework03 project and assign it to your Python3_Homework
+working set. In the Python3_Homework03/src folder, create a file named
+decoder.py, which contains an iterator named alphabator. When passed a list,
+simply return objects as-is unless they are integers between 1 and 26, in
+which case it should convert that number to the corresponding letter. The
+integer-to-letter correspondence is 1=A, 2=B, 3=C, 4=D, and so on.
+
+You may use any technique you've learned in lesson 3 to execute this project.
+
+Your alphabator iterator must pass the following unit test.
+
+test_decoder.py:
+from string import ascii_uppercase
+import unittest
+
+from decoder import alphabator
+
+class TestAlpha(unittest.TestCase):
+
+    def test_easy_26(self):
+        a = alphabator(range(1,27))
+        self.assertEqual(list(ascii_uppercase), list(a))
+
+    def test_upper_range(self):
+        a = alphabator(range(40,50))          
+        self.assertEqual(list(range(40, 50)), list(a))
+
+    def test_various_objects(self):
+        l = ['python', object, ascii_uppercase, 10, alphabator]
+        a = list(alphabator(l))
+        self.assertNotEqual(l[3], a[3])
+        self.assertEqual("J", a[3])
+        self.assertTrue(isinstance(a[1], object))
+
+
+if __name__ == "__main__":
+
+    unittest.main()
+
+Submit decoder.py and test_decoder.py when they are working to your satisfaction.  
+
+
+FEEDBACK:
+
+You've made a vast improvement here, however I'd like you to do even more
+"separation of concerns" i.e. Inventory class doesn't care about "American"
+versus "MiddleEastern" or any of that. Notice how you do exactly the same
+thing no matter which isinstance() condition passes, an indication that this
+is meaningless (unneeded) information.  Adding more subclasses would just make
+that method grow longer for no apparent reason. 
+
+Just have the total_weight function loop over the nuts and add the weights.
+Subtype of Coconut:  don't check it.
+
+Challenge: With a list comprehension and sum() it can be done in one line.
+
+You're doing great, learning lots.
+
+-Kirby

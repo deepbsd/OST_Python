@@ -1,0 +1,136 @@
+
+Lesson 10 Project:  Properties
+
+Filename(s): property_address.py test_property_address.py
+
+Create a Python3_Homework10 project and assign it to your Python3_Homework
+working set. In the Python3_Homework10/src folder, create a program named
+property_address.py, including the following:
+
+*The custom exceptions StateError and ZipCodeError.
+
+*Class Address that takes name, street_address, city, state, and zip_code as
+string arguments, which must then be set as attributes. You turn any or all of
+these attributes into properties in order to solve this assignment so long as
+they also meet these requirements: 
+
+   *After being set in __init__, the name attribute is read-only. Further 
+   attempts to modify it will trigger an AttributeError.
+
+   *Zip code must follow the simple US pattern (nnnnn) or it throws a
+   ZipCodeError.
+
+   *State only allows two capital letters or it throws a StateError.
+
+*State and Zip code validation must be done by regular expressions.
+
+*Your project must include (and your program must pass!) the unittest
+test_property_address.py (listed below).
+
+import unittest
+from property_address import *
+ 
+class TestAddresses(unittest.TestCase): 
+    
+    def setUp(self): 
+        self.home = Address( name='Steve Holden', street_address='1972 Flying Circus', city='Arlington', state='VA', zip_code='12345'
+		)
+
+    def test_name(self): 
+        self.assertEqual(self.home.name, 'Steve Holden') 
+	self.assertRaises(AttributeError, setattr, self.home, 'name', 'Daniel Greenfeld')  
+					              
+    def test_state(self): 
+        self.assertEqual(self.home.state, 'VA') 
+	self.assertRaises(StateError, setattr, self.home, 'state', 'Not a state')  
+	self.home.state = 'CO' 
+        self.assertEqual(self.home.state, 'CO')  
+    
+    def test_zip_code(self): 
+        self.assertEqual(self.home.zip_code, '12345') 
+	self.assertRaises(ZipCodeError, setattr, self.home, 'zip_code', '123456')   
+	self.home.zip_code = '54321' 
+	self.assertEqual(self.home.zip_code, '54321') 
+																             
+if __name__ == "__main__": 
+	unittest.main() 
+
+
+Submit property_address.py and test_property_address.py when they are working
+to your satisfaction.
+
+
+======
+QUIZ 1
+======
+
+Q1: Are Properties more or less specific than the special attribute methods?
+Explain your answer.
+
+Special attribute methods are pretty cool, but with properties we can actually
+perform dynamic calculations or modifications on the values stored in those
+attributes using logic that the user doesn't have to worry about.  We can do
+that on the fly or whenever we choose.  I would say using properties gives us
+flexibility to be more specific than special attribute methods alone.
+Properties excel especially when we're adding logic to an inherited object, as
+we might while working on legacy code, for example.
+
+
+Q2: What is the customary prefix character on the storage field of a property?
+
+underscore before the name indicates an intention to protect the values stored
+in the attribute
+
+self._attribute
+
+Q3: What is the decorator for turning the time() method into a property
+setter? Your answer should replace the ??? below:
+???
+def time(self, value):
+    self._time = value
+
+@time.setter
+def time(self, value):
+    self._time = value
+
+Q4: What is the decorator for turning the time() method into a property
+getter--replacing the ??? below?
+???
+def time(self):
+    return self._time
+
+@time.getter
+def time(self):
+    return self._time
+
+###  Corrected answer:
+
+@property
+def time(self):
+   return self._time
+
+
+======
+QUIZ 2
+======
+
+Q1:  Can a class inherit its parent's properties?
+
+yes
+
+Q2:  Name a disadvantage to using properties.
+
+They can require some extra work in understanding the logic; they are actually
+hiding logic inside other objects, so the logic of an object may be obscured
+by choosing to use properties, and the code may become a little harder to 
+maintain.  But, using properties can extend the use of code as well, since
+they can save you trying to rewrite perfectly functional code and extend its
+lifecycle.  So I see that as a wash.
+
+Q3:  What exception should you raise when some code tries to set a read-only
+property?
+
+AttributeError
+
+
+

@@ -1,0 +1,130 @@
+Lesson 16:  Your Future With Python
+
+
+Project:  
+
+Filename(s):   Lesson16_Project.txt
+
+
+Answer a Python-related question on a public forum such as StackOverflow or
+python-list@python.org and document your correspondence with the questioner.
+If any private emails are involved, you should privately ask their permission
+to submit their mails as part of your solution to the project.
+
+****  My Comments to Pat:
+
+Hi Pat!  
+
+Here's the URL to the question:
+
+http://stackoverflow.com/questions/31932773/zip-lists-together-based-on-many-to-one-relationship/31933814#31933814
+
+Thanks again!
+Dave
+
+
+*** Pat's Comments to me:
+
+Hi David,
+
+This looks really good, and you have nearly graduated. Please don't forget to take another quick look at the quiz for 
+Lesson 15.
+
+Now for a little philosophy... 
+
+Helping others learn Python is like good code scouts ethics.  It's how we "pay it forward" given Python 
+was a gift to us, for free.  
+
+Not that learning it doesn't take resources (time / energy), but the tool itself is freely downloadable 
+and free and open i.e. counts as certified open source  software).
+
+Have great adventures with your newly developed skills.  May they continue to develop and serve you well.  
+
+I recognize that it is (a little bit) premature, but you have my heartfelt congratulations for achieving 
+this accomplishment.
+
+-Pat
+Grade:
+
+Great
+
+
+
+
+=======
+QUIZ 1
+=======
+
+Q1:  What is the largest Python conference in the world?
+
+
+PyCon.  These are held annually in various countries, but now they are getting
+so large that some people complain that they have lost their "community"
+flavor, so they will probably start capping their attendance limit.  
+
+There are regional PyCon conferences, and here in the US, PyOhio, PyTexas and
+PyArkansas are some of the oldest and most established.  
+
+There are also local Python Meet-Ups and clubs; I just went to my first
+Atlanta Python Meet-Up about a week ago.  (Very nice time!!)
+
+***** Mentor Comments:
+
+Mentor Comments:
+PyCon is a trademark controlled by the Python Software Foundation, and many conferences are 
+welcome within the franchise.  All over the world.  Technically, the US didn't have a PyCon 
+this year as North America consolidated in Montreal, though PyCons of that size tend to be 
+international events anyway.  India, Australia and many others, have had Pycons.  Interesting 
+still unfolding history.
+
+And guess words going to be next year -  Portland, my hometown :-)
+
+
+Q2:  Do you have to know the C language to become a Python core contributor?
+
+From the text:
+
+Do not make the mistake of assuming that because the CPython interpreter is
+written in C you have to know the C language before you become a core
+contributor.  The standard library and its test suite have lots of code
+written entirely in Python, and it needs maintenance just like everything
+else.  Your Python skills are needed if you want to join the open source
+community!
+
+***** Mentor Comments:
+
+However C is a fantastically useful language to know and I would not discourage 
+studying the C implementation of Python -- what we have used throughout this course.
+
+How to extend Python in C / C++ is outside the scope of this course but very feasible, 
+done all the time e.g. with wxPython.
+
+But then, LISP could be useful too:  http://hy.readthedocs.org/en/latest/
+
+
+
+Q3:  What is a sprint?
+
+Since open source developers frequently collaborate from a distance over email
+or newsgroups, it's rare that they might ever see each other in person or have
+any idea what the other looks like.  A sprint can happen at a conference where
+such a group can gather together and focus as much energy as possible on a
+specific topic or set of tasks for the short time they have together.  In such
+a setting, a project that might be hampered by distance and lack of clarity
+due to the limitations of electronic media can be facilitated by close
+physical proximity, where people can talk face to face.  (They can argue
+better and even punch each other out if need be!)
+
+
+***** Comments from Pat:
+
+Mentor Comments:
+none
+Overall Comments:
+Terrific, David.
+
+-Pat
+Grade:
+
+Great
+

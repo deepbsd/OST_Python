@@ -1,0 +1,182 @@
+Lesson 6 (Sets and Dicts) Project
+
+This project tests your ability to use sets and dicts, and your ability to
+follow an algorithm (recipe) exactly.
+
+1. Create a new Python source file named input_counter.py.
+
+2. Write a program that creates an empty set and dict.
+
+3. Write a while loop that repeatedly creates a list of words from a
+   line of input from the user.
+   
+4. Loop through the list of words and add each one to the set. If the set
+   increases in size (indicating this word has not been processed before), add
+   the word to the dict as a key with the value being the new length of the set.
+
+5. Using another loop, display the list of words in the dict along with their
+   value, which represents the order in which they were discovered by the
+   program.
+
+6. If the user presses Enter without any text, print Finished and exit.
+
+Below is an example of output from running the program.
+
+Enter text: how now brown cow
+how 1
+now 2
+cow 4
+brown 3
+Enter text: the cow jumped over the moon
+brown 3
+cow 4
+jumped 6
+over 7
+moon 8
+how 1
+the 5
+now 2
+Enter text:
+Finished
+
+
+Here are the files you handed in:
+Python1/input_counter.py
+
+
+Overall Comments:
+
+Hi David, This looks pretty good, and given the convoluted, non-intuitive
+instructions your solution is about as succinct as possible. Here are a few
+tips/observations, for your consideration: 
+
+-You don't need this part of the if statement: 
+
+and word not in input_dict 
+
+... because the only time you ever add a
+word is when the length of the set changes. This ensures the dictionary can
+only contain unique keys. 
+
+-Nothing in the specifications called for evaluating title case, uppercase,
+and lowercase "flavors" of a word as equivalent. As a developer, you can't
+know just how and where your application might be used.  Where this app run in
+an application regarding chemistry, your clients might be very surprised to
+discover that CO (carbon monoxide) is regarded as the same as Co (cobalt). 
+
+-You can be the judge, but which would be easier for a
+new team mate to understand - the print loop in the project or something more
+like the following? 
+
+for word, order_discovered in d.items(): 
+print( word, '-->', order_discovered) 
+
+It's good practice to document your applications.  It's valuable to give your
+code a polished look - "curb appeal" that might come in handy if you want to
+use this work for a git hub repo to show to potential employers. Here's a
+template you might find useful.
+
+#!/usr/local/bin/python3 
+# 
+# my_wildly_cool_app.py 
+# 
+# Patrick Barton 
+# Feb 35, 2018 
+# Python 8, Lesson 30, Attempt 1 
+# "An informative docstring providing overview of program" 
+# 
+#library imports 
+import this #provides the Zen of Python 
+#local imports 
+import my_other_great_module 
+
+-Pat
+
+GRADE: Great
+
+
+=======
+QUIZ 1
+=======
+Q1: Assume x = {1,2,3,4} and y = {1:2,3:4}. What is x? What is y?
+
+
+Answer #1:
+answered correctly first time
+
+Q2: How can you remove duplicates from this list:
+
+[1,2,2,2,3,3,4,4,5]
+
+
+
+Answer #2:
+mylist = [1,2,2,2,3,3,4,4,5]
+newlist = []
+for n in set(mylist):
+    newlist.append(n)
+
+    mylist = newlist
+
+Comments:
+Or more simply:
+
+list((set ( [1,2,2,2,3,3,4,4,5] ))
+... but remember, the new list will not necessarily retain elements in the
+same order as the original one
+
+Overall Comments:
+
+Thanks for taking a second go at this, David. It is now perfect. -Pat
+
+
+
+GRADE: Great
+
+=======
+QUIZ 2
+=======
+
+Q1: Look at the following code:
+
+x = {1,2,3,4,5}
+y = {4,5,6,7,8}
+
+How can you determine the numbers shared by both?
+
+
+Answer #1:
+x & y
+
+Q2: How do you determine the length of a dict or set?
+
+
+Answer #2:
+len(my_set)
+len(my_dict)
+
+Q3: How do you print all of the keys and values of a dict named d?
+
+Answer #3:
+for key in d.keys() :
+     print(key, ':', d[key])
+
+
+can also do
+
+for key in d.keys():
+    print(key, d.get(key))
+
+Comments:
+A common idiom:
+
+for key,value in d.items():
+    print(key, value)
+
+Overall Comments:
+
+This is perfect, David. Please see the comment on Q3. -Pat
+
+
+
+GRADE: Great

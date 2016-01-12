@@ -1,0 +1,386 @@
+Lesson 3:  Test Driven Development
+
+Project:
+
+Filename: setupDemo-attempt1.py  (aka setupDemoProject.py)
+
+Make a TestDrivenDevelopment_Homework project and assign it to the Python2_Homework working set.
+
+Copy the setupDemo.py file from the TestDrivenDevelopment/src folder to the TestDrivenDevelopment_Homework/src folder.
+
+Modify it so that:
+•The test_1() method includes code to verify that the test directory contains only the files created by the for loop. 
+Hint: You might create a set containing the list of three filenames, and then create a set from the os.listdir() method.
+•A test_3() method creates a binary file that contains exactly a million bytes, closes it and then uses os.stat to 
+verify that the file on disk is of the correct length (with os.stat, statinfo.st_size returns the size in bytes).
+
+Your Comment:
+no comment given
+Items Handed In
+Open Project Handed In
+
+Overall Comments:
+Hi David,
+
+This looks really good, and your tests pass with flying colors.
+
+Here's something to consider when you're deciding on the various different options for coding a project... The simpler 
+you can make it, the easier it will be to debug, maintain, and communicate about. Here you are creating a 1 million byte 
+file in perhaps the most complicated imaginable way. It's in no way wrong to use the correct struct library, nor do you 
+produce a file of the wrong size by writing 10 bytes a hundred thousand times, but which do you think would be easier 
+for one of your teammates to understand:
+
+        packed = struct.pack('>i4sh', 7, b'spam', 8) # sb 10 bytes long
+        outfile = open("binout.bin", 'wb')
+        for num in range(0,100000):
+            outfile.write(packed)
+
+-or-
+
+bytes(1000000)
+
+Overall, great job.
+Grade:
+
+Great
+
+
+=========
+QUIZ 1:
+=========
+
+===== First Attempt:
+
+Question 1:
+
+
+What method would you normally use to perform work that was needed before each test?
+
+Your Answer:
+setUp()
+Mentor Comments:
+none
+Question 2:
+
+
+What happens if the setUp() method raises an exception?
+
+Your Answer:
+The process stops before we even get to the test.  For example, if we 
+cannot create a temporary directory, the test does not continue.
+
+Mentor Comments:
+It's completely possible to have some tests fail in other tests run. 
+You might have a look at this:
+
+import unittest
+import random
+
+class TestFoo(unittest.TestCase):
+
+    def setUp(self):
+        if random.randint(0, 1) == 1:
+            raise Exception
+
+    def test_1(self):
+        self.assertTrue(True)
+
+    def test_2(self):
+        self.assertTrue(True)
+
+    def test_3(self):
+        self.assertTrue(True)
+
+    def test_4(self):
+        self.assertTrue(True)
+
+    def test_5(self):
+        self.assertTrue(True)
+
+    def test_6(self):
+        self.assertTrue(True)
+
+if __name__ == "__main__":
+    unittest.main()
+
+
+This produces the following output:
+
+..EE.E
+======================================================================
+ERROR: test_3 (__main__.TestFoo)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "V:\workspace\UnitTesting\src\flaky_setup.py", line 11, in setUp
+    raise Exception
+Exception
+
+======================================================================
+ERROR: test_4 (__main__.TestFoo)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "V:\workspace\UnitTesting\src\flaky_setup.py", line 11, in setUp
+    raise Exception
+Exception
+
+======================================================================
+ERROR: test_6 (__main__.TestFoo)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "V:\workspace\UnitTesting\src\flaky_setup.py", line 11, in setUp
+    raise Exception
+Exception
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+FAILED (errors=3)
+
+Question 3:
+
+
+Which method do you call to clear up after an individual test?
+
+Your Answer:
+tearDown()
+Mentor Comments:
+none
+Question 4:
+
+
+Why do TestCase methods not normally produce any output?
+
+Your Answer:
+If the test succeeds there should be no output.  Just the '.' for each successful test.  
+This procedure makes it easier to determine whether tests have passed or failed and to direct 
+your attention only to those tests which have failed.  This way, your attention stays focused 
+on where the work remains to be done rather than on tests that have already succeeded.
+
+Mentor Comments:
+Right.  Verbosity means trouble, is the unittest design.  That's not to be over-generalized
+as other processes reassure us when verbose e.g. the noisy version of the Linux 
+bootstrapping process
+
+Besides, since projects may have thousands (or even more) verbose results would be totally untenable.
+Overall Comments:
+Generally good, David, but could you please have another look at Q2? It needs a little bit of clarification.
+
+-Pat
+Grade:
+
+Try Again
+
+
+=========== 2nd Attempt:
+
+Question 1:
+
+
+What method would you normally use to perform work that was needed before each test?
+
+Your Answer:
+no answer given
+Mentor Comments:
+none
+Question 2:
+
+
+What happens if the setUp() method raises an exception?
+
+Your Answer:
+It depends on the exception.  You could get an E, for example, if setUp() can't create a test 
+directory, and the individual test could not be run in this case.  In the case of that type of 
+exception (say a permissions error), you could get an E and the test would not be run.  However, 
+in the case of a different type of exception, you might only get an F, and the test will run, if it 
+can.  I'm not aware of a case where setUp() raises and exception and you get a period.  I think you 
+have to get at least an F if setUp() raises an exception.
+
+
+Mentor Comments:
+You got the general idea, but are a little bit fuzzy on some details. If you see an E, that means 
+there is a real error. A F means failure - in other words, the code is fine and the test failed. If 
+you see a period, that indicates a successful test.  Each test is run completely separate from the 
+other tests, preceded by the execution of setUp() and followed by the execution of tearDown(). If 
+setUp() raises an exception, the system won't even try to run the test. However, the next one might 
+run. Here's some code to play with: 
+
+"""
+test what happens when a test fails
+"""
+import unittest, random
+class TCase(unittest.TestCase):
+
+    def setUp(self):
+        print('\nsetUp here')  #don't do this at home - tests should never print
+        #uncomment to randomly generate an error
+        #if random.randint(0,1):  # produces either 0 or 1
+        #    1/0  #produce an error
+
+
+    def test_pass_1(self):
+        print('test_pass_1')
+        self.assertEqual(1,1)
+        
+    def test_pass_2(self):
+        print('test_pass_2')
+        self.assertEqual(1,1)
+        
+    def test_fail_1(self):
+        print('test_fail_1')
+        self.assertEqual(1,2)
+        
+    def test_fail_2(self):
+        print('test_fail_2')
+        self.assertEqual(1,2)  
+        
+    def tearDown(self):
+        print('tearDown here')
+
+if __name__ == "__main__":
+    unittest.main() 
+    
+    
+Question 3:
+
+Which method do you call to clear up after an individual test?
+
+Your Answer:
+no answer given
+Mentor Comments:
+none
+Question 4:
+
+
+Why do TestCase methods not normally produce any output?
+
+Your Answer:
+no answer given
+Mentor Comments:
+none
+
+
+Overall Comments:
+Hi David,
+
+I would like you do study and experiment with the code I've included in the comments section 
+of Q2. It's a good idea to get a firm handle on how unit testing works because it's an important 
+focus of most of the lessons. In Python 2.
+
+-Pat
+Grade:
+
+Try Again
+
+============  3rd Attempt:
+
+Question 1:
+
+
+What method would you normally use to perform work that was needed before each test?
+
+Your Answer:
+no answer given
+Mentor Comments:
+none
+Question 2:
+
+
+What happens if the setUp() method raises an exception?
+
+Your Answer:
+if setUp() raises an exception for a test method, it won't even try to run the test method.
+
+:-)
+
+Doing the project, I'm getting lots of experience with Errors and Failures Pat!  :-)
+
+Thanks for the good example code.  I ran it a bunch of times and could see what you mean.  When there's a random error, 
+you just see an E and no output from the test method.  Very interesting program you wrote!  Very illustrative!  
+And this is why you, Sir, are a terrific teacher!!  :-)
+
+Mentor Comments:
+* blush * 
+
+The idea here is that some test could produce a situation that would cause setUp() to fail for the next test. 
+May be a database is busy or a network is slow. However, subsequent tests might run. Failure of setUp() affects 
+only the test for which it is being run.
+
+Question 3:
+
+
+Which method do you call to clear up after an individual test?
+
+Your Answer:
+no answer given
+Mentor Comments:
+none
+Question 4:
+
+
+Why do TestCase methods not normally produce any output?
+
+Your Answer:
+no answer given
+Mentor Comments:
+none
+Overall Comments:
+Hi David,
+
+This is really good. Thank you for hanging in there with me.
+
+-Pat
+Grade:
+
+Great
+
+==========
+QUIZ 2::::
+==========
+
+Question 1:
+
+
+What is the basic rule of test-driven development?
+
+Your Answer:
+Only write code to make a failing test pass.  YAGNI.  You Ain't Gonna Need It.  If it doesn't help you pass a test, it isn't necessary.  
+Mentor Comments:
+none
+Question 2:
+
+
+What is a test fixture?
+
+Your Answer:
+It's whatever you need to set up a test for your software: databases, files, remote servers, user accounts, whatever.  When you've passed your tests, you don't need the fixtures anymore.  (Right?)
+Mentor Comments:
+Sort of. Generally, you create everything that you need in setUp() and nuke it in tearDown(). In the extreme, if you are testing a software upgrade for the Hubble telescope your options would be more limited. As I look forward in the syllabus of Python 2, however, I think the Hubble telescope can breathe a sigh of relief ;-)
+Question 3:
+
+
+Why would you normally prefer to put tests in a separate module from the code they are testing?
+
+Your Answer:
+The core concept is to only create software to pass the tests.  Once you refactor this code and it still passes the tests, you can trust that you haven't introduced any errors into the software.  If the tests are in the same files as your software files, it's possible to introduce errors when you remove them.  If they're in files external to your software, all you have to do is not import them as modules.  A main advantage of unittest over doctest is that there's a clear distinction between documentation (inside your software's files) and the testing of your software.  You can move the tests outside of your software's files and keep them distinct from the software files themselves.
+
+Okay, I answered this one from my hip, because I didn't see a direct answer in the text.  Hopefully, I was near the target area....  :-)
+Mentor Comments:
+If you can lift the answer right out of the text, it would be very much fun now would it? 
+
+Sure, there are a lot of advantages for keeping them separate. A lot of overhead (physical, computational, cognitive) have all that crap sitting around in your main code. That being said, it's really common to leave some test code behind in the if __name__=='__main__': block for "quick and dirty" local testing of single modules. You don't necessarily want to unleash hundred thousand lines of test code in the middle of the day if you just tweaked a couple of lines locally. The hounds can be set loose at night when the whole code base get tested.
+Question 4:
+
+
+What does "YAGNI" stand for?
+
+Your Answer:
+You Ain't Gonna Need It.
+Mentor Comments:
+none
+Overall Comments:
+Great job here, David. Please check out comments - you've done perfectly.
+
+-Pat
+Grade:
+
+Great

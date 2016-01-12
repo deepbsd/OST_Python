@@ -1,0 +1,28 @@
+2015-05-31 17:35:15,852 - INFO - start_logging - Starting property_address.py program.
+
+2015-05-31 17:35:15,852 - INFO - __init__ - Creating a new address
+
+2015-05-31 17:35:15,852 - INFO - state - @state.setter triggered...
+
+2015-05-31 17:35:15,852 - INFO - zip_code - @zip_code.setter triggered...
+
+2015-05-31 17:37:08,410 - INFO - start_logging - Starting property_address.py program.
+
+2015-05-31 17:37:08,410 - INFO - __init__ - Creating a new address
+
+2015-05-31 17:37:08,410 - INFO - state - @state.setter triggered...
+
+2015-05-31 17:37:08,410 - INFO - zip_code - @zip_code.setter triggered...
+
+format
+format
+format
+format
+format
+format
+format
+format
+format
+format
+format
+format

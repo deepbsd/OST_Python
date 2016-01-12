@@ -1,0 +1,116 @@
+Lesson 6 Compiling and Flagging Regexes
+
+PROJECT
+
+Filename(s):  ccn_safety2.py test_ccn_safety2.py
+
+Create a Python3_Homework06 project and assign it to your Python3_Homework
+working set. In the Python3_Homework06/src folder, create a program named
+ccn_safety2.py that duplicates the ccn_safety.py program's functionality, but
+uses a compiled regular expression to replace the credit card numbers in the
+paragraph with "CCN REMOVED FOR YOUR SAFETY". Use the following text as a
+sample:
+
+Text to use in ccn_safety2.py:
+Have you ever noticed, in television and movies, that phone numbers and credit cards
+are obviously fake numbers like 555-123-4567 or 5555-5555-5555-5555? It is because a 
+number that appears to be real, such as 1234-5678-1234-5678, triggers the attention of 
+privacy and security experts.
+
+Your project should meet the following conditions:
+
+oThe program should return this text: "Have you ever noticed, in television
+and movies, that phone numbers and credit cards are obviously fake numbers
+like 555-123-4567 or CCN REMOVED FOR YOUR SAFETY? It is because a number that
+appears to be real, such as CCN REMOVED FOR YOUR SAFETY, triggers the
+attention of privacy and security experts." Note that phone numbers should not
+be replaced!
+
+oYou should include a test_ccn_safety2.py program in a separate file that
+confirms that your code functions as expected.
+
+oYou must use the re.VERBOSE flag to properly document each element of the
+pattern used to identify credit card numbers.
+
+Submit ccn_safety2.py and test_ccn_safety2.py when they are working to your
+satisfaction.
+
+
+
+QUIZ 1
+Q1: What are some advantages of compiled regular expression methods over re
+module functions?
+
+Apparently, speed and efficiency are the main advantages of using
+compiled_obj.method(text) instead of re.method(pattern, text).  Further, you
+can use positional arguments syntax similar to string slicing to access the
+match text.  For example, 
+
+>>> string1 = "I love ice cream; we all love ice cream!"
+>>> regex = re.compile(r"""
+ice cream""", re.I)
+>>> regex.findall(string1, 6)
+['ice cream', 'ice cream']
+
+yet, 
+
+>>> regex.findall(string1, 16)
+
+would only return a single string of 'ice cream'.  So you get flexibility 
+with positional arguments with making a pattern object.
+
+
+Q2: How would you compile the regular expression "\d{3}"?
+
+
+regex = re.compile("\d{3}")
+
+
+QUIZ 2
+Q1: How would you write a compiled regular expression to find the name "John
+Smith" in case-insensitive format?
+
+regex = re.compile(r"John Smith", re.I)
+or 
+regex = re.compile(r"John Smith", re.IGNORECASE)
+
+
+Q2: How would you rewrite the compiled regular expression above to include
+verbose comments?
+
+regex = re.compile(r"John Smith", re.X)
+or
+regex = re.compile(r"John Smith", re.VERBOSE)
+
+
+Mentor Comments:
+Just show me that it works?
+
+import re
+
+target = "The great railroad tycoon, John Smith, hated marshmellows."
+regex = re.compile(r"""
+John\s                          # comment here
+Smith                           # comment here
+""", re.VERBOSE | re.X)
+
+>>> match_obj = re.search(regex, target)
+>>> print("String found:", match_obj.group())
+Traceback (most recent call last):
+File "/Users/kurner/Documents/anyproject.py", line 10, in 
+print("String found:", match_obj.group())
+AttributeError: 'NoneType' object has no attribute 'group'
+
+
+Also, the hope was to have both re.VERBOSE and re.IGNORECASE in play, 
+but compile does not take those as separate arguments so there's another 
+error you didn't catch in giving both re.X and re.IGNORECASE separately.
+
+I think if you would actually do this exercise interactively you would
+benefit.
+
+Overall Comments:
+Q2 is buggy.
+
+      -Kirby
+

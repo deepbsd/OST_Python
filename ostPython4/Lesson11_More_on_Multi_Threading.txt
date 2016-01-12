@@ -1,0 +1,135 @@
+Lesson 11:  More on Multi-Threading
+
+Project:
+
+
+Filename(s):  control.py  output.py  worker.py
+
+
+Modify the control module from the final example of the lesson so that,
+instead of asking the user for input, it generates a random string of
+alphabetic characters of length one thousand.  Similarly modify the output
+routine to print only the length of the final string. Test the time it takes
+the program to run. Make sure the workers report when done by printing to
+console.
+
+===  My Comment
+
+Hi Pat!
+
+Not sure what was meant by 'test the time it takes the program to run.'  I'm assuming we
+just want to know how long it takes the program to run from start to finish, so that's what
+I added to the program.  The rest was pretty easy.  But this is really cool stuff, breaking
+out  the threads and queues.  I can imagine programming for network-related scripts would
+use this a lot, since your program would hang waiting for some connection to come up without
+some kind of process management plan.  Cool stuff.
+
+Thanks!
+Dave
+Items Handed In
+Open Project Handed In
+
+Overall Comments:
+Hi Dave,
+
+You are correct in that this is a really good way to manage processes that are messy at the other 
+end. If you send the threat out to do processing on a network (scraping websites, sending something 
+through the TCP stack, etc.) you're sending it out into an uncertain world. You might never see your 
+thread again.
+
+What is common is to give each a time to live and if they don't come back within that time, forget 
+they ever existed. These queue structures work well in such an down arrow environment because you can 
+simply keep them loaded up with fresh threads ready to go and send them out when needed.
+
+Good job on this project, by the way.
+
+
+
+-Pat
+Grade:
+
+Great
+
+
+
+
+=======
+Quiz 1:
+=======
+
+Q1:  Which class's instances can be used to ensure that only one thread can be executing 
+a particular piece of code at any one time?
+
+Instances or child instances of the threading.Thread() class.
+
+The thread.py example program subslassed threading.Thread with a MyThread
+class that added a lock parameter (threading.Lock()).
+
+lock = threading.Lock()
+t = Mythread(lock)
+
+MyThread() had a run() method that called lock.acquire() before its "work"
+(time.sleep(0.1)) and t.lock.release() after its "work" was done.
+
+
+===== Mentor Feedback:
+
+Queues are not what guard against multiple threads trying to execute code that
+only one thread should be able to run at a time.  It's like the bathroom at the 
+coffee shop.  Many may sit and drink coffee in parallel, but to use the restroom
+they need to get the key from the counter.  That keeps only one person at a 
+time using the restroom.  There's an object similar to the key in this story, a 
+class the instances of which force one-at-a-time access.
+
+(It looks like I still got this question right, however...)
+
+
+Q2:  Which queue.Queue method should you call to decrement the Queue's task counter?
+
+"...the removing thread should wait until processing is complete and then call the
+queue's..." task queue.Queue.task_done() method.
+
+
+
+Q3:  How do you remove an item from a queue.Queue object named q?
+
+After q's work is done...
+
+q.task_done()
+
+======= Mentor Feedback:
+
+Mentor Comments:
+Not quite.  There is specific method of the queue object that you can call.
+
+============  My 2nd Answer:
+
+q.get(block=True, timeout=5) for example.
+
+This call will remove the item, if it is immediately available, and it will be returned.  
+If not available and block=False an exception is raised; if block=True the process blocks 
+for the duration of timeout (5 seconds in this case) or indefinitely if there is no timeout
+specified.  An exception will be raised if no item has arrived by the time the 
+timeout has expired.
+
+
+Overall Comments:
+This is pretty close, David, but could you please take another look at Q3?
+
+-Pat
+Grade:
+
+Try Again
+
+=======  Mentor Comments After 2nd Attempt:
+
+Overall Comments:
+You have at this time, David. Great job.
+
+-Pat
+
+Grade:
+
+Great
+
+

@@ -1,0 +1,67 @@
+Lesson 2 Project:
+
+Objective:
+
+This project tests your ability to perform simple string calculations.
+
+Create a new Python source file named greeting.py.
+Write code that uses two separate statements to ask the user for a
+first and last name, and then prints out an appropriate greeting.
+Verify your program works correctly and hand it in.
+
+Here is an example of how the program might appear when run:
+
+Enter your first name: Steve
+Enter your last name: Holden
+I am pleased to meet you, Steve Holden
+
+
+
+
+Here are the files you handed in:
+Python1/greeting.py
+
+Overall Comments:
+
+Hi David, This work is advertised and definitely passes the
+objective. Nice going. A couple of comments that you might find
+useful for future projects: -The missing shebang you're looking
+for is: #!/usr/local/bin/python3 -You don't need to do a type
+conversion to a string just for printing. The print() function is
+smart enough to handle this. -As you have discovered, the print()
+function automatically applies a separator between arguments ( a
+white space), so you don't need to use your own. 
+
+>>> print("Chicago", "Cubs", "motto:", "there's always next year")
+    Chicago Cubs motto: there's always next year 
+
+    You can override the separator by including it as an argument: 
+   
+    >>> print("Chicago", "Cubs", "motto:", "there's always next year", sep = " | ") 
+    Chicago | Cubs | motto: | there's always next year 
+    There's also an optional 'end' argument - default is nothing: 
+    
+    >>> print("Chicago", "Cubs", "motto:", "there's always next year", end='!') 
+    Chicago Cubs motto: there's always next year! 
+    
+-Also, you might consider including a header with your program. 
+The first line provides a "hash-bang" tag that indicates which version of 
+Python your code was written against. The rest provides a combination of
+documentation and "curb appeal", giving your code a professional
+look and feel.
+	    
+#!/usr/bin/python3 
+# 
+# A Truly Awesome Program 
+#       awesome.py 
+# 
+# by: Patrick Barton 
+# 37 Feb 2014 
+# 
+# Lesson 96, Python 5, Attempt 1 
+# " A compelling docstring describing the
+	    Truly Awesome Project" -Pat
+
+    GRADE: Great
+
+
