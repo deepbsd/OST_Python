@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-My classwork taking the O'Reilly School of Technology Python Certificate
-courses
+###My classwork taking the O'Reilly School of Technology Python Certificate courses
 
 I started this python certificate course in November of 2014 and
 completed it August of 2015. It was a terrific course!
@@ -37,12 +35,12 @@ projects extended or modified one or more of these programs from the
 lesson.
 
 Those descriptions for each lesson are included in text files called
-Lesson01_Name_of_Lesson.txt in their respective course directories.
+`Lesson??_Name_of_Lesson.txt` in their respective course directories.
 Each course directory (eg, Python1, Python2, etc) contains the course
-PDF file, a collection of Lesson01_Name.txt files, and a list of
+PDF file, a collection of `Lesson??_Name.txt` files, and a list of
 related python programs from that particular course. Each
-Lesson??_Name.txt file contains project information that has a
-'Filename(s): whatever1.py test_whatever1.py' line. Thereby you can
+`Lesson??_Name.txt` file contains project information that has a
+`Filename(s): whatever1.py test_whatever1.py` line. Thereby you can
 read the python programs associated with each project and each
 lesson.
 
