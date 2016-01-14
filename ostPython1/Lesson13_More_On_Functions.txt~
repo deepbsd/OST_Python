@@ -106,3 +106,100 @@ while True:
 
 
 GRADE: Great
+
+
+========
+QUIZ 1:
+========
+
+Question #1:
+
+    What is the dict-parameter?
+    What type of object is provided by the dict-parameter?
+
+
+
+Answer #1:
+1. a parameter you can use to capture arbitrary keyword arguments. This parameter captures unassigned keyword/value pairs. It can be recognized by two asterisks preceeding it, just as a single asterisk identifies a catch all parameter for single arguments.
+Example: def function(a, b, *args, **kwargs):
+    """ *args captures extra arguments, **kwargs captures extra
+         keyword=value arguments """
+
+
+2. dictionary ie key: value     requires use of dictionary.method()
+
+Comments:
+**kwargs (needn't be called that -- stands for keyword arguments) will always be the last parameter if used at all.
+
+Feel free to experiment in the interactive console, by defining functions with the optional dict-param. Example:
+
+def test(a=1, b=2, **extra):
+    print (a)
+    print (b)
+    print (extra)
+
+(OK to do more challenging examples --- there's also new syntax where just a star alone has meaning as a parameter).
+
+>>> def test_func(a, b, *, c, d=5, e):
+         print(a, b)
+         print(c, d, e)
+
+Means that c, d and e must be referred to by keyword,
+not positionally, even though c and e have no defaults.
+
+
+Overall Comments:
+
+Good work here, David. Please look at the comments for some background.
+
+-Pat
+
+
+
+GRADE: Great
+
+=======
+QUIZ 2:
+=======
+
+Question #1:
+
+Can a positional argument provide a value for a keyword parameter?
+
+
+Answer #1:
+yes
+
+Comments:
+
+Question #2:
+
+Can a keyword argument provide a value for a positional parameter?
+
+
+Answer #2:
+yes
+
+Comments:
+
+Question #3:
+
+What happens when you call a function with too many positional arguments, and the function definition doesn't have a sequence-parameter?
+
+
+Answer #3:
+answered correctly
+
+Comments:
+
+
+Overall Comments:
+
+You got these all right now, David. Thank you for your second attempt.
+
+-Pat
+
+
+
+GRADE: Great
+
