@@ -8,6 +8,11 @@ not accepting new students. But it was a terrific place to learn, and
 I am very disappointed that I won't be able to take anymore classes
 there. I'm sure I'm not alone.
 
+Here is a link to the OST certificate pages.  There is still some
+information available about course content.  The Python Certificate
+is toward the bottom of the page:
+http://courses.oreillyschool.com/programs.html
+
 The PDF files (the actual lesson content) are free. Anyone can read
 through them, since O'Reilly published them under the creative
 commons license. There's a PDF file in each of the following
