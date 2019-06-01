@@ -1,7 +1,0 @@
-[database]
-# mac os x or linux
-# file = /workspace/Python3_Lesson12/src/email.shelf
-# slackware
-#file = email.shelf
-# windows
-# file = V:\workspace\Python3_Lesson12\src\email.shelf
